@@ -94,6 +94,6 @@ jobs:
           print('')
           print('> 💡 提示：完整报告已生成 \`ai_research_report.md\`，历史数据详见 \`run_history.jsonl\`。')
     
-    except Exception as e:
-          print(f'生成看板时出错: {e}')
-    " >> $GITHUB_STEP_SUMMARY
+except Exception as e:
+  print(f'生成看板时出错: {e}')
+" >> $GITHUB_STEP_SUMMARY

@@ -1,46 +1,52 @@
-name: 🏭 AI Research Factory
+name: 🏭 AI Production Factory (Frozen L4)
 
 on:
   schedule:
-    - cron: '0 2 * * *'  # 每天UTC时间2点（北京时间10点）自动运行
-  workflow_dispatch:       # 允许手动触发
+    - cron: '0 2 * * *'  # 每天北京时间 10:00
+  workflow_dispatch:      # 允许手动触发
 
 permissions:
   contents: write
 
+# 🔒 关键设置：禁止取消进行中的任务，确保审计记录完整
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
-  run-factory:
+  run-pipeline:
     runs-on: ubuntu-latest
     steps:
-      # 1. 拉取代码
       - name: 📥 检出代码
         uses: actions/checkout@v4
 
-      # 2. 设置Python环境
-      - name: 🐍 设置 Python
+      - name: 🐍 准备 Python 环境
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      # 3. 安装系统工具 (jq, bc) 和Python依赖
       - name: 📦 安装依赖
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y jq bc  # 安装看板计算需要的工具
-          pip install -r requirements.txt
+        # 仅依赖 requests，减少维护成本
+        run: pip install requests
 
-      # 4. 执行核心AI任务
-      - name: 🤖 执行核心任务
+      - name: 🤖 执行 AI 核心逻辑
         env:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
         run: |
-          echo "开始抓取论文..."
           python crawler.py
-          echo "开始总结论文..."
           python summarize.py
 
-      # 5. 保存运行历史
-      - name: 📈 生成运行看板
+      - name: 💾 数据持久化 (Git Ops)
         if: always()
-        run: python3 scripts/dashboard.py >> $GITHUB_STEP_SUMMARY
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add run_history.jsonl raw_data.json ai_research_report.md
+          git commit -m "chore: factory output update [skip ci]" || echo "No changes"
+          git push
+
+      - name: 📈 生成看板
+        if: always()
+        # 逻辑已移出，一行命令搞定
+        run: python scripts/dashboard.py

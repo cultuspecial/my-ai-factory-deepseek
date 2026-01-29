@@ -5,30 +5,48 @@ import requests
 
 def call_llm(prompt):
     api_key = os.environ.get("LLM_API_KEY")
-    base_url = os.environ.get("LLM_BASE_URL", "https://openrouter.ai/api/v1")
-    
-    if not api_key:
-        return "Error: No API Key", 0, False
+    base_url = os.environ.get("LLM_BASE_URL")
+    provider = os.environ.get("LLM_PROVIDER", "openrouter")  # 明确冻结
+
+    if not api_key or not base_url:
+        return "Error: Missing LLM config", 0, False
 
     try:
-        headers = {"Authorization": f"Bearer {api_key}"}
-        # 自动适配模型名称
-        model = "google/gemini-2.0-flash-exp:free" if "openrouter" in base_url else "deepseek-chat"
-        
-        data = {
+        headers = {
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json"
+        }
+
+        if provider == "openrouter":
+            model = "google/gemini-2.0-flash-exp:free"
+        elif provider == "deepseek":
+            model = "deepseek-chat"
+        else:
+            return "Unknown provider", 0, False
+
+        payload = {
             "model": model,
             "messages": [{"role": "user", "content": prompt}]
         }
-        resp = requests.post(f"{base_url}/chat/completions", json=data, headers=headers, timeout=40)
+
+        resp = requests.post(
+            f"{base_url}/chat/completions",
+            headers=headers,
+            json=payload,
+            timeout=40
+        )
         resp.raise_for_status()
-        
-        res_json = resp.json()
-        content = res_json['choices'][0]['message']['content']
-        tokens = res_json.get('usage', {}).get('total_tokens', 0)
+
+        data = resp.json()
+        content = data["choices"][0]["message"]["content"]
+        tokens = data.get("usage", {}).get("total_tokens", 0)
+
         return content, tokens, True
+
     except Exception as e:
-        print(f"❌ [LLM] 调用失败: {e}")
-        return f"无法生成总结: {e}", 0, False
+        print(f"[LLM ERROR] {e}")
+        return f"生成失败: {e}", 0, False
+
 
 def main():
     if not os.path.exists("raw_data.json"):

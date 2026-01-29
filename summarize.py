@@ -5,7 +5,7 @@ import os
 import sys
 import time
 
-def call_deepseek_api(prompt, api_key, base_url="https://api.deepseek.com"):
+def call_deepseek_api(prompt, api_key, base_url="https://platform.deepseek.com/api_keys"):
     """
     调用 DeepSeek API（兼容 Chat Completions 格式）
     返回 (response_text, total_tokens, success)

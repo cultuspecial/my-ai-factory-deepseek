@@ -50,7 +50,7 @@ jobs:
           git commit -m "chore: auto-update report and history [skip ci]" || echo "没有新变更，无需提交。"
           git push
 
-      # 6. 生成运行看板（Summary）
+      # 6. 生成运行看板（Summary）- 修正版
       - name: 📈 生成运行看板
         if: always()
         run: |
@@ -63,15 +63,15 @@ jobs:
             exit 0
           fi
           
-          # 计算简单统计（使用Python避免复杂bash，更稳定）
-          python3 << EOF >> $GITHUB_STEP_SUMMARY
+          # 使用一个独立的Python脚本文件来计算统计信息，避免YAML内嵌格式问题
+          python3 -c "
 import json, os, sys
 try:
-    with open('run_history.jsonl', 'r') as f:
-        lines = [json.loads(l) for l in f if l.strip()]
+    with open('run_history.jsonl', 'r', encoding='utf-8') as f:
+        lines = [json.loads(l.strip()) for l in f if l.strip()]
     
     if not lines:
-        print("**状态**: 🟡 暂无有效数据")
+        print('**状态**: 🟡 暂无有效数据')
         sys.exit(0)
     
     last_run = lines[-1]
@@ -79,14 +79,21 @@ try:
     total_tokens = sum(r.get('total_tokens', 0) for r in lines)
     estimated_cost_cny = (total_tokens / 1_000_000) * 2.0  # 假设2元/百万tokens
     
-    print(f"**最近运行时间**: {last_run.get('timestamp', 'N/A')[:19]}")
-    print(f"**累计运行次数**: {total_runs}")
-    print(f"**累计Token消耗**: {total_tokens}")
-    print(f"**预估总成本**: ¥{estimated_cost_cny:.4f}")
-    print(f"**上次状态**: {'🟢 健康' if last_run.get('status') == 'HEALTHY' else '🟡 降级' if last_run.get('status') == 'DEGRADED' else '🔴 失败'}")
-    print("")
-    print("> 💡 提示：完整报告已生成 `ai_research_report.md`，历史数据详见 `run_history.jsonl`。")
+    print(f'**最近运行时间**: {last_run.get(\"timestamp\", \"N/A\")[:19]}')
+    print(f'**累计运行次数**: {total_runs}')
+    print(f'**累计Token消耗**: {total_tokens}')
+    print(f'**预估总成本**: ¥{estimated_cost_cny:.4f}')
+    status = last_run.get('status', 'UNKNOWN')
+    if status == 'HEALTHY':
+        status_text = '🟢 健康'
+    elif status == 'DEGRADED':
+        status_text = '🟡 降级'
+    else:
+        status_text = '🔴 失败'
+    print(f'**上次状态**: {status_text}')
+    print('')
+    print('> 💡 提示：完整报告已生成 \`ai_research_report.md\`，历史数据详见 \`run_history.jsonl\`。')
     
 except Exception as e:
-    print(f"生成看板时出错: {e}")
-EOF
+    print(f'生成看板时出错: {e}')
+" >> $GITHUB_STEP_SUMMARY

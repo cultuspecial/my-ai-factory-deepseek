@@ -1,0 +1,92 @@
+name: 🏭 AI Research Factory
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # 每天UTC时间2点（北京时间10点）自动运行
+  workflow_dispatch:       # 允许手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  run-factory:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. 拉取代码
+      - name: 📥 检出代码
+        uses: actions/checkout@v4
+
+      # 2. 设置Python环境
+      - name: 🐍 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      # 3. 安装系统工具 (jq, bc) 和Python依赖
+      - name: 📦 安装依赖
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq bc  # 安装看板计算需要的工具
+          pip install -r requirements.txt
+
+      # 4. 执行核心AI任务
+      - name: 🤖 执行核心任务
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+        run: |
+          echo "开始抓取论文..."
+          python crawler.py
+          echo "开始总结论文..."
+          python summarize.py
+
+      # 5. 保存运行历史
+      - name: 💾 提交历史记录
+        if: always()
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add run_history.jsonl ai_research_report.md
+          git commit -m "chore: auto-update report and history [skip ci]" || echo "没有新变更，无需提交。"
+          git push
+
+      # 6. 生成运行看板（Summary）
+      - name: 📈 生成运行看板
+        if: always()
+        run: |
+          echo "### 🏭 工厂运行简报" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          # 检查历史文件是否存在
+          if [ ! -f "run_history.jsonl" ]; then
+            echo "**状态**: 🟡 等待首次运行完成" >> $GITHUB_STEP_SUMMARY
+            exit 0
+          fi
+          
+          # 计算简单统计（使用Python避免复杂bash，更稳定）
+          python3 << EOF >> $GITHUB_STEP_SUMMARY
+import json, os, sys
+try:
+    with open('run_history.jsonl', 'r') as f:
+        lines = [json.loads(l) for l in f if l.strip()]
+    
+    if not lines:
+        print("**状态**: 🟡 暂无有效数据")
+        sys.exit(0)
+    
+    last_run = lines[-1]
+    total_runs = len(lines)
+    total_tokens = sum(r.get('total_tokens', 0) for r in lines)
+    estimated_cost_cny = (total_tokens / 1_000_000) * 2.0  # 假设2元/百万tokens
+    
+    print(f"**最近运行时间**: {last_run.get('timestamp', 'N/A')[:19]}")
+    print(f"**累计运行次数**: {total_runs}")
+    print(f"**累计Token消耗**: {total_tokens}")
+    print(f"**预估总成本**: ¥{estimated_cost_cny:.4f}")
+    print(f"**上次状态**: {'🟢 健康' if last_run.get('status') == 'HEALTHY' else '🟡 降级' if last_run.get('status') == 'DEGRADED' else '🔴 失败'}")
+    print("")
+    print("> 💡 提示：完整报告已生成 `ai_research_report.md`，历史数据详见 `run_history.jsonl`。")
+    
+except Exception as e:
+    print(f"生成看板时出错: {e}")
+EOF

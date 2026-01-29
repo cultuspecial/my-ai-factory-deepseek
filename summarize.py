@@ -6,7 +6,7 @@ import requests
 def call_llm(prompt):
     api_key = os.environ.get("LLM_API_KEY")
     base_url = os.environ.get("LLM_BASE_URL")
-    provider = os.environ.get("LLM_PROVIDER", "openrouter")  # 明确冻结
+    provider = os.environ.get("LLM_PROVIDER", "deepseek")  # 明确冻结
 
     if not api_key or not base_url:
         return "Error: Missing LLM config", 0, False

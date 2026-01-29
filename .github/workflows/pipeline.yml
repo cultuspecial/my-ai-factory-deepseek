@@ -96,4 +96,4 @@ jobs:
     
     except Exception as e:
           print(f'生成看板时出错: {e}')
-" >> $GITHUB_STEP_SUMMARY
+    " >> $GITHUB_STEP_SUMMARY

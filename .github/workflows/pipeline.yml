@@ -61,7 +61,6 @@ jobs:
           # 5. 推送（冲突概率降至物理极限）
           git push origin main
 
-
       - name: 📈 生成看板
         if: always()
         # 逻辑已移出，一行命令搞定

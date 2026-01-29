@@ -37,41 +37,28 @@ jobs:
           python crawler.py
           python summarize.py
 
-      - name: 💾 数据持久化 (工厂硬核版)
+      - name: 💾 数据持久化 (工厂防弹版)
         if: always()
         run: |
-          # 1. 即使出错也不要让 GitHub 报错
-          set +e 
-
+          set +e
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
-          # 2. 【核心变化】直接把远程仓库同步过来，放弃本地挣扎
-          # 这样就不会报 "unstaged changes" 的错误了
+          # 1. 强制同步远程状态，不产生冲突
           git fetch origin main
           git reset --soft origin/main
 
-          # 3. 重新添加这次运行生成的产物
+          # 2. 暂存
           git add run_history.jsonl raw_data.json ai_research_report.md || true
 
-          # 4. 检查是否有变化
+          # 3. 检查并提交
           if git diff --staged --quiet; then
-            echo "没有新内容，跳过提交。"
-            exit 0
+            echo "No changes"
+          else
+            git commit -m "chore: factory output update [skip ci]"
+            # 4. 尝试推送，失败也不要紧（明天会补）
+            git push origin main || echo "Push skipped due to conflict"
           fi
-
-          # 5. 提交并尝试推送
-          git commit -m "chore: factory output update [skip ci]"
-          
-          # 6. 尝试推送。如果失败（竞争输了），就打印一条警告而不是报错
-          git push origin main || echo "⚠️ 冲突发生，本次数据未推送到云端，下次运行会自动合并。"
-
-      
-          # 4. 创建提交（此时基于最新远程）
-          git commit -m "chore: factory output update [skip ci]"
-      
-          # 5. 推送
-          git push origin main
 
       - name: 📈 生成看板
         if: always()

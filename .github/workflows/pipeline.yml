@@ -41,13 +41,6 @@ jobs:
           python summarize.py
 
       # 5. 保存运行历史
-      - name: 💾 提交历史记录
+      - name: 📈 生成运行看板
         if: always()
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add run_history.jsonl ai_research_report.md
-          git commit -m "chore: auto-update report and history [skip ci]" || echo "没有新变更，无需提交。"
-          git push
-
-          scripts/generate_summary.py
+        run: python3 scripts/dashboard.py >> $GITHUB_STEP_SUMMARY

@@ -63,5 +63,3 @@ def write_summary(filepath, lines):
 
 if __name__ == "__main__":
     main()
-if __name__ == "__main__":
-    generate_summary()

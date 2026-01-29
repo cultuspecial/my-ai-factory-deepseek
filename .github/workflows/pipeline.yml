@@ -37,28 +37,28 @@ jobs:
           python crawler.py
           python summarize.py
 
-      - name: 💾 数据持久化 (Git Ops - L4 终极版)
+      - name: 💾 数据持久化 (Git Ops)
         if: always()
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-
-          # 1. 【核心修正】永远先同步远程，不制造本地提交，确保底座最新
-          git pull --rebase origin main || echo "Pull failed, potentially new repo, continuing..."
-
-          # 2. 暂存所有产出文件
+      
+          # 1. 永远先同步远程（不制造提交）
+          git pull --rebase origin main || echo "Pull failed, continue"
+      
+          # 2. 暂存输出文件
           git add run_history.jsonl raw_data.json ai_research_report.md || true
-
-          # 3. 防抖检查：如果没有内容变化，直接优雅退出
+      
+          # 3. 如果没有实际改动，直接结束
           if git diff --staged --quiet; then
-            echo "No changes to commit, skipping push."
+            echo "No changes to commit"
             exit 0
           fi
-
-          # 4. 此时才创建提交（基于最新远程状态）
+      
+          # 4. 创建提交（此时基于最新远程）
           git commit -m "chore: factory output update [skip ci]"
-
-          # 5. 推送（冲突概率降至物理极限）
+      
+          # 5. 推送
           git push origin main
 
       - name: 📈 生成看板

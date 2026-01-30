@@ -1,13 +1,13 @@
-# AI 简报 (2026-01-29)
+# AI 简报 (2026-01-30)
 
-### Evolutionary Strategies lead to Catastrophic Forgetting in LLMs
-📄 论文核心贡献：揭示了进化策略（ES）作为大语言模型（LLMs）的无梯度训练方法，虽能在数学推理任务上达到接近GRPO的性能，但会随着更新步数增加而出现严重的灾难性遗忘问题。
-🔗 http://arxiv.org/abs/2601.20861v1
+### RedSage: A Cybersecurity Generalist LLM
+📄 本文提出RedSage，一个开源的、可本地部署的网络安全大语言模型，通过构建11.8B token的网络安全领域持续预训练数据集和模拟专家工作流程生成的26.6万轮次对话样本进行微调，解决了现有方案在隐私风险与领域适应性之间的不足。
+🔗 http://arxiv.org/abs/2601.22159v1
 
-### SokoBench: Evaluating Long-Horizon Planning and Reasoning in Large Language Models
-📄 SokoBench 评估发现大型语言模型在需要超过 25 步的长程规划任务中性能显著下降，并证明结合 PDDL 等规划工具可有效提升其规划能力。
-🔗 http://arxiv.org/abs/2601.20856v1
+### Hybrid Linear Attention Done Right: Efficient Distillation and Effective Architectures for Extremely Long Contexts
+📄 本文提出HALO框架，通过改进的线性注意力蒸馏方法，在仅需少量训练数据（约1B token）的情况下，将预训练的Transformer高效转化为混合注意力架构，显著提升超长上下文建模的性能与推理效率。
+🔗 http://arxiv.org/abs/2601.22156v1
 
-### Exploring Transformer Placement in Variational Autoencoders for Tabular Data Generation
-📄 本文通过实验探究了在变分自编码器（VAE）中引入Transformer模块对表格数据生成效果的影响，发现将Transformer置于VAE的潜在空间和解码器部分能够更好地建模特征间复杂关系，但会在生成结果的保真度与多样性之间产生权衡，同时不同数据集的生成质量差异显著。
-🔗 http://arxiv.org/abs/2601.20854v1
+### Exploring Reasoning Reward Model for Agents
+📄 本文提出了一种多维度推理奖励模型（Agent-RRM），通过提供结构化反馈（包括显式推理轨迹、针对性缺陷指正和整体过程评分）来优化智能体强化学习，解决了传统稀疏结果奖励无法评估中间推理质量的问题。
+🔗 http://arxiv.org/abs/2601.22154v1

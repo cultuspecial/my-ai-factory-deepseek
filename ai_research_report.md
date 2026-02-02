@@ -1,13 +1,13 @@
-# AI 简报 (2026-02-01)
+# AI 简报 (2026-02-02)
 
-### RedSage: A Cybersecurity Generalist LLM
-📄 RedSage 是一个开源、可本地部署的网络安全通用大语言模型，通过构建 118 亿令牌的领域持续预训练数据和 26.6 万条多轮对话微调数据，有效解决了现有方案在隐私风险与领域适应性之间的不足。
-🔗 http://arxiv.org/abs/2601.22159v1
+### VideoGPA: Distilling Geometry Priors for 3D-Consistent Video Generation
+📄 VideoGPA提出一种数据高效的自监督框架，通过几何基础模型自动生成密集偏好信号，并利用直接偏好优化引导视频扩散模型学习三维几何先验，从而显著提升生成视频的时序稳定性与三维结构一致性，无需人工标注。
+🔗 http://arxiv.org/abs/2601.23286v1
 
-### Hybrid Linear Attention Done Right: Efficient Distillation and Effective Architectures for Extremely Long Contexts
-📄 本文提出HALO方法，通过高效的参数转换与知识蒸馏，将预训练Transformer中的softmax注意力模块转换为线性注意力模块，构建混合注意力架构，在极长上下文场景下实现高性能与高推理效率的平衡。
-🔗 http://arxiv.org/abs/2601.22156v1
+### End-to-end Optimization of Belief and Policy Learning in Shared Autonomy Paradigms
+📄 本文提出BRACE框架，通过端到端梯度优化联合学习用户意图推断与自适应协作控制策略，实现共享自主系统中信念学习与策略学习的协同优化。
+🔗 http://arxiv.org/abs/2601.23285v1
 
-### Exploring Reasoning Reward Model for Agents
-📄 本文提出了一种多方面的智能体推理奖励模型（Agent-RRM），通过提供结构化的推理轨迹评估、针对性缺陷分析和整体评分，有效提升了智能体强化学习中稀疏奖励信号对中间推理质量的反馈能力。
-🔗 http://arxiv.org/abs/2601.22154v1
+### IRL-DAL: Safe and Adaptive Trajectory Planning for Autonomous Driving via Energy-Guided Diffusion Models
+📄 本文提出了一种基于扩散模型的自适应前瞻规划框架（IRL-DAL），通过能量引导的扩散模型实现安全、自适应的自动驾驶轨迹规划，结合模仿学习、逆强化学习与强化学习，并引入可学习的自适应视觉掩码提升环境感知能力。
+🔗 http://arxiv.org/abs/2601.23266v1

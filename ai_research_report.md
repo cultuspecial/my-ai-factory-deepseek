@@ -1,13 +1,13 @@
-# AI 简报 (2026-02-02)
+# AI 简报 (2026-02-03)
 
-### VideoGPA: Distilling Geometry Priors for 3D-Consistent Video Generation
-📄 VideoGPA提出一种数据高效的自监督框架，通过几何基础模型自动生成密集偏好信号，并利用直接偏好优化引导视频扩散模型学习三维几何先验，从而显著提升生成视频的时序稳定性与三维结构一致性，无需人工标注。
-🔗 http://arxiv.org/abs/2601.23286v1
+### Reward-free Alignment for Conflicting Objectives
+📄 本文提出了一种无需奖励模型的多目标对齐框架RACO，通过引入梯度裁剪机制直接利用成对偏好数据，有效解决了多目标冲突下的训练不稳定与偏好权衡问题。
+🔗 http://arxiv.org/abs/2602.02495v1
 
-### End-to-end Optimization of Belief and Policy Learning in Shared Autonomy Paradigms
-📄 本文提出BRACE框架，通过端到端梯度优化联合学习用户意图推断与自适应协作控制策略，实现共享自主系统中信念学习与策略学习的协同优化。
-🔗 http://arxiv.org/abs/2601.23285v1
+### PixelGen: Pixel Diffusion Beats Latent Diffusion with Perceptual Loss
+📄 PixelGen提出一种结合感知监督的像素扩散框架，通过引入LPIPS损失和基于DINO的感知损失，分别增强局部纹理与全局语义的学习，使像素扩散模型在图像生成质量上超越潜在扩散模型。
+🔗 http://arxiv.org/abs/2602.02493v1
 
-### IRL-DAL: Safe and Adaptive Trajectory Planning for Autonomous Driving via Energy-Guided Diffusion Models
-📄 本文提出了一种基于扩散模型的自适应前瞻规划框架（IRL-DAL），通过能量引导的扩散模型实现安全、自适应的自动驾驶轨迹规划，结合模仿学习、逆强化学习与强化学习，并引入可学习的自适应视觉掩码提升环境感知能力。
-🔗 http://arxiv.org/abs/2601.23266v1
+### RE-TRAC: REcursive TRAjectory Compression for Deep Search Agents
+📄 RE-TRAC 提出了一种递归轨迹压缩框架，通过结构化状态表示实现跨轨迹探索与全局规划，显著提升了深度搜索代理的效率和效果。
+🔗 http://arxiv.org/abs/2602.02486v1

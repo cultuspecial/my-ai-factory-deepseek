@@ -1,13 +1,13 @@
-# AI 简报 (2026-02-04)
+# AI 简报 (2026-02-05)
 
-### PLATE: Plasticity-Tunable Efficient Adapters for Geometry-Aware Continual Learning
-📄 本文提出了一种无需旧任务数据的持续学习方法，通过利用预训练网络的几何冗余性，构建近似受保护的更新子空间，并将可塑性限制在冗余神经元子集上，实现了对基础模型的高效适应。
-🔗 http://arxiv.org/abs/2602.03846v1
+### Protein Autoregressive Modeling via Multiscale Structure Generation
+📄 本文提出了一种多尺度自回归蛋白质骨架生成框架，通过从粗到细的逐尺度预测，实现了对蛋白质结构的多层次建模与生成。
+🔗 http://arxiv.org/abs/2602.04883v1
 
-### PrevizWhiz: Combining Rough 3D Scenes and 2D Video to Guide Generative Video Previsualization
-📄 PrevizWhiz：结合粗略3D场景与2D视频，通过生成式模型快速创建风格化视频预览，降低专业门槛并提升创作效率。
-🔗 http://arxiv.org/abs/2602.03838v1
+### Contrastive Continual Learning for Model Adaptability in Internet of Things
+📄 本文提出了一种基于对比学习的持续学习方法，通过结合回放、正则化、蒸馏和提示等算法策略，在满足物联网设备资源受限、连接不稳定和隐私保护等实际约束的同时，有效提升模型在动态环境中的适应能力并缓解灾难性遗忘。
+🔗 http://arxiv.org/abs/2602.04881v1
 
-### Accelerating Scientific Research with Gemini: Case Studies and Common Techniques
-📄 本文通过多个案例研究，展示了如何利用谷歌Gemini系列大语言模型辅助研究人员在理论计算机科学、经济学、优化和物理学等领域解决开放问题、反驳猜想和生成新证明，并总结了促进人机协作的有效通用技术。
-🔗 http://arxiv.org/abs/2602.03837v1
+### Rethinking the Trust Region in LLM Reinforcement Learning
+📄 本文提出Divergence Proximal方法，通过直接约束策略分布间的真实散度替代PPO中基于单样本概率比值的启发式裁剪机制，解决了LLM强化学习中因词汇空间巨大而导致的低效与不稳定问题。
+🔗 http://arxiv.org/abs/2602.04879v1

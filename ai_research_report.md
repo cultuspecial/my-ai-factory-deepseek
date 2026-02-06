@@ -1,13 +1,13 @@
-# AI 简报 (2026-02-05)
+# AI 简报 (2026-02-06)
 
-### Protein Autoregressive Modeling via Multiscale Structure Generation
-📄 本文提出了一种多尺度自回归蛋白质骨架生成框架，通过从粗到细的逐尺度预测，实现了对蛋白质结构的多层次建模与生成。
-🔗 http://arxiv.org/abs/2602.04883v1
+### Shared LoRA Subspaces for almost Strict Continual Learning
+📄 本文提出Share方法，通过构建并动态更新一个共享的低秩子空间，实现无需数据回放或使用多个适配器的严格持续学习，有效缓解灾难性遗忘并支持跨任务与模态的高效适应。
+🔗 http://arxiv.org/abs/2602.06043v1
 
-### Contrastive Continual Learning for Model Adaptability in Internet of Things
-📄 本文提出了一种基于对比学习的持续学习方法，通过结合回放、正则化、蒸馏和提示等算法策略，在满足物联网设备资源受限、连接不稳定和隐私保护等实际约束的同时，有效提升模型在动态环境中的适应能力并缓解灾难性遗忘。
-🔗 http://arxiv.org/abs/2602.04881v1
+### DyTopo: Dynamic Topology Routing for Multi-Agent Reasoning via Semantic Matching
+📄 DyTopo提出了一种动态拓扑路由的多智能体推理框架，通过语义匹配在每轮推理中重构稀疏有向通信图，从而根据任务阶段需求自适应地路由消息，显著提升了代码生成和数学推理任务的性能。
+🔗 http://arxiv.org/abs/2602.06039v1
 
-### Rethinking the Trust Region in LLM Reinforcement Learning
-📄 本文提出Divergence Proximal方法，通过直接约束策略分布间的真实散度替代PPO中基于单样本概率比值的启发式裁剪机制，解决了LLM强化学习中因词汇空间巨大而导致的低效与不稳定问题。
-🔗 http://arxiv.org/abs/2602.04879v1
+### CommCP: Efficient Multi-Agent Coordination via LLM-Based Communication with Conformal Prediction
+📄 本文提出CommCP方法，通过基于大语言模型的通信与共形预测技术，实现高效的多智能体协作，解决了多智能体多任务具身问答（MM-EQA）问题中的信息收集与协同决策挑战。
+🔗 http://arxiv.org/abs/2602.06038v1

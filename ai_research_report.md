@@ -1,13 +1,13 @@
-# AI 简报 (2026-02-09)
+# AI 简报 (2026-02-10)
 
-### Learning a Generative Meta-Model of LLM Activations
-📄 本文提出一种生成式“元模型”，通过扩散模型学习大语言模型内部激活的分布，无需依赖PCA或稀疏自编码器等强结构假设。实验表明，该元模型不仅能平滑预测下游任务性能，其学习到的先验用于干预时能提升生成流畅度，且随着损失下降效果增强；同时，元模型的神经元能逐步将概念分离到单个单元中，呈现稀疏化特征。
-🔗 http://arxiv.org/abs/2602.06964v1
+### Robustness Is a Function, Not a Number: A Factorized Comprehensive Study of OOD Robustness in Vision-Based Driving
+📄 本文提出一种因子化评估框架，将自动驾驶视觉策略的分布外（OOD）鲁棒性分解为场景、季节、天气、时间和交通参与者五个维度，并通过可控多因子扰动实验发现：ViT策略显著优于同等规模的CNN/FC模型，且基于冻结基础模型特征的小型ViT头能达到最优性能（但延迟增加）；多帧时序输入未超越最佳单帧基线；性能下降主要源于单一主导因子（如极端天气）而非多因子叠加效应。
+🔗 http://arxiv.org/abs/2602.09018v1
 
-### InftyThink+: Effective and Efficient Infinite-Horizon Reasoning via Reinforcement Learning
-📄 InftyThink+提出了一种基于强化学习的端到端迭代推理框架，通过两阶段训练优化推理过程中的总结时机、内容保留与恢复策略，以高效实现无限长推理。
-🔗 http://arxiv.org/abs/2602.06960v1
+### CIC-Trap4Phish: A Unified Multi-Format Dataset for Phishing and Quishing Attachment Detection
+📄 CIC-Trap4Phish论文贡献：提出了首个统一的多格式钓鱼邮件附件数据集，涵盖文档、图像、二维码等主流恶意附件类型，为训练先进的钓鱼检测模型提供了全面且标准化的数据基础。
+🔗 http://arxiv.org/abs/2602.09015v1
 
-### DreamDojo: A Generalist Robot World Model from Large-Scale Human Videos
-📄 DreamDojo 提出了一种基于大规模人类第一视角视频的通用机器人世界模型，通过引入连续潜在动作作为统一代理动作，解决了机器人任务中数据覆盖有限和动作标签稀缺的挑战，从而实现了对多样化交互与灵巧控制的模拟学习。
-🔗 http://arxiv.org/abs/2602.06949v1
+### ArcFlow: Unleashing 2-Step Text-to-Image Generation via High-Precision Non-Linear Flow Distillation
+📄 本文提出ArcFlow，通过高精度非线性流蒸馏实现两步文本到图像生成，利用非线性轨迹逼近教师模型的动态速度场，显著提升少步生成质量。
+🔗 http://arxiv.org/abs/2602.09014v1

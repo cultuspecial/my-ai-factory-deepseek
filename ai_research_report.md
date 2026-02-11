@@ -1,13 +1,13 @@
-# AI 简报 (2026-02-10)
+# AI 简报 (2026-02-11)
 
-### Robustness Is a Function, Not a Number: A Factorized Comprehensive Study of OOD Robustness in Vision-Based Driving
-📄 本文提出一种因子化评估框架，将自动驾驶视觉策略的分布外（OOD）鲁棒性分解为场景、季节、天气、时间和交通参与者五个维度，并通过可控多因子扰动实验发现：ViT策略显著优于同等规模的CNN/FC模型，且基于冻结基础模型特征的小型ViT头能达到最优性能（但延迟增加）；多帧时序输入未超越最佳单帧基线；性能下降主要源于单一主导因子（如极端天气）而非多因子叠加效应。
-🔗 http://arxiv.org/abs/2602.09018v1
+### Biases in the Blind Spot: Detecting What LLMs Fail to Mention
+📄 本文提出了一种全自动、黑盒的检测方法，用于识别大语言模型在推理过程中未明确表达的内部偏见，无需依赖预定义类别或人工标注数据，通过自动化生成候选偏见概念并进行统计检验来实现。
+🔗 http://arxiv.org/abs/2602.10117v1
 
-### CIC-Trap4Phish: A Unified Multi-Format Dataset for Phishing and Quishing Attachment Detection
-📄 CIC-Trap4Phish论文贡献：提出了首个统一的多格式钓鱼邮件附件数据集，涵盖文档、图像、二维码等主流恶意附件类型，为训练先进的钓鱼检测模型提供了全面且标准化的数据基础。
-🔗 http://arxiv.org/abs/2602.09015v1
+### Olaf-World: Orienting Latent Actions for Video World Modeling
+📄 本文提出Olaf-World模型，通过序列级控制-效果对齐目标（SeqΔ-REPA），将潜在动作与冻结自监督视频编码器的时序特征差异对齐，解决了无标签视频中潜在动作学习因缺乏跨场景语义对齐而导致的迁移性差的问题，实现了跨上下文的动作语义共享坐标系。
+🔗 http://arxiv.org/abs/2602.10104v1
 
-### ArcFlow: Unleashing 2-Step Text-to-Image Generation via High-Precision Non-Linear Flow Distillation
-📄 本文提出ArcFlow，通过高精度非线性流蒸馏实现两步文本到图像生成，利用非线性轨迹逼近教师模型的动态速度场，显著提升少步生成质量。
-🔗 http://arxiv.org/abs/2602.09014v1
+### Step-resolved data attribution for looped transformers
+📄 本文提出了一种名为“步分解影响（SDI）”的方法，用于分析循环Transformer模型中每个训练样本在不同循环迭代步中对模型推理过程的具体影响，解决了现有方法仅能给出整体影响分数而无法区分步级贡献的问题，并通过TensorSketch技术实现了高效的大规模计算。
+🔗 http://arxiv.org/abs/2602.10097v1

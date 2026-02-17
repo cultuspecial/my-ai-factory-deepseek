@@ -1,13 +1,13 @@
-# AI 简报 (2026-02-16)
+# AI 简报 (2026-02-17)
 
-### Semantic Chunking and the Entropy of Natural Language
-📄 本文提出了一种基于语义分块的分层统计模型，首次从原理上解释了英语文本约80%的冗余度，并通过实验验证了该模型能有效刻画自然语言的多尺度结构。
-🔗 http://arxiv.org/abs/2602.13194v1
+### Long Context, Less Focus: A Scaling Gap in LLMs Revealed through Privacy and Personalization
+📄 论文贡献：通过构建大规模基准PAPerBench，揭示了随着上下文长度增加，LLMs在隐私保护与个性化效果之间存在“扩展鸿沟”——长上下文虽提升个性化能力，却显著加剧隐私泄露风险。
+🔗 http://arxiv.org/abs/2602.15028v1
 
-### CoPE-VideoLM: Codec Primitives For Efficient Video Language Models
-📄 本文提出CoPE-VideoLM模型，利用视频编解码原语（运动向量与残差）高效建模视频时序信息，通过轻量级Transformer编码器聚合原语并与图像编码器对齐，在减少计算开销的同时提升对宏观事件与微观细节的时序覆盖能力。
-🔗 http://arxiv.org/abs/2602.13191v1
+### Rethinking Diffusion Models with Symmetries through Canonicalization with Applications to Molecular Graph Generation
+📄 本文提出了一种基于规范化的扩散模型新框架，通过将对称数据映射到规范表示进行训练，再结合随机对称变换生成，从而无需在模型架构中强制等变性，为分子图生成等任务提供了更灵活有效的建模方法。
+🔗 http://arxiv.org/abs/2602.15022v1
 
-### Optimal Take-off under Fuzzy Clearances
-📄 本文提出了一种融合模糊规则系统与最优控制的混合避障架构，通过模糊推理动态调整约束边界与紧急程度，在满足航空安全规范的同时降低优化问题的重规划频率，提升了无人机在不确定环境下的自适应决策能力。
-🔗 http://arxiv.org/abs/2602.13166v1
+### Hunt Globally: Deep Research AI Agents for Drug Asset Scouting in Investing, Business Development, and Search &amp; Evaluation
+📄 本文提出了一种用于全球药物资产搜寻的深度研究AI代理，旨在通过高效挖掘非英语、区域性渠道的“隐形”药物资产，提升投资、业务拓展及搜索评估中的覆盖广度与速度，以应对当前生物医药创新高度国际化带来的信息盲区与商业风险。
+🔗 http://arxiv.org/abs/2602.15019v1

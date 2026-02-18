@@ -1,13 +1,13 @@
-# AI 简报 (2026-02-17)
+# AI 简报 (2026-02-18)
 
-### Long Context, Less Focus: A Scaling Gap in LLMs Revealed through Privacy and Personalization
-📄 论文贡献：通过构建大规模基准PAPerBench，揭示了随着上下文长度增加，LLMs在隐私保护与个性化效果之间存在“扩展鸿沟”——长上下文虽提升个性化能力，却显著加剧隐私泄露风险。
-🔗 http://arxiv.org/abs/2602.15028v1
+### Perceptive Humanoid Parkour: Chaining Dynamic Human Skills via Motion Matching
+📄 该论文提出了一种模块化框架，通过运动匹配技术将人类动态技能组合成长时程运动轨迹，并利用感知驱动决策，实现了人形机器人在复杂障碍场景中自主完成视觉引导的跑酷任务。
+🔗 http://arxiv.org/abs/2602.15827v1
 
-### Rethinking Diffusion Models with Symmetries through Canonicalization with Applications to Molecular Graph Generation
-📄 本文提出了一种基于规范化的扩散模型新框架，通过将对称数据映射到规范表示进行训练，再结合随机对称变换生成，从而无需在模型架构中强制等变性，为分子图生成等任务提供了更灵活有效的建模方法。
-🔗 http://arxiv.org/abs/2602.15022v1
+### CrispEdit: Low-Curvature Projections for Scalable Non-Destructive LLM Editing
+📄 本文提出CrispEdit，一种基于低曲率投影的可扩展无损大语言模型编辑方法，通过将能力保持作为显式约束，在约束优化框架下利用Bregman散度进行二阶更新，有效防止编辑过程中的能力退化问题。
+🔗 http://arxiv.org/abs/2602.15823v1
 
-### Hunt Globally: Deep Research AI Agents for Drug Asset Scouting in Investing, Business Development, and Search &amp; Evaluation
-📄 本文提出了一种用于全球药物资产搜寻的深度研究AI代理，旨在通过高效挖掘非英语、区域性渠道的“隐形”药物资产，提升投资、业务拓展及搜索评估中的覆盖广度与速度，以应对当前生物医药创新高度国际化带来的信息盲区与商业风险。
-🔗 http://arxiv.org/abs/2602.15019v1
+### Developing AI Agents with Simulated Data: Why, what, and how?
+📄 本文提出了一种基于仿真的合成数据生成框架，用于解决AI训练中数据不足与质量低下的问题，并介绍了数字孪生AI仿真解决方案的设计与分析参考框架。
+🔗 http://arxiv.org/abs/2602.15816v1

@@ -1,13 +1,13 @@
-# AI 简报 (2026-02-24)
+# AI 简报 (2026-02-25)
 
-### A Very Big Video Reasoning Suite
-📄 该论文的核心贡献是构建了规模空前的视频推理数据集VBVR，包含超过100万个视频片段和200个结构化推理任务，为系统研究视频推理能力及其扩展规律提供了关键数据基础。
-🔗 http://arxiv.org/abs/2602.20159v1
+### Test-Time Training with KV Binding Is Secretly Linear Attention
+📄 论文贡献：本文揭示了测试时训练（TTT）中KV绑定机制的本质并非基于记忆的元学习，而是等价于一种学习的线性注意力算子，这一理论重构不仅解释了原有模型的反常行为，还带来了架构简化、并行化效率提升以及统一多种TTT变体的实践优势。
+🔗 http://arxiv.org/abs/2602.21204v1
 
-### Behavior Learning (BL): Learning Hierarchical Optimization Structures from Data
-📄 本文提出行为学习（BL）框架，通过数据学习可解释、可识别的层次化优化结构，将预测性能、内在可解释性与结构可识别性相统一，适用于涉及优化的科学领域。
-🔗 http://arxiv.org/abs/2602.20152v1
+### Aletheia tackles FirstProof autonomously
+📄 Aletheia 在首届 FirstProof 挑战赛中，于规定时间内自主解决了10个问题中的6个（问题2、5、7、8、9、10），其中仅问题8的判定存在专家分歧。
+🔗 http://arxiv.org/abs/2602.21201v1
 
-### Agentic AI for Scalable and Robust Optical Systems Control
-📄 本文提出了AgentOptics，一种基于模型上下文协议（MCP）的智能体AI框架，用于实现高保真、自主的光学系统控制。该框架通过结构化工具抽象层，将自然语言任务转化为符合协议的操作指令，并跨异构光学设备执行。研究贡献包括：构建了覆盖8类典型光学设备的64个标准化MCP工具，创建了包含410项任务的评估基准，在商用在线大语言模型与本地开源模型两种部署配置下，实现了87.7%–99.0%的平均任务成功率，显著优于基于代码生成的基线方法，展现了其在可扩展性与鲁棒性方面的优势。
-🔗 http://arxiv.org/abs/2602.20144v1
+### Learning from Trials and Errors: Reflective Test-Time Planning for Embodied LLMs
+📄 该论文提出了一种名为“反思性测试时规划”的方法，通过结合行动中反思（测试时扩展生成与评分）和行动后反思（测试时训练更新模型与策略），使具身大语言模型能够从错误中学习，避免重复犯错，从而将单次尝试转化为累积经验。
+🔗 http://arxiv.org/abs/2602.21198v1

@@ -1,13 +1,13 @@
-# AI 简报 (2026-02-26)
+# AI 简报 (2026-02-27)
 
-### Recovered in Translation: Efficient Pipeline for Automated Translation of Benchmarks and Datasets
-📄 本文提出了一种全自动框架，通过采用测试时计算扩展策略（如通用自改进方法USI与多轮排序方法T-RANK），显著提升数据集与评测基准翻译的质量与一致性，有效缓解语义偏移和语境丢失问题，从而增强多语言大模型评估的可靠性。
-🔗 http://arxiv.org/abs/2602.22207v1
+### Model Agreement via Anchoring
+📄 本文提出了一种基于“锚定”的通用分析技术，用于量化两个独立训练的机器学习模型之间的预测差异，并证明了该技术可用于推导模型分歧的上界，从而为控制模型一致性提供了理论工具。
+🔗 http://arxiv.org/abs/2602.23360v1
 
-### Off-The-Shelf Image-to-Image Models Are All You Need To Defeat Image Protection Schemes
-📄 本文提出一种通用攻击方法，仅利用现成的图像生成模型配合简单文本提示，即可有效去除多种图像保护方案添加的防护扰动，无需专门设计攻击算法，且在六种保护方案的八项实验中均优于现有专用攻击方法。
-🔗 http://arxiv.org/abs/2602.22197v1
+### SeeThrough3D: Occlusion Aware 3D Control in Text-to-Image Generation
+📄 SeeThrough3D提出了一种显式建模遮挡关系的3D布局条件图像生成方法，通过引入遮挡感知的3D场景表示（OSCR），将物体表示为半透明3D框并进行视角渲染，使模型能够推理物体间的遮挡关系，从而生成具有深度一致几何与尺度的部分遮挡物体。
+🔗 http://arxiv.org/abs/2602.23359v1
 
-### GUI-Libra: Training Native GUI Agents to Reason and Act with Action-aware Supervision and Partially Verifiable RL
-📄 本文提出GUI-Libra训练框架，通过引入动作感知监督和部分可验证强化学习，解决原生GUI智能体在长程导航任务中因高质量推理数据不足和通用训练流程不匹配导致的性能瓶颈，显著提升了任务执行效果。
-🔗 http://arxiv.org/abs/2602.22190v1
+### SOTAlign: Semi-Supervised Alignment of Unimodal Vision and Language Models via Optimal Transport
+📄 SOTAlign提出了一种半监督视觉-语言模型对齐框架，利用少量配对数据和大量未配对数据，通过最优传输方法实现跨模态特征对齐，显著降低了对大规模标注数据的依赖。
+🔗 http://arxiv.org/abs/2602.23353v1

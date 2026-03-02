@@ -1,13 +1,13 @@
-# AI 简报 (2026-03-01)
+# AI 简报 (2026-03-02)
 
-### Model Agreement via Anchoring
-📄 本文提出一种基于“锚定”的通用分析方法，用于量化并约束两个独立训练的机器学习模型在预测上的差异。通过将模型预测锚定至两模型预测的平均值，该技术能够推导出模型差异的上界，并可应用于现有训练方法，以分析如何通过调整训练过程的参数来减小甚至消除模型间的预测分歧。
-🔗 http://arxiv.org/abs/2602.23360v1
+### DARE-bench: Evaluating Modeling and Instruction Fidelity of LLMs in Data Science
+📄 DARE-bench 是一个针对数据科学任务的大语言模型评测基准，其核心贡献是：通过提供具有可验证标准答案的 6,300 项任务，解决了现有基准在**标准化、过程感知评估**和**高质量训练数据**方面的不足，实现了对模型**指令遵循**和**过程保真度**的客观、可复现评测。
+🔗 http://arxiv.org/abs/2602.24288v1
 
-### SeeThrough3D: Occlusion Aware 3D Control in Text-to-Image Generation
-📄 SeeThrough3D 提出了一种显式建模遮挡的3D布局条件文本生成图像方法，通过引入遮挡感知的3D场景表示，将物体表示为半透明3D框并进行视角渲染，从而在生成过程中有效推理物体间的遮挡关系，实现几何与尺度一致的逼真场景合成。
-🔗 http://arxiv.org/abs/2602.23359v1
+### Do LLMs Benefit From Their Own Words?
+📄 研究发现，大语言模型在多轮对话中省略自身历史回答通常不影响回答质量，并可显著缩短上下文长度，说明模型对自身先前响应的依赖有限。
+🔗 http://arxiv.org/abs/2602.24287v1
 
-### SOTAlign: Semi-Supervised Alignment of Unimodal Vision and Language Models via Optimal Transport
-📄 SOTAlign提出一种半监督跨模态对齐方法，利用少量配对数据和大量未配对数据，通过最优传输实现视觉与语言模型的参数高效对齐。
-🔗 http://arxiv.org/abs/2602.23353v1
+### CUDA Agent: Large-Scale Agentic RL for High-Performance CUDA Kernel Generation
+📄 本文提出CUDA Agent，通过大规模强化学习系统提升LLM的CUDA内核优化能力，结合可扩展数据合成、技能增强的CUDA优化代理与分层强化学习训练，显著超越现有编译器与代码生成方法。
+🔗 http://arxiv.org/abs/2602.24286v1

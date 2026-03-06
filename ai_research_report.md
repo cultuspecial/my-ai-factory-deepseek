@@ -1,13 +1,13 @@
-# AI 简报 (2026-03-05)
+# AI 简报 (2026-03-06)
 
-### A Dual-Helix Governance Approach Towards Reliable Agentic AI for WebGIS Development
-📄 本文提出一种双螺旋治理框架，将WebGIS开发中智能体AI的五大局限（上下文限制、跨会话遗忘、随机性、指令失效、适应僵化）重构为结构治理问题，通过知识、行为、技能三轨架构，结合知识图谱基底与自学习循环，实现稳定可扩展的智能体开发，并在FutureShorelines工具中成功将数千行单体代码重构为模块化组件。
-🔗 http://arxiv.org/abs/2603.04390v1
+### RoboPocket: Improve Robot Policies Instantly with Your Phone
+📄 RoboPocket：利用智能手机实现无需真实机器人交互的即时策略迭代，通过远程推理框架可视化策略预测，高效收集针对性演示以改进策略。
+🔗 http://arxiv.org/abs/2603.05504v1
 
-### ZipMap: Linear-Time Stateful 3D Reconstruction with Test-Time Training
-📄 ZipMap提出一种状态前馈模型，通过测试时训练层将图像序列压缩为紧凑场景状态，在单次前馈中实现线性时间、双向3D重建，精度优于或匹配二次时间复杂度方法，速度提升超20倍。
-🔗 http://arxiv.org/abs/2603.04385v1
+### POET-X: Memory-efficient LLM Training by Scaling Orthogonal Transformation
+📄 POET-X通过可扩展的正交等价变换，显著降低了POET框架的内存消耗和计算开销，同时保持了其泛化能力和训练稳定性。
+🔗 http://arxiv.org/abs/2603.05500v1
 
-### Robustness of Agentic AI Systems via Adversarially-Aligned Jacobian Regularization
-📄 本文提出对抗对齐雅可比正则化方法，通过约束智能体策略在对抗扰动方向上的局部敏感性，在保证鲁棒性的同时减少对整体性能的影响，相比全局正则化方法提升了策略空间与训练稳定性。
-🔗 http://arxiv.org/abs/2603.04378v1
+### The Spike, the Sparse and the Sink: Anatomy of Massive Activations and Attention Sinks
+📄 本文通过系统实验揭示了Transformer语言模型中大规模激活与注意力汇聚两种现象的本质：它们并非功能耦合，而是现代Transformer架构设计导致的共现现象。大规模激活通过产生跨层持续的近似恒定隐藏表示，充当全局隐式参数；注意力汇聚则负责局部注意力机制稳定，二者分别承担全局参数化与局部稳定化的不同功能。
+🔗 http://arxiv.org/abs/2603.05498v1

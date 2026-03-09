@@ -1,13 +1,13 @@
-# AI 简报 (2026-03-08)
+# AI 简报 (2026-03-09)
 
-### RoboPocket: Improve Robot Policies Instantly with Your Phone
-📄 RoboPocket提出一种基于智能手机的便携系统，通过远程推理框架可视化策略预测，实现无需实体机器人的即时策略迭代，解决了模仿学习中数据收集效率低与交互式方法依赖物理执行难以扩展的矛盾。
-🔗 http://arxiv.org/abs/2603.05504v1
+### BEVLM: Distilling Semantic Knowledge from LLMs into Bird's-Eye View Representations
+📄 BEVLM通过知识蒸馏将大语言模型的语义理解能力融入鸟瞰图表示，在保持几何一致性的同时增强其语义丰富度，从而提升自动驾驶系统的3D空间推理能力。
+🔗 http://arxiv.org/abs/2603.06576v1
 
-### POET-X: Memory-efficient LLM Training by Scaling Orthogonal Transformation
-📄 POET-X通过可扩展的正交等价变换，显著降低了POET框架的内存消耗和计算开销，同时保持了其泛化能力和训练稳定性。
-🔗 http://arxiv.org/abs/2603.05500v1
+### Fly360: Omnidirectional Obstacle Avoidance within Drone View
+📄 本文提出Fly360系统，首次针对全景无人机实现全向避障，构建了包含多方向障碍物场景的基准测试集，并设计双阶段运动规划方法，使无人机在任意飞行方向上均能实时感知并规避障碍物。
+🔗 http://arxiv.org/abs/2603.06573v1
 
-### The Spike, the Sparse and the Sink: Anatomy of Massive Activations and Attention Sinks
-📄 本文通过实验揭示了Transformer语言模型中大规模激活与注意力汇聚的共现现象主要是架构设计导致的，并阐明二者虽相关但功能不同：大规模激活通过产生跨层持续的隐状态来全局调节模型，而注意力汇聚则局部管理注意力分布。
-🔗 http://arxiv.org/abs/2603.05498v1
+### SUREON: A Benchmark and Vision-Language-Model for Surgical Reasoning
+📄 SUREON是一个大规模外科手术视频问答数据集，通过系统提取手术教学视频中的专家讲解，构建了涵盖12类推理任务（如意图、风险、步骤预测等）的基准，并提出了一个视觉-语言模型，首次使AI能够理解并解释手术场景背后的决策逻辑。
+🔗 http://arxiv.org/abs/2603.06570v1

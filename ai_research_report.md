@@ -1,13 +1,13 @@
-# AI 简报 (2026-03-11)
+# AI 简报 (2026-03-12)
 
-### From Data Statistics to Feature Geometry: How Correlations Shape Superposition
-📄 本文通过引入“词袋叠加”模型，揭示了在真实数据特征存在相关性时，神经网络会利用特征间的统计关联来优化叠加结构，从而超越传统稀疏独立假设下的几何解释，为理解实际模型中的特征表示提供了新视角。
-🔗 http://arxiv.org/abs/2603.09972v1
+### COMIC: Agentic Sketch Comedy Generation
+📄 本文提出了一种全自动生成短喜剧视频的AI系统COMIC，其核心贡献在于：通过模拟真实制片工作室角色构建多智能体协作框架，并创新性地引入基于YouTube喜剧视频数据训练的LLM评论家，以自动评估幽默效果，从而在迭代竞争中优化创意与视频质量，实现了接近专业水准的喜剧视频生成。
+🔗 http://arxiv.org/abs/2603.11048v1
 
-### Understanding the Use of a Large Language Model-Powered Guide to Make Virtual Reality Accessible for Blind and Low Vision People
-📄 本研究提出并评估了一种基于大语言模型的虚拟现实导览助手，首次通过用户研究发现，视障用户在独自使用时将其视为工具，而在社交情境中则将其视为具有陪伴性的社交伙伴，从而为设计面向视障群体的VR无障碍社交辅助系统提供了新见解。
-🔗 http://arxiv.org/abs/2603.09964v1
+### LiTo: Surface Light Field Tokenization
+📄 本文提出一种联合建模物体几何与视点相关外观的3D隐式表示方法，通过将表面光场子采样编码为紧凑的隐式向量，在统一3D隐空间中实现几何与复杂光照下镜面高光等视点特效的联合重建，并进一步训练条件隐式流匹配模型学习其分布。
+🔗 http://arxiv.org/abs/2603.11047v1
 
-### Emotional Modulation in Swarm Decision Dynamics
-📄 本文通过将蜜蜂方程扩展为基于智能体的模型，引入情绪效价和唤醒度作为交互速率的调节器，揭示了情绪如何通过影响招募与抑制参数来调控群体决策动态，并借助模拟面部表情探讨了情绪传染在共识形成中的作用。
-🔗 http://arxiv.org/abs/2603.09963v1
+### Neural Field Thermal Tomography: A Differentiable Physics Framework for Non-Destructive Evaluation
+📄 NeFTY提出了一种基于可微分物理求解器的框架，通过将三维热扩散场参数化为连续神经场，并结合严格的数值求解器进行优化，实现了从瞬态表面温度数据中对材料属性进行高分辨率三维定量重建，克服了传统热成像方法忽略横向扩散的局限性以及物理信息神经网络在瞬态扩散问题中梯度刚性导致的失效问题。
+🔗 http://arxiv.org/abs/2603.11045v1

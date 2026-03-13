@@ -1,13 +1,13 @@
-# AI 简报 (2026-03-12)
+# AI 简报 (2026-03-13)
 
-### COMIC: Agentic Sketch Comedy Generation
-📄 本文提出了一种全自动生成短喜剧视频的AI系统COMIC，其核心贡献在于：通过模拟真实制片工作室角色构建多智能体协作框架，并创新性地引入基于YouTube喜剧视频数据训练的LLM评论家，以自动评估幽默效果，从而在迭代竞争中优化创意与视频质量，实现了接近专业水准的喜剧视频生成。
-🔗 http://arxiv.org/abs/2603.11048v1
+### The Latent Color Subspace: Emergent Order in High-Dimensional Chaos
+📄 本文提出了一种名为潜在颜色子空间（LCS）的解释方法，揭示了FLUX.1变分自编码器潜空间中颜色表示的结构（对应色调、饱和度和明度），并基于此提出了一种无需训练、仅通过闭式潜空间操作即可精确预测与控制生成图像颜色的方法。
+🔗 http://arxiv.org/abs/2603.12261v1
 
-### LiTo: Surface Light Field Tokenization
-📄 本文提出一种联合建模物体几何与视点相关外观的3D隐式表示方法，通过将表面光场子采样编码为紧凑的隐式向量，在统一3D隐空间中实现几何与复杂光照下镜面高光等视点特效的联合重建，并进一步训练条件隐式流匹配模型学习其分布。
-🔗 http://arxiv.org/abs/2603.11047v1
+### SciMDR: Benchmarking and Advancing Scientific Multimodal Document Reasoning
+📄 SciMDR提出“合成-再锚定”框架，构建了包含30万科学论文多模态问答对的大规模训练集，并建立了专家标注的评测基准，以推动科学多模态文档推理研究。
+🔗 http://arxiv.org/abs/2603.12249v1
 
-### Neural Field Thermal Tomography: A Differentiable Physics Framework for Non-Destructive Evaluation
-📄 NeFTY提出了一种基于可微分物理求解器的框架，通过将三维热扩散场参数化为连续神经场，并结合严格的数值求解器进行优化，实现了从瞬态表面温度数据中对材料属性进行高分辨率三维定量重建，克服了传统热成像方法忽略横向扩散的局限性以及物理信息神经网络在瞬态扩散问题中梯度刚性导致的失效问题。
-🔗 http://arxiv.org/abs/2603.11045v1
+### Examining Reasoning LLMs-as-Judges in Non-Verifiable LLM Post-Training
+📄 本文通过实验研究发现，在基于强化学习的LLM对齐训练中，使用推理型LLM作为评判者（reasoning judges）比非推理型评判者（non-reasoning judges）能更有效地学习到与“黄金标准”评判者一致的偏好，从而在不可验证的任务中实现更优的策略训练效果。
+🔗 http://arxiv.org/abs/2603.12246v1

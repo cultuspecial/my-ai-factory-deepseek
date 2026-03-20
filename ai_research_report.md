@@ -1,13 +1,13 @@
-# AI 简报 (2026-03-19)
+# AI 简报 (2026-03-20)
 
-### Unified Spatio-Temporal Token Scoring for Efficient Video VLMs
-📄 本文提出了一种名为时空令牌评分（STTS）的轻量级模块，用于在视频视觉语言模型中同时修剪视觉变换器（ViT）和语言模型（LLM）中的冗余视觉令牌，无需依赖文本条件或令牌合并，且支持端到端训练，显著提升了计算效率。
-🔗 http://arxiv.org/abs/2603.18004v1
+### NavTrust: Benchmarking Trustworthiness for Embodied Navigation
+📄 NavTrust是首个在统一框架下系统评估具身导航智能体在真实场景中面临RGB、深度和指令等多种输入模态干扰时鲁棒性的基准测试。
+🔗 http://arxiv.org/abs/2603.19229v1
 
-### Loc3R-VLM: Language-based Localization and 3D Reasoning with Vision-Language Models
-📄 本文提出Loc3R-VLM框架，通过全局布局重建与显式视角建模两项联合目标，赋予2D视觉语言模型从单目视频中实现三维空间理解与定位推理的能力。
-🔗 http://arxiv.org/abs/2603.18002v1
+### FinTradeBench: A Financial Reasoning Benchmark for LLMs
+📄 FinTradeBench 是一个用于评估大语言模型金融推理能力的基准，其核心贡献在于首次将公司基本面数据与市场交易信号相结合，以更全面地测试模型在真实金融决策中的综合推理能力。
+🔗 http://arxiv.org/abs/2603.19225v1
 
-### AgentFactory: A Self-Evolving Framework Through Executable Subagent Accumulation and Reuse
-📄 AgentFactory提出一种自我进化框架，通过将成功任务方案保存为可执行子代理代码（而非文本经验），并基于执行反馈持续优化，实现能力的持续积累与跨平台复用。
-🔗 http://arxiv.org/abs/2603.18000v1
+### F2LLM-v2: Inclusive, Performant, and Efficient Embeddings for a Multilingual World
+📄 F2LLM-v2 提出了一系列多语言嵌入模型，通过两阶段大语言模型训练流程，结合嵌套学习、模型剪枝与知识蒸馏技术，在支持超过200种语言（尤其提升中低资源语言性能）的同时，实现了比以往基于大语言模型的嵌入方法更高的效率，其中最大模型在11项MTEB基准测试中排名第一，较小模型也在资源受限场景下取得了最优性能。
+🔗 http://arxiv.org/abs/2603.19223v1

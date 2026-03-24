@@ -1,13 +1,13 @@
-# AI 简报 (2026-03-23)
+# AI 简报 (2026-03-24)
 
-### From Masks to Pixels and Meaning: A New Taxonomy, Benchmark, and Metrics for VLM Image Tampering
-📄 本文提出了一种新的视觉语言模型图像篡改检测方法，将任务从基于对象掩码的粗粒度检测重构为基于像素、语义和语言感知的精细检测，并构建了包含像素级篡改标注与语义类别监督的新基准与评估指标。
-🔗 http://arxiv.org/abs/2603.20193v1
+### WorldCache: Content-Aware Caching for Accelerated Video World Models
+📄 WorldCache提出一种感知约束的动态缓存框架，通过运动自适应阈值、显著性加权漂移估计以及融合与形变优化，减少视频扩散模型推理时的重复计算，在动态场景中有效缓解伪影、模糊与运动不一致问题。
+🔗 http://arxiv.org/abs/2603.22286v1
 
-### LumosX: Relate Any Identities with Their Attributes for Personalized Video Generation
-📄 LumosX提出了一种结合数据构建与模型设计的个性化视频生成框架，通过显式建模人物身份与属性的关联关系，解决了现有方法在跨主体人脸-属性对齐与组内一致性方面的挑战。
-🔗 http://arxiv.org/abs/2603.20192v1
+### End-to-End Training for Unified Tokenization and Latent Denoising
+📄 本文提出UNITE架构，通过权重共享实现图像分词与潜在扩散的统一端到端训练，避免了传统方法中先训练分词器再训练扩散模型的分阶段流程。
+🔗 http://arxiv.org/abs/2603.22283v1
 
-### VideoSeek: Long-Horizon Video Agent with Tool-Guided Seeking
-📄 VideoSeek 提出了一种基于工具引导的主动搜索机制的长视频智能体，通过视频逻辑流动态定位关键证据，大幅减少所需处理的视频帧数，在降低计算成本的同时保持甚至提升了视频理解与推理性能。
-🔗 http://arxiv.org/abs/2603.20185v1
+### UniMotion: A Unified Framework for Motion-Text-Vision Understanding and Generation
+📄 UniMotion首次提出统一框架，在单一架构内实现人体动作、自然语言与RGB图像的同步理解与生成，其核心创新在于将动作作为与RGB平等的连续模态进行建模，并通过跨模态对齐的连续编码方法克服了传统离散化表示带来的量化误差与时间连续性破坏问题。
+🔗 http://arxiv.org/abs/2603.22282v1

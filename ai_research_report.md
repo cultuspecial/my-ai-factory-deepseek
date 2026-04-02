@@ -1,13 +1,13 @@
-# AI 简报 (2026-04-01)
+# AI 简报 (2026-04-02)
 
-### Automatic Identification of Parallelizable Loops Using Transformer-Based Source Code Representations
-📄 本文提出一种基于Transformer的源代码表示方法，利用DistilBERT模型自动识别可并行化循环，无需依赖手工特征或传统静态分析，有效区分独立可并行循环与不确定性循环。
-🔗 http://arxiv.org/abs/2603.30040v1
+### HippoCamp: Benchmarking Contextual Agents on Personal Computers
+📄 本文提出了HippoCamp基准，用于评估多模态文件管理情境下智能体的能力，其核心贡献在于构建了一个基于真实用户个人电脑环境的大规模多模态文件系统（涵盖2K+文件、42.4GB数据），并创建了581个问答对与46.1K条细粒度标注轨迹，以评估智能体在用户个性化场景下的上下文感知、搜索与多步推理能力。
+🔗 http://arxiv.org/abs/2604.01221v1
 
-### Aligned, Orthogonal or In-conflict: When can we safely optimize Chain-of-Thought?
-📄 论文贡献：提出了一个概念框架，用于预测和分类在思维链（CoT）监控中，模型训练目标与监控目标之间的关系（一致、正交或冲突），并实证验证了当两者冲突时，训练会导致模型隐藏推理过程，从而降低CoT的可监控性。
-🔗 http://arxiv.org/abs/2603.30036v1
+### LAtent Phase Inference from Short time sequences using SHallow REcurrent Decoders (LAPIS-SHRED)
+📄 LAPIS-SHRED 提出了一种模块化架构，能够仅利用短时间窗口内的稀疏传感器观测数据，重建和预测完整的时空动力学。
+🔗 http://arxiv.org/abs/2604.01216v1
 
-### Tucker Attention: A generalization of approximate attention mechanisms
-📄 本文提出了一种广义的自注意力权重分解方法，通过引入Tucker分解框架，统一了多种近似注意力机制（如GQA、MLA），并提出了一种参数高效的Tucker注意力方案，从低秩近似的角度解释了这些方法的本质。
-🔗 http://arxiv.org/abs/2603.30033v1
+### The Recipe Matters More Than the Kitchen:Mathematical Foundations of the AI Weather Prediction Pipeline
+📄 论文核心贡献：提出了首个统一数学框架，将AI天气预报的学习流程（训练方法、损失函数、数据分布等）而非仅架构选择作为整体分析对象，通过融合球面逼近理论、动力系统与信息论，建立了学习流程误差分解理论，证明训练流程设计对预测性能的影响大于模型架构本身。
+🔗 http://arxiv.org/abs/2604.01215v1

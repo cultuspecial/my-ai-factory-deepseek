@@ -1,13 +1,13 @@
-# AI 简报 (2026-04-02)
+# AI 简报 (2026-04-03)
 
-### HippoCamp: Benchmarking Contextual Agents on Personal Computers
-📄 本文提出了HippoCamp基准，用于评估多模态文件管理情境下智能体的能力，其核心贡献在于构建了一个基于真实用户个人电脑环境的大规模多模态文件系统（涵盖2K+文件、42.4GB数据），并创建了581个问答对与46.1K条细粒度标注轨迹，以评估智能体在用户个性化场景下的上下文感知、搜索与多步推理能力。
-🔗 http://arxiv.org/abs/2604.01221v1
+### ActionParty: Multi-Subject Action Binding in Generative Video Games
+📄 ActionParty提出了一种多主体可控视频生成模型，通过引入主体状态标记和空间偏置机制，解决了现有视频扩散模型无法将特定动作准确绑定到对应主体的问题，实现了生成式游戏中多主体行为的协同控制。
+🔗 http://arxiv.org/abs/2604.02330v1
 
-### LAtent Phase Inference from Short time sequences using SHallow REcurrent Decoders (LAPIS-SHRED)
-📄 LAPIS-SHRED 提出了一种模块化架构，能够仅利用短时间窗口内的稀疏传感器观测数据，重建和预测完整的时空动力学。
-🔗 http://arxiv.org/abs/2604.01216v1
+### Steerable Visual Representations
+📄 论文贡献：提出了一种名为“可引导视觉表示”的新视觉表示方法，通过自然语言灵活调控全局与局部视觉特征，兼顾了预训练视觉模型的通用性与多模态大模型的可引导性，解决了现有视觉表示方法无法针对非显著视觉概念进行定向提取的问题。
+🔗 http://arxiv.org/abs/2604.02327v1
 
-### The Recipe Matters More Than the Kitchen:Mathematical Foundations of the AI Weather Prediction Pipeline
-📄 论文核心贡献：提出了首个统一数学框架，将AI天气预报的学习流程（训练方法、损失函数、数据分布等）而非仅架构选择作为整体分析对象，通过融合球面逼近理论、动力系统与信息论，建立了学习流程误差分解理论，证明训练流程设计对预测性能的影响大于模型架构本身。
-🔗 http://arxiv.org/abs/2604.01215v1
+### Grounded Token Initialization for New Vocabulary in LMs for Generative Recommendation
+📄 本文提出了一种新的词汇初始化方法（Grounded Token Initialization），用于在语言模型中扩展新词汇（如生成式推荐中的语义ID）。通过分析发现，传统的均值初始化方法会使新词表征坍缩在退化子空间中，导致后续微调难以充分恢复词间差异。为此，该方法通过基于数据驱动的语义信息对新词表征进行初始化，有效缓解了表征坍缩问题，提升了模型在生成式推荐等任务中的性能。
+🔗 http://arxiv.org/abs/2604.02324v1

@@ -1,13 +1,13 @@
-# AI 简报 (2026-04-06)
+# AI 简报 (2026-04-07)
 
-### Enhancing Robustness of Federated Learning via Server Learning
-📄 本文提出一种结合服务器端学习、客户端更新过滤与几何中值聚合的启发式算法，显著提升了非独立同分布数据场景下联邦学习对抗恶意客户端攻击的鲁棒性，实验表明即使恶意客户端比例超过50%且服务器仅使用少量合成数据，模型精度仍能大幅提升。
-🔗 http://arxiv.org/abs/2604.03226v1
+### Early Stopping for Large Reasoning Models via Confidence Dynamics
+📄 本文提出了一种基于置信度动态的早期停止方法（CoDE-Stop），通过监测大模型推理过程中中间答案的置信度变化，能够提前终止无效的长链推理，在降低计算成本的同时保持或提升模型性能。
+🔗 http://arxiv.org/abs/2604.04930v1
 
-### PR3DICTR: A modular AI framework for medical 3D image-based detection and outcome prediction
-📄 PR3DICTR是一个基于PyTorch和MONAI的模块化AI框架，旨在通过标准化流程和丰富预设功能，降低三维医学影像检测与预后预测模型的开发负担，同时保持高度可调性。
-🔗 http://arxiv.org/abs/2604.03203v1
+### Your Pre-trained Diffusion Model Secretly Knows Restoration
+📄 该论文的核心贡献是揭示了预训练扩散模型本身已具备图像修复能力，无需依赖微调或额外控制模块，仅需通过直接学习文本编码器输出的提示嵌入即可激活该能力，且发现这种修复行为无法通过常规文本提示或文本标记优化有效触发。
+🔗 http://arxiv.org/abs/2604.04924v1
 
-### Coupled Control, Structured Memory, and Verifiable Action in Agentic AI (SCRAT -- Stochastic Control with Retrieval and Auditable Trajectories): A Comparative Perspective from Squirrel Locomotion and Scatter-Hoarding
-📄 本文借鉴松鼠生态行为（如树间运动、分散贮食和情境感知贮藏），提出一种将控制、记忆与可验证行动耦合的智能体框架（SCRAT），强调在部分可观测、延迟及策略性观察环境下，智能体需整合运动控制、结构化记忆与可审计轨迹验证能力，为具身AI设计提供跨学科参考。
-🔗 http://arxiv.org/abs/2604.03201v1
+### Vero: An Open RL Recipe for General Visual Reasoning
+📄 Vero通过构建大规模、多任务的公开强化学习数据集与任务路由奖励机制，实现了在多样化视觉推理任务上的领先性能，为开源视觉语言模型提供了可复现的训练方案。
+🔗 http://arxiv.org/abs/2604.04917v1

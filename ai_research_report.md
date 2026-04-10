@@ -1,13 +1,13 @@
-# AI 简报 (2026-04-09)
+# AI 简报 (2026-04-10)
 
-### Toward a Tractability Frontier for Exact Relevance Certification
-📄 本文提出了一种用于精确相关性认证的可处理性前沿分析框架，通过证明一个元不可能定理，揭示了在满足闭包律的结构性约束下，不存在能高效判定精确认证的通用判定准则，并利用零失真摘要、商空间熵界与支撑计数等方法，从结构收敛角度解释了闭包律的典型性。
-🔗 http://arxiv.org/abs/2604.07349v1
+### Act Wisely: Cultivating Meta-Cognitive Tool Use in Agentic Multimodal Models
+📄 该论文提出了一种解耦式强化学习框架，通过引入元认知奖励机制，引导多模态智能体在决策时自主判断何时应调用外部工具、何时应依赖内部知识，从而显著减少盲目工具调用、降低延迟与噪声，并提升推理效率与准确性。
+🔗 http://arxiv.org/abs/2604.08545v1
 
-### MoRight: Motion Control Done Right
-📄 MoRight提出了一种解耦的运动控制框架，通过分离物体运动与相机视角控制，并建模物体间的因果物理关系，实现了用户可分别控制物体动作与视角、且动作能触发场景中其他物体合理反应的视频生成。
-🔗 http://arxiv.org/abs/2604.07348v1
+### SIM1: Physics-Aligned Simulator as Zero-Shot Data Scaler in Deformable Worlds
+📄 本文提出SIM1，一种物理对齐的真实-仿真-真实数据引擎，通过将仿真系统基于真实物理世界进行校准，实现无需额外真实数据即可生成高质量仿真数据，用于可变形物体操作的零样本数据扩展。
+🔗 http://arxiv.org/abs/2604.08544v1
 
-### RoSHI: A Versatile Robot-oriented Suit for Human Data In-the-Wild
-📄 本文提出RoSHI系统，通过融合低成本稀疏IMU与Project Aria眼镜的视觉信息，实现了在复杂真实场景中准确估计穿戴者三维姿态与体形的功能，兼顾了便携性、遮挡鲁棒性与全局一致性，为机器人学习提供了高质量野外人体交互数据。
-🔗 http://arxiv.org/abs/2604.07331v1
+### Seeing but Not Thinking: Routing Distraction in Multimodal Mixture-of-Experts
+📄 本文发现多模态专家混合模型存在“见而不思”现象，即模型能准确感知图像内容却无法进行后续推理。研究提出“路由分心”假设，指出视觉输入会引发中间层路由偏离，导致领域专家激活不足，从而损害推理能力。
+🔗 http://arxiv.org/abs/2604.08541v1

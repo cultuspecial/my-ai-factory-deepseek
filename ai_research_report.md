@@ -1,13 +1,13 @@
-# AI 简报 (2026-04-13)
+# AI 简报 (2026-04-14)
 
-### Large Language Models Generate Harmful Content Using a Distinct, Unified Mechanism
-📄 论文贡献：通过定向权重剪枝发现，大语言模型生成有害内容依赖于一个跨多种有害类型、与良性能力分离的紧凑权重机制，且对齐训练会压缩该有害权重结构，揭示了其内部存在统一的有害内容生成机制。
-🔗 http://arxiv.org/abs/2604.09544v1
+### Physics-Informed State Space Models for Reliable Solar Irradiance Forecasting in Off-Grid Systems
+📄 本文提出了一种物理信息状态空间模型（热力学流形网络），通过将气象与几何变量映射至Koopman线性化黎曼流形，结合谱校准单元和热力学Alpha门控机制，有效解决了离网光伏系统中太阳能预测的时序滞后与夜间虚假发电问题，提升了预测的物理一致性与可靠性。
+🔗 http://arxiv.org/abs/2604.11807v1
 
-### Case-Grounded Evidence Verification: A Framework for Constructing Evidence-Sensitive Supervision
-📄 本文提出了一种基于案例的证据验证框架，通过构建包含明确支持示例与语义可控的非支持示例（如反事实错误状态和主题相关示例）的监督数据，增强模型对证据与主张之间支持关系的判别能力。
-🔗 http://arxiv.org/abs/2604.09537v1
+### Detecting Safety Violations Across Many Agent Traces
+📄 本文提出Meerkat方法，通过结合聚类与智能体搜索，利用自然语言描述检测跨多智能体轨迹的安全违规行为，有效解决了现有单轨迹检测、固定监控等方法在应对罕见、复杂及对抗性隐藏违规时的不足。
+🔗 http://arxiv.org/abs/2604.11806v1
 
-### Seeing is Believing: Robust Vision-Guided Cross-Modal Prompt Learning under Label Noise
-📄 本文提出VisPrompt框架，通过跨模态注意力机制将视觉语义反向注入提示表示，使提示能基于稳定的实例级视觉信息自适应聚合关键特征，从而提升标签噪声下的视觉语言提示学习鲁棒性。
-🔗 http://arxiv.org/abs/2604.09532v1
+### Solving Physics Olympiad via Reinforcement Learning on Physics Simulators
+📄 本文提出了一种利用物理仿真器生成合成问答数据，并通过强化学习训练大语言模型进行物理推理的方法，有效解决了物理领域大规模高质量训练数据稀缺的问题，显著提升了模型在物理奥林匹克竞赛题目上的零样本推理能力。
+🔗 http://arxiv.org/abs/2604.11805v1

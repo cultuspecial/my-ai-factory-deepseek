@@ -1,13 +1,13 @@
-# AI 简报 (2026-04-14)
+# AI 简报 (2026-04-15)
 
-### Physics-Informed State Space Models for Reliable Solar Irradiance Forecasting in Off-Grid Systems
-📄 本文提出了一种物理信息状态空间模型（热力学流形网络），通过将气象与几何变量映射至Koopman线性化黎曼流形，结合谱校准单元和热力学Alpha门控机制，有效解决了离网光伏系统中太阳能预测的时序滞后与夜间虚假发电问题，提升了预测的物理一致性与可靠性。
-🔗 http://arxiv.org/abs/2604.11807v1
+### Visual Preference Optimization with Rubric Rewards
+📄 本文提出rDPO框架，通过为每个图像-指令对构建细粒度的清单式评分标准（rubric），替代传统基于扰动或结果信号的偏好数据构建方法，显著提升视觉推理任务中的偏好优化效果，并在评测中使30B-A3B模型的奖励判断能力接近GPT-4水平。
+🔗 http://arxiv.org/abs/2604.13029v1
 
-### Detecting Safety Violations Across Many Agent Traces
-📄 本文提出Meerkat方法，通过结合聚类与智能体搜索，利用自然语言描述检测跨多智能体轨迹的安全违规行为，有效解决了现有单轨迹检测、固定监控等方法在应对罕见、复杂及对抗性隐藏违规时的不足。
-🔗 http://arxiv.org/abs/2604.11806v1
+### Representation geometry shapes task performance in vision-language modeling for CT enterography
+📄 该论文的主要贡献是首次在腹部CT小肠造影中研究视觉-语言迁移学习，并发现：1）图像特征聚合方式对任务性能有选择性影响——平均池化更适合疾病分类，注意力池化更适合跨模态检索；2）切片级的组织对比度（多窗RGB编码）比广泛空间覆盖对表征学习更重要。
+🔗 http://arxiv.org/abs/2604.13021v1
 
-### Solving Physics Olympiad via Reinforcement Learning on Physics Simulators
-📄 本文提出了一种利用物理仿真器生成合成问答数据，并通过强化学习训练大语言模型进行物理推理的方法，有效解决了物理领域大规模高质量训练数据稀缺的问题，显著提升了模型在物理奥林匹克竞赛题目上的零样本推理能力。
-🔗 http://arxiv.org/abs/2604.11805v1
+### PAL: Personal Adaptive Learner
+📄 PAL论文贡献：提出一种将讲座视频实时转化为交互式学习体验的AI平台，通过动态生成难度自适应的问题与个性化课后总结，实现基于多模态内容分析与学习者实时反馈的上下文感知教学。
+🔗 http://arxiv.org/abs/2604.13017v1

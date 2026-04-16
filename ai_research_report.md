@@ -1,13 +1,13 @@
-# AI 简报 (2026-04-15)
+# AI 简报 (2026-04-16)
 
-### Visual Preference Optimization with Rubric Rewards
-📄 本文提出rDPO框架，通过为每个图像-指令对构建细粒度的清单式评分标准（rubric），替代传统基于扰动或结果信号的偏好数据构建方法，显著提升视觉推理任务中的偏好优化效果，并在评测中使30B-A3B模型的奖励判断能力接近GPT-4水平。
-🔗 http://arxiv.org/abs/2604.13029v1
+### From $P(y|x)$ to $P(y)$: Investigating Reinforcement Learning in Pre-train Space
+📄 本文提出PreRL方法，将强化学习从优化条件分布P(y|x)扩展到预训练空间的边际分布P(y)，通过在线奖励驱动更新直接增强模型推理能力，突破基础模型输出分布的限制，并理论证明了log P(y)与log P(y|x)的梯度对齐。
+🔗 http://arxiv.org/abs/2604.14142v1
 
-### Representation geometry shapes task performance in vision-language modeling for CT enterography
-📄 该论文的主要贡献是首次在腹部CT小肠造影中研究视觉-语言迁移学习，并发现：1）图像特征聚合方式对任务性能有选择性影响——平均池化更适合疾病分类，注意力池化更适合跨模态检索；2）切片级的组织对比度（多窗RGB编码）比广泛空间覆盖对表征学习更重要。
-🔗 http://arxiv.org/abs/2604.13021v1
+### LongCoT: Benchmarking Long-Horizon Chain-of-Thought Reasoning
+📄 本文提出了LongCoT基准，包含2,500个专家设计的跨领域问题，通过要求模型在长推理链（可达数十万推理标记）中规划和管理步骤，直接衡量前沿语言模型的长程思维链推理能力。
+🔗 http://arxiv.org/abs/2604.14140v1
 
-### PAL: Personal Adaptive Learner
-📄 PAL论文贡献：提出一种将讲座视频实时转化为交互式学习体验的AI平台，通过动态生成难度自适应的问题与个性化课后总结，实现基于多模态内容分析与学习者实时反馈的上下文感知教学。
-🔗 http://arxiv.org/abs/2604.13017v1
+### From Feelings to Metrics: Understanding and Formalizing How Users Vibe-Test LLMs
+📄 本文通过分析用户调查和真实模型对比报告，将用户对大型语言模型的“感觉测试”形式化为一个可系统分析的两阶段过程：用户既个性化选择测试任务，也个性化定义对模型响应的评判标准。
+🔗 http://arxiv.org/abs/2604.14137v1

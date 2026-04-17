@@ -1,13 +1,13 @@
-# AI 简报 (2026-04-16)
+# AI 简报 (2026-04-17)
 
-### From $P(y|x)$ to $P(y)$: Investigating Reinforcement Learning in Pre-train Space
-📄 本文提出PreRL方法，将强化学习从优化条件分布P(y|x)扩展到预训练空间的边际分布P(y)，通过在线奖励驱动更新直接增强模型推理能力，突破基础模型输出分布的限制，并理论证明了log P(y)与log P(y|x)的梯度对齐。
-🔗 http://arxiv.org/abs/2604.14142v1
+### MM-WebAgent: A Hierarchical Multimodal Web Agent for Webpage Generation
+📄 MM-WebAgent提出了一种分层多模态网页生成智能体框架，通过分层规划和迭代自反思协调AIGC元素生成，解决了现有方法因孤立生成导致风格不一致和全局协调性差的问题，实现了全局布局、局部内容与视觉一致性的联合优化，并建立了相应的多模态网页生成基准。
+🔗 http://arxiv.org/abs/2604.15309v1
 
-### LongCoT: Benchmarking Long-Horizon Chain-of-Thought Reasoning
-📄 本文提出了LongCoT基准，包含2,500个专家设计的跨领域问题，通过要求模型在长推理链（可达数十万推理标记）中规划和管理步骤，直接衡量前沿语言模型的长程思维链推理能力。
-🔗 http://arxiv.org/abs/2604.14140v1
+### Generalization in LLM Problem Solving: The Case of the Shortest Path
+📄 本文通过构建基于最短路径规划的合成环境，发现大语言模型在空间迁移上表现良好，但在路径长度扩展时因递归不稳定性而失败，揭示了训练数据、训练范式与推理策略对系统泛化能力的影响。
+🔗 http://arxiv.org/abs/2604.15306v1
 
-### From Feelings to Metrics: Understanding and Formalizing How Users Vibe-Test LLMs
-📄 本文通过分析用户调查和真实模型对比报告，将用户对大型语言模型的“感觉测试”形式化为一个可系统分析的两阶段过程：用户既个性化选择测试任务，也个性化定义对模型响应的评判标准。
-🔗 http://arxiv.org/abs/2604.14137v1
+### Diagnosing LLM Judge Reliability: Conformal Prediction Sets and Transitivity Violations
+📄 本文提出了一套双管齐下的诊断工具，用于评估LLM作为评判者的可靠性：通过传递性分析揭示了在低总体违反率下普遍存在的单实例不一致性，并通过保形预测集为每个实例的评分提供理论保证的置信覆盖，其集合宽度可作为可靠性的量化指标。
+🔗 http://arxiv.org/abs/2604.15302v1

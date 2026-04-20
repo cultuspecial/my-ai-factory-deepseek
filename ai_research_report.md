@@ -1,13 +1,13 @@
-# AI 简报 (2026-04-19)
+# AI 简报 (2026-04-20)
 
-### MM-WebAgent: A Hierarchical Multimodal Web Agent for Webpage Generation
-📄 MM-WebAgent提出了一种分层多模态网页生成智能体框架，通过分层规划和迭代自反思协调AIGC元素生成，解决了现有方法因孤立生成导致风格不一致和全局协调性差的问题，实现了全局布局、局部内容与视觉一致性的联合优化，并建立了相应基准。
-🔗 http://arxiv.org/abs/2604.15309v1
+### ASMR-Bench: Auditing for Sabotage in ML Research
+📄 ASMR-Bench 是一个用于评估审计者检测机器学习研究代码中蓄意破坏能力的基准，包含9个被植入可导致不同实验结果的隐蔽性破坏的代码库，研究发现前沿大语言模型及人机协作均难以可靠识别此类破坏。
+🔗 http://arxiv.org/abs/2604.16286v1
 
-### Generalization in LLM Problem Solving: The Case of the Shortest Path
-📄 本文通过构建基于最短路径规划的受控合成环境，系统分析了语言模型在组合优化问题中的泛化能力，发现模型在空间迁移上表现良好，但在问题长度扩展时因递归不稳定性而失败，并揭示了训练数据、训练范式与推理策略对系统性泛化的不同影响。
-🔗 http://arxiv.org/abs/2604.15306v1
+### Using Large Language Models and Knowledge Graphs to Improve the Interpretability of Machine Learning Models in Manufacturing
+📄 本文提出了一种结合知识图谱与大语言模型的方法，通过构建领域知识图谱存储机器学习结果与解释，并利用大语言模型生成用户友好的解释，从而提升制造业中机器学习模型的可解释性。
+🔗 http://arxiv.org/abs/2604.16280v1
 
-### Diagnosing LLM Judge Reliability: Conformal Prediction Sets and Transitivity Violations
-📄 本文提出了一套诊断LLM作为评判者可靠性的双轨工具：通过传递性分析揭示了低总体违规率下广泛存在的单例不一致性，并通过保形预测集为1-5分评分提供理论保证的覆盖概率，其集合宽度可作为单例可靠性的量化指标。
-🔗 http://arxiv.org/abs/2604.15302v1
+### Learning to Reason with Insight for Informal Theorem Proving
+📄 本文提出一种旨在提升大语言模型在非形式化定理证明中“洞察力”的框架，通过构建层次化数据集 DeepInsightTheorem（明确提取核心证明技巧与证明概要）并采用渐进式多阶段监督微调，以解决模型在复杂问题中难以识别核心证明技术的瓶颈。
+🔗 http://arxiv.org/abs/2604.16278v1

@@ -1,13 +1,13 @@
-# AI 简报 (2026-04-20)
+# AI 简报 (2026-04-21)
 
-### ASMR-Bench: Auditing for Sabotage in ML Research
-📄 ASMR-Bench 是一个用于评估审计者检测机器学习研究代码中蓄意破坏能力的基准，包含9个被植入可导致不同实验结果的隐蔽性破坏的代码库，研究发现前沿大语言模型及人机协作均难以可靠识别此类破坏。
-🔗 http://arxiv.org/abs/2604.16286v1
+### MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval
+📄 MathNet是一个全球性多模态数学推理与检索基准，包含大规模、高质量、多语言、跨学科的奥赛级数学题目，并提供专家标注的等价题对以评估模型数学推理与检索能力。
+🔗 http://arxiv.org/abs/2604.18584v1
 
-### Using Large Language Models and Knowledge Graphs to Improve the Interpretability of Machine Learning Models in Manufacturing
-📄 本文提出了一种结合知识图谱与大语言模型的方法，通过构建领域知识图谱存储机器学习结果与解释，并利用大语言模型生成用户友好的解释，从而提升制造业中机器学习模型的可解释性。
-🔗 http://arxiv.org/abs/2604.16280v1
+### Sessa: Selective State Space Attention
+📄 Sessa提出了一种结合选择性状态空间与注意力机制的新架构，通过选择性状态空间维持长期记忆，并利用注意力机制在关键时间点进行精确信息检索，从而在保持线性复杂度的同时增强长程依赖建模能力。
+🔗 http://arxiv.org/abs/2604.18580v1
 
-### Learning to Reason with Insight for Informal Theorem Proving
-📄 本文提出一种旨在提升大语言模型在非形式化定理证明中“洞察力”的框架，通过构建层次化数据集 DeepInsightTheorem（明确提取核心证明技巧与证明概要）并采用渐进式多阶段监督微调，以解决模型在复杂问题中难以识别核心证明技术的瓶颈。
-🔗 http://arxiv.org/abs/2604.16278v1
+### Bounded Ratio Reinforcement Learning
+📄 本文提出了一种名为有界比率强化学习（BRRL）的新框架，通过引入正则化和约束的策略优化问题，并推导出其解析最优解，从理论上保证了单调性能提升，从而弥补了PPO等信任域方法与启发式裁剪目标之间的理论差距。
+🔗 http://arxiv.org/abs/2604.18578v1

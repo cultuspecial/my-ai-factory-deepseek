@@ -1,13 +1,13 @@
-# AI 简报 (2026-04-21)
+# AI 简报 (2026-04-22)
 
-### MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval
-📄 MathNet是一个全球性多模态数学推理与检索基准，包含大规模、高质量、多语言、跨学科的奥赛级数学题目，并提供专家标注的等价题对以评估模型数学推理与检索能力。
-🔗 http://arxiv.org/abs/2604.18584v1
+### Generalization at the Edge of Stability
+📄 该论文的核心贡献是：提出了一种基于李雅普诺夫维数理论的新维度概念——“锐度维数”，并证明了基于该维度的泛化界，从而揭示了在稳定性边缘的混沌优化状态下，泛化性能依赖于完整的Hessian谱而非单一最大特征值。
+🔗 http://arxiv.org/abs/2604.19740v1
 
-### Sessa: Selective State Space Attention
-📄 Sessa提出了一种结合选择性状态空间与注意力机制的新架构，通过选择性状态空间维持长期记忆，并利用注意力机制在关键时间点进行精确信息检索，从而在保持线性复杂度的同时增强长程依赖建模能力。
-🔗 http://arxiv.org/abs/2604.18580v1
+### UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling
+📄 本文提出UniT框架，通过视觉锚定构建统一动作表征，利用跨模态重建机制（动作预测视觉结果、视觉重构动作）消除运动学差异，实现人类数据到人形机器人的策略迁移与物理世界建模。
+🔗 http://arxiv.org/abs/2604.19734v1
 
-### Bounded Ratio Reinforcement Learning
-📄 本文提出了一种名为有界比率强化学习（BRRL）的新框架，通过引入正则化和约束的策略优化问题，并推导出其解析最优解，从理论上保证了单调性能提升，从而弥补了PPO等信任域方法与启发式裁剪目标之间的理论差距。
-🔗 http://arxiv.org/abs/2604.18578v1
+### FASTER: Value-Guided Sampling for Fast RL
+📄 本文提出FASTER方法，通过将扩散策略去噪过程中的多动作候选采样建模为马尔可夫决策过程，并利用值函数在去噪早期筛选高潜力动作，从而在保持采样方法性能优势的同时显著降低计算成本。
+🔗 http://arxiv.org/abs/2604.19730v1

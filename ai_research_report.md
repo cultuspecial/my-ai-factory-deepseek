@@ -1,13 +1,13 @@
-# AI 简报 (2026-04-22)
+# AI 简报 (2026-04-23)
 
-### Generalization at the Edge of Stability
-📄 该论文的核心贡献是：提出了一种基于李雅普诺夫维数理论的新维度概念——“锐度维数”，并证明了基于该维度的泛化界，从而揭示了在稳定性边缘的混沌优化状态下，泛化性能依赖于完整的Hessian谱而非单一最大特征值。
-🔗 http://arxiv.org/abs/2604.19740v1
+### SpeechParaling-Bench: A Comprehensive Benchmark for Paralinguistic-Aware Speech Generation
+📄 该论文提出了SpeechParaling-Bench，一个用于副语言感知语音生成的综合性基准，通过将特征覆盖从不足50个扩展至超过100个细粒度特征，并引入包含1000余条中英文平行语音查询的数据集，构建了三个渐进式任务，同时开发了基于固定基线的成对比较评估流程以提升评估可靠性。
+🔗 http://arxiv.org/abs/2604.20842v1
 
-### UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling
-📄 本文提出UniT框架，通过视觉锚定构建统一动作表征，利用跨模态重建机制（动作预测视觉结果、视觉重构动作）消除运动学差异，实现人类数据到人形机器人的策略迁移与物理世界建模。
-🔗 http://arxiv.org/abs/2604.19734v1
+### AVISE: Framework for Evaluating the Security of AI Systems
+📄 AVISE是一个模块化开源框架，用于系统评估AI系统的安全性，并通过扩展“红皇后攻击”与自动化安全测试集（含25个测试用例）来检测语言模型的越狱漏洞。
+🔗 http://arxiv.org/abs/2604.20833v1
 
-### FASTER: Value-Guided Sampling for Fast RL
-📄 本文提出FASTER方法，通过将扩散策略去噪过程中的多动作候选采样建模为马尔可夫决策过程，并利用值函数在去噪早期筛选高潜力动作，从而在保持采样方法性能优势的同时显著降低计算成本。
-🔗 http://arxiv.org/abs/2604.19730v1
+### FedSIR: Spectral Client Identification and Relabeling for Federated Learning with Noisy Labels
+📄 FedSIR提出一种基于特征谱结构的联邦学习噪声标签处理框架，通过分析客户端类别特征子空间的谱一致性识别噪声客户端，并利用干净客户端的谱参考对噪声客户端进行标签重标注，从而提升噪声标签下的联邦学习鲁棒性。
+🔗 http://arxiv.org/abs/2604.20825v1

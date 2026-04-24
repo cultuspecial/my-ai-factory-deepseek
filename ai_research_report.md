@@ -1,13 +1,13 @@
-# AI 简报 (2026-04-23)
+# AI 简报 (2026-04-24)
 
-### SpeechParaling-Bench: A Comprehensive Benchmark for Paralinguistic-Aware Speech Generation
-📄 该论文提出了SpeechParaling-Bench，一个用于副语言感知语音生成的综合性基准，通过将特征覆盖从不足50个扩展至超过100个细粒度特征，并引入包含1000余条中英文平行语音查询的数据集，构建了三个渐进式任务，同时开发了基于固定基线的成对比较评估流程以提升评估可靠性。
-🔗 http://arxiv.org/abs/2604.20842v1
+### Seeing Fast and Slow: Learning the Flow of Time in Videos
+📄 该论文提出了一种自监督学习方法，让模型从视频中学习时间流速概念，实现速度变化检测与播放速度估计，并基于此构建了迄今最大的慢动作视频数据集。
+🔗 http://arxiv.org/abs/2604.21931v1
 
-### AVISE: Framework for Evaluating the Security of AI Systems
-📄 AVISE是一个模块化开源框架，用于系统评估AI系统的安全性，并通过扩展“红皇后攻击”与自动化安全测试集（含25个测试用例）来检测语言模型的越狱漏洞。
-🔗 http://arxiv.org/abs/2604.20833v1
+### When Prompts Override Vision: Prompt-Induced Hallucinations in LVLMs
+📄 这篇论文提出HalluScope基准，揭示了大型视觉语言模型中的幻觉主要源于对文本指令先验知识的过度依赖，而非视觉编码器的局限。
+🔗 http://arxiv.org/abs/2604.21911v1
 
-### FedSIR: Spectral Client Identification and Relabeling for Federated Learning with Noisy Labels
-📄 FedSIR提出一种基于特征谱结构的联邦学习噪声标签处理框架，通过分析客户端类别特征子空间的谱一致性识别噪声客户端，并利用干净客户端的谱参考对噪声客户端进行标签重标注，从而提升噪声标签下的联邦学习鲁棒性。
-🔗 http://arxiv.org/abs/2604.20825v1
+### From Research Question to Scientific Workflow: Leveraging Agentic AI for Science Automation
+📄 该论文提出了一种三层智能代理架构，通过将LLM的非确定性限制在意图提取阶段，从而自动将自然语言研究问题转化为可复现的科学工作流DAG，弥合了科研语义理解与自动化执行间的鸿沟。
+🔗 http://arxiv.org/abs/2604.21910v1

@@ -1,13 +1,13 @@
-# AI 简报 (2026-04-29)
+# AI 简报 (2026-04-30)
 
-### Recursive Multi-Agent Systems
-📄 RecursiveMAS提出了一种将递归扩展从单模型推广到多智能体系统的方法，通过轻量级RecursiveLink模块实现智能体间隐层状态传递与循环协作，并设计内外环联合优化算法实现全系统协同学习，从而证明智能体协作本身可像模型深度一样通过递归进行规模化扩展。
-🔗 http://arxiv.org/abs/2604.25917v1
+### Turning the TIDE: Cross-Architecture Distillation for Diffusion Large Language Models
+📄 TIDE首次提出跨架构扩散大语言模型蒸馏框架，通过联合调制蒸馏强度与互补掩码拆分，有效解决了教师与学生在架构、注意力机制和分词器不同时的知识迁移难题。
+🔗 http://arxiv.org/abs/2604.26951v1
 
-### How Fast Should a Model Commit to Supervision? Training Reasoning Models on the Tsallis Loss Continuum
-📄 该论文通过定义 Tsallis 损失函数族 $J_Q$，揭示了从强化学习到密度估计的连续过渡机制，并证明利用标量放大因子 $P_{\theta^{-q}}$ 可显著加速冷启动阶段（初始成功率低时）的推理模型训练，克服了传统 RLVR 方法需 $\Omega(1/p_0)$ 时间的瓶颈问题。
-🔗 http://arxiv.org/abs/2604.25907v1
+### Causal Learning with Neural Assemblies
+📄 该论文首次证明，通过神经集群固有的操作（投影、局部可塑性控制与稀疏胜者选择）即可实现因果方向的内部化学习，提出了仅依赖局部可塑性的DIRECT机制，无需反向传播即可学习变量间的有向因果关系。
+🔗 http://arxiv.org/abs/2604.26919v1
 
-### Toward a Functional Geometric Algebra for Natural Language Semantics
-📄 该论文提出功能性几何代数（FGA）框架，以克利福德代数替代传统线性代数，为自然语言语义提供具备类型化、组合性与可解释性的数学基础，同时兼容分布式学习与神经网络方法。
-🔗 http://arxiv.org/abs/2604.25902v1
+### ClawGym: A Scalable Framework for Building Effective Claw Agents
+📄 ClawGym提出了一个可扩展的框架，通过合成13.5K可验证训练数据、集成模拟工作区与混合验证机制，并训练出高效的Claw智能体模型，完整覆盖了基于文件/工具的多步骤个人智能体开发全生命周期。
+🔗 http://arxiv.org/abs/2604.26904v1

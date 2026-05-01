@@ -1,13 +1,13 @@
-# AI 简报 (2026-04-30)
+# AI 简报 (2026-05-01)
 
-### Turning the TIDE: Cross-Architecture Distillation for Diffusion Large Language Models
-📄 TIDE首次提出跨架构扩散大语言模型蒸馏框架，通过联合调制蒸馏强度与互补掩码拆分，有效解决了教师与学生在架构、注意力机制和分词器不同时的知识迁移难题。
-🔗 http://arxiv.org/abs/2604.26951v1
+### Computing Equilibrium beyond Unilateral Deviation
+📄 本文提出并分析了一种通过最小化联盟偏离的平均收益来确保存在性的均衡概念，拓展了加权平均与联盟内最大收益的情形，弥补了传统均衡概念无法抵御多边联合偏离的缺陷。
+🔗 http://arxiv.org/abs/2604.28186v1
 
-### Causal Learning with Neural Assemblies
-📄 该论文首次证明，通过神经集群固有的操作（投影、局部可塑性控制与稀疏胜者选择）即可实现因果方向的内部化学习，提出了仅依赖局部可塑性的DIRECT机制，无需反向传播即可学习变量间的有向因果关系。
-🔗 http://arxiv.org/abs/2604.26919v1
+### Synthetic Computers at Scale for Long-Horizon Productivity Simulation
+📄 该论文提出了一种可扩展的合成计算机环境生成方法，通过构建逼真的文件夹层级与多类型文档（如文档、表格、演示文稿），并模拟长达约一个月的人类工作效率任务，为长期生产力场景的合成数据创建提供了规模化方法论。
+🔗 http://arxiv.org/abs/2604.28181v1
 
-### ClawGym: A Scalable Framework for Building Effective Claw Agents
-📄 ClawGym提出了一个可扩展的框架，通过合成13.5K可验证训练数据、集成模拟工作区与混合验证机制，并训练出高效的Claw智能体模型，完整覆盖了基于文件/工具的多步骤个人智能体开发全生命周期。
-🔗 http://arxiv.org/abs/2604.26904v1
+### LLM as Clinical Graph Structure Refiner: Enhancing Representation Learning in EEG Seizure Diagnosis
+📄 该论文提出利用大语言模型作为图结构精炼器，通过两阶段框架自动识别并删除脑电信号中冗余的图连接，从而显著提升癫痫诊断中的表征学习质量。
+🔗 http://arxiv.org/abs/2604.28178v1

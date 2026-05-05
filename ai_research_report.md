@@ -1,13 +1,13 @@
-# AI 简报 (2026-05-04)
+# AI 简报 (2026-05-05)
 
-### Persistent Visual Memory: Sustaining Perception for Deep Generation in LVLMs
-📄 论文贡献：提出轻量级可学习模块**持久视觉记忆（PVM）**，通过并行于前馈网络的距离无关检索路径，在自回归视觉语言模型中结构性缓解“视觉信号稀释”问题，确保深度生成过程中视觉感知的持续性与精准性。
-🔗 http://arxiv.org/abs/2605.00814v1
+### SpecKV: Adaptive Speculative Decoding with Compression-Aware Gamma Selection
+📄 SpecKV提出了一种轻量级自适应控制器，通过从草稿模型自身提取信号动态调整每步投机解码长度γ，解决了固定γ在不同任务类型和目标模型压缩级别下效率不佳的问题。
+🔗 http://arxiv.org/abs/2605.02888v1
 
-### Can Coding Agents Reproduce Findings in Computational Materials Science?
-📄 该论文提出AutoMat基准，评估LLM代码智能体能否复现计算材料科学中的研究结论，揭示其在处理领域特定流程、还原未完全指定的计算步骤及判断证据对科学结论支持性等方面的能力局限。
-🔗 http://arxiv.org/abs/2605.00803v1
+### Enhancing RL Generalizability in Robotics through SHAP Analysis of Algorithms and Hyperparameters
+📄 这篇论文提出基于SHAP的可解释框架，首次量化强化学习算法与超参数配置对机器人环境泛化能力的贡献，为选择高泛化性配置提供理论与实证依据。
+🔗 http://arxiv.org/abs/2605.02867v1
 
-### When RAG Chatbots Expose Their Backend: An Anonymized Case Study of Privacy and Security Risks in Patient-Facing Medical AI
-📄 这篇论文通过匿名化案例研究揭示了患者面对医疗RAG聊天机器人中存在的隐私与安全风险，包括后端暴露、API漏洞和浏览器可见的数据泄露，为医疗领域生成式AI的安全部署提供了治理经验。
-🔗 http://arxiv.org/abs/2605.00796v1
+### Standing on the Shoulders of Giants: Stabilized Knowledge Distillation for Cross--Language Code Clone Detection
+📄 该论文提出了一种知识蒸馏框架，将大型语言模型的推理能力迁移至轻量开源模型，解决了跨语言代码克隆检测中因模型黑箱化导致的成本、隐私和输出不稳定问题。
+🔗 http://arxiv.org/abs/2605.02860v1

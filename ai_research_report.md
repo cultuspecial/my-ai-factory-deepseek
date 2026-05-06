@@ -1,13 +1,13 @@
-# AI 简报 (2026-05-05)
+# AI 简报 (2026-05-06)
 
-### SpecKV: Adaptive Speculative Decoding with Compression-Aware Gamma Selection
-📄 SpecKV提出了一种轻量级自适应控制器，通过从草稿模型自身提取信号动态调整每步投机解码长度γ，解决了固定γ在不同任务类型和目标模型压缩级别下效率不佳的问题。
-🔗 http://arxiv.org/abs/2605.02888v1
+### Safety and accuracy follow different scaling laws in clinical large language models
+📄 该论文提出并验证了临床大语言模型中安全性与准确性遵循不同缩放规律的核心观点，揭示了仅通过提升模型规模、上下文长度或推理计算量并不能保证更安全的临床行为，并构建了SaFE-Scale框架及RadSaFE-200基准来系统评估临床LLM在不同扩展维度下的安全风险。
+🔗 http://arxiv.org/abs/2605.04039v1
 
-### Enhancing RL Generalizability in Robotics through SHAP Analysis of Algorithms and Hyperparameters
-📄 这篇论文提出基于SHAP的可解释框架，首次量化强化学习算法与超参数配置对机器人环境泛化能力的贡献，为选择高泛化性配置提供理论与实证依据。
-🔗 http://arxiv.org/abs/2605.02867v1
+### OpenSeeker-v2: Pushing the Limits of Search Agents with Informative and High-Difficulty Trajectories
+📄 该论文表明，通过引入知识图谱规模扩展、工具集扩充和严格低步数过滤三种简单的数据合成改进，仅用10.6条高质量高难度轨迹进行监督微调，即可显著提升搜索代理性能，挑战了传统需要大规模预训练与强化学习的行业范式。
+🔗 http://arxiv.org/abs/2605.04036v1
 
-### Standing on the Shoulders of Giants: Stabilized Knowledge Distillation for Cross--Language Code Clone Detection
-📄 该论文提出了一种知识蒸馏框架，将大型语言模型的推理能力迁移至轻量开源模型，解决了跨语言代码克隆检测中因模型黑箱化导致的成本、隐私和输出不稳定问题。
-🔗 http://arxiv.org/abs/2605.02860v1
+### Redefining AI Red Teaming in the Agentic Era: From Weeks to Hours
+📄 该论文提出了一种基于Dreadnode SDK的AI红队智能体，通过整合45+攻击方法、450+变换和130+评分器，将传统数周的手动对抗测试工作流构建时间缩短至数小时，使操作者能更专注于多智能体、多语言和多模态目标的漏洞探测。
+🔗 http://arxiv.org/abs/2605.04019v1

@@ -1,13 +1,14 @@
-# AI 简报 (2026-05-07)
+# AI 简报 (2026-05-08)
 
-### Taming Outlier Tokens in Diffusion Transformers
-📄 该论文揭示了扩散变换器（DiTs）在图像生成中，编码器与去噪器均会产生异常高范数的离群令牌，且问题根源并非少数极端值，而是局部图像块信息的结构性损坏，为提升生成模型性能提供了新思路。
-🔗 http://arxiv.org/abs/2605.05206v1
+### ActCam: Zero-Shot Joint Camera and 3D Motion Control for Video Generation
+📄 ActCam提出零样本联合控制方法，首次实现从驱动视频转移角色动作至新场景的同时，对每帧相机内参和外参进行独立控制。
+🔗 http://arxiv.org/abs/2605.06667v1
 
-### Grokability in five inequalities
-📄 该论文报告了与Grok合作发现的五项数学成果（均已验证），包括高斯凸集周长下界改进、Hamming立方体上更优的L₂-L₁矩比较不等式、加强的自卷积不等式、g-Sidon集最大尺寸的渐近界改进，以及最优平衡Szarek不等式。
-🔗 http://arxiv.org/abs/2605.05193v1
+### UniPool: A Globally Shared Expert Pool for Mixture-of-Experts
+📄 **论文贡献一句话总结：**  
+UniPool 提出了一种全局共享专家池的 MoE 架构，打破传统逐层专属专家设置，通过解耦深度扩展与专家参数增长，在保持性能的同时显著降低专家冗余和参数开销。
+🔗 http://arxiv.org/abs/2605.06665v1
 
-### Almost-Orthogonality in Lp Spaces: A Case Study with Grok
-📄 该论文通过构造反例和建立临界指数下的不等式，完整刻画了Lp空间中Carbery改进三角不等式成立的条件，证明当p>2时指数c必须满足c≤p'，并在c=p'时对所有整数p≥2给出了最优估计。
-🔗 http://arxiv.org/abs/2605.05192v1
+### BAMI: Training-Free Bias Mitigation in GUI Grounding
+📄 提出一种无需训练的偏差感知操作推理方法（BAMI），通过粗到细聚焦和候选选择两项技术，有效缓解了高分辨率与复杂界面导致GUI定位模型中的精度偏差和歧义偏差问题。
+🔗 http://arxiv.org/abs/2605.06664v1

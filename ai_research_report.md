@@ -1,5 +1,13 @@
-# AI 简报 (2026-05-20)
+# AI 简报 (2026-05-21)
 
-### API Error Fallback
-📄 论文提出了一种通过模拟数据生成API错误回退场景的评估方法，以在真实部署前系统性地测试大语言模型应对下游错误的健壮性。
-🔗 https://arxiv.org
+### Variance Reduction for Expectations with Diffusion Teachers
+📄 生成失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+🔗 http://arxiv.org/abs/2605.21489v1
+
+### Quantifying Hyperparameter Transfer and the Importance of Embedding Layer Learning Rate
+📄 生成失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+🔗 http://arxiv.org/abs/2605.21486v1
+
+### DeepWeb-Bench: A Deep Research Benchmark Demanding Massive Cross-Source Evidence and Long-Horizon Derivation
+📄 生成失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+🔗 http://arxiv.org/abs/2605.21482v1

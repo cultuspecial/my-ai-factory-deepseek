@@ -1,27 +1,7 @@
 [
   {
-    "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
-    "summary": "Agent skills today are hand-crafted, generated one-shot, or evolved through loosely controlled self-revision, none of which behaves like a deep-learning optimizer for the skill, and none of which reliably improves over its starting point under feedback. We argue the skill should instead be trained as the external state of a frozen agent, with the same discipline that makes weight-space optimization reproducible. SkillOpt is, to our knowledge, the first systematic controllable text-space optimizer for agent skills: a separate optimizer model turns scored rollouts into bounded add/delete/replace edits on a single skill document, and an edit is accepted only when it strictly improves a held-out validation score. A textual learning-rate budget, rejected-edit buffer, and epoch-wise slow/meta up",
-    "link": "http://arxiv.org/abs/2605.23904v1"
-  },
-  {
-    "title": "LLMs as Noisy Channels: A Shannon Perspective on Model Capacity and Scaling Laws",
-    "summary": "Existing scaling laws for Large Language Models (LLMs), predominantly monotonic power laws, fail to explain emerging non-monotonic phenomena such as catastrophic overtraining and quantization-induced degradation, where performance deteriorates despite increased compute.   We propose the Shannon Scaling Law, a unified theoretical framework that models LLM training as information transmission over a noisy channel, grounded in the Shannon-Hartley theorem. By mapping model parameters to channel bandwidth and training tokens to signal power, our formulation explicitly captures the interaction between learning signal and intrinsic noise. This perspective reveals a fundamental Shannon capacity for LLMs: scaling model size or data without preserving a sufficient signal-to-noise ratio (SNR) inevita",
-    "link": "http://arxiv.org/abs/2605.23901v1"
-  },
-  {
-    "title": "From Raw Experience to Skill Consumption: A Systematic Study of Model-Generated Agent Skills",
-    "summary": "Language agents increasingly improve by reusing \\emph{skills} -- structured procedural artifacts distilled from past experience. In particular, \\emph{domain-level} and \\emph{model-generated} skills are especially promising. They offer fast adaptation within a domain by encoding domain-specific recurring procedures, and they scale beyond labor-intensive hand-crafting. However, while extraction methods continue to proliferate, understanding remains limited, with no comprehensive study spanning the full skill lifecycle -- \\textbf{experience generation}, \\textbf{skill extraction}, and \\textbf{skill consumption} -- to ask whether such skills actually work, when they work, and what makes them succeed or fail. To close this gap, we build a utility-grounded evaluation framework that provides syste",
-    "link": "http://arxiv.org/abs/2605.23899v1"
-  },
-  {
-    "title": "SPACENUM: Revisiting Spatial Numerical Understanding in VLMs",
-    "summary": "Vision-Language Models (VLMs) are increasingly deployed in embodied environments, where they need produce numerical outputs such as action magnitudes and spatial coordinates. Although these numbers appear meaningful, it remains unclear whether these numerical outputs are genuinely grounded in spatial perception. Therefore, in this work, we revisit spatial numerical understanding through SpaceNum, a unified framework that captures two complementary settings: numbers as dynamic transitions during spatial exploration, and numbers as static layouts in spatial reasoning. We formulate two bidirectional tasks, Num2Space and Space2Num, to evaluate how well VLMs map between vision-side spatial structure and language-side numerical representations. We systematically study whether current VLMs truly ",
-    "link": "http://arxiv.org/abs/2605.23898v1"
-  },
-  {
-    "title": "ETCHR: Editing To Clarify and Harness Reasoning",
-    "summary": "Multimodal Large Language Models have advanced visual reasoning, yet a purely textual chain of thought remains a bottleneck for questions that require fine-grained focus or view transformations. The ''think with images'' paradigm narrows this gap, but existing approaches are either constrained by fixed predefined toolkits or produce noisy intermediate images from unified multimodal methods. We pursue a third option: using a dedicated image editing model and decouple it with an understanding model. However, off-the-shelf image editors fail as reasoning assistants with two complementary gaps: a language-side gap, where editors trained as passive instruction-followers cannot map an abstract question to an appropriate visual transformation, and a generation-side gap, where edit correctness deg",
-    "link": "http://arxiv.org/abs/2605.23897v1"
+    "title": "API Error Fallback",
+    "summary": "Simulation data.",
+    "link": "https://arxiv.org"
   }
 ]

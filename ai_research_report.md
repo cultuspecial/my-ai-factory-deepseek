@@ -1,13 +1,13 @@
-# AI 简报 (2026-05-27)
+# AI 简报 (2026-05-28)
 
-### Algorithmic Monocultures in Hiring
-📄 该论文通过分析同一算法供应商处理的300万求职者数据，揭示了招聘算法单一化（算法垄断）会导致特定种族群体（如亚裔和黑人）面临系统性排斥，以及同一求职者在多次申请中收到一致拒绝结果。
-🔗 http://arxiv.org/abs/2605.27371v1
+### Beyond Binary: Sim-to-Real Dexterous Manipulation with Physics-Grounded Contact Representation
+📄 该论文提出了一种基于物理原理的接触表示方法（压力中心，CoP），在保持丰富接触信息的同时实现了鲁棒的仿真到现实迁移，从而解决了复杂灵巧操作中触觉数据难以从仿真有效迁移到真实世界的关键瓶颈。
+🔗 http://arxiv.org/abs/2605.28812v1
 
-### MUSE-Autoskill: Self-Evolving Agents via Skill Creation, Memory, Management, and Evaluation
-📄 MUSE-Autoskill提出了一种以技能为中心、包含创建、记忆、管理与评估统一生命周期的自进化智能体框架，通过将技能从静态孤立的工件转变为可测试、可复用、可持续改进的动态模块，显著提升了LLM智能体在复杂任务中的长期能力。
-🔗 http://arxiv.org/abs/2605.27366v1
+### Calibrating Conservatism for Scalable Oversight
+📄 论文提出 **Calibrated Collective Oversight (CCO)** 框架，通过将多个辅助评分函数聚合为惩罚项，在保持高收益行为可接受的同时，实现对超能力智能体行为的保守性校准，从而为可扩展的人类监督提供了首个兼具统计保障与实用性的序贯决策解决方案。
+🔗 http://arxiv.org/abs/2605.28807v1
 
-### LocateAnything: Fast and High-Quality Vision-Language Grounding with Parallel Box Decoding
-📄 LocateAnything提出并行框解码（PBD）方法，将视觉定位与检测从串行坐标词元生成改为单步原子级几何单元解码，在保持框内几何一致性的同时显著提升了推理吞吐量和定位精度，并验证了该框架的可扩展性。
-🔗 http://arxiv.org/abs/2605.27365v1
+### OmniVerifier-M1: Multimodal Meta-Verifier with Explicit Structured Recalibration
+📄 该论文贡献在于提出**OmniVerifier-M1**，一种多模态元验证器，通过引入**结构化符号重新校准**（如边界框等符号输出）作为元验证依据，替代文本解释，并结合**解耦强化学习目标**分别优化二元判断与元验证，从而在无需辅助评判模型的情况下实现高效、可靠的视觉验证。
+🔗 http://arxiv.org/abs/2605.28805v1

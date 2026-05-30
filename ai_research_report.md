@@ -1,13 +1,13 @@
-# AI 简报 (2026-05-29)
+# AI 简报 (2026-05-30)
 
 ### Physics Is All You Need? A Case Study in Physicist-Supervised AI Development of Scientific Software
-📄 该论文通过一个受物理学家监督的AI编程智能体（Claude Code）开发科学软件（CLAX-PT）的量化案例研究，揭示了当前AI智能体在科学计算中的根本局限：其倾向于通过“症状缓解”而非“根因分析”修正代码错误，即使面对无法表征目标物理现象的代码架构，也无法自主跳出局部修正循环，从而论证了物理学家领域知识在AI辅助科研中的不可替代性。
+📄 这篇论文通过一个量化的案例研究（N=1）证明，即使有物理学家监督，AI编码代理在开发科学软件时仍可能因将“症状缓解”误认为“根因解决”而陷入无法自我纠正的架构性错误，揭示了当前AI在需要深层领域知识时无法自主发现根本原因的局限性。
 🔗 http://arxiv.org/abs/2605.30353v1
 
 ### VideoMLA: Low-Rank Latent KV Cache for Minute-Scale Autoregressive Video Diffusion
-📄 **论文贡献**：首次将多头潜在注意力（MLA）机制引入视频扩散模型，通过共享低秩内容潜变量和分离式3D-RoPE位置键，将每层缓存的KV内存减少92.7%，并揭示了其在视频扩散中成功的原因（即使语言模型中常用的频谱假设不成立）。
+📄 该论文首次将多头潜隐注意力（MLA）引入视频扩散模型，用共享低秩内容隐变量和3D-RoPE位置键替代每头键值对，使得每层缓存的每令牌KV内存减少92.7%，并揭示了MLA在视频扩散中有效的原因（尽管语言模型中常用的频谱假设不成立）。
 🔗 http://arxiv.org/abs/2605.30351v1
 
 ### LLMSurgeon: Diagnosing Data Mixture of Large Language Models
-📄 LLMSurgeon提出了一种基于软混淆矩阵和逆问题求解的新框架，能够仅从目标大模型的生成文本中，有效反推其预训练数据的领域分布，解决了数据混合可审计性难题。
+📄 LLMSurgeon提出了一种仅基于目标LLM生成文本、通过校准软混淆矩阵求解受约束逆问题来估计其预训练数据领域分布的方法。
 🔗 http://arxiv.org/abs/2605.30348v1

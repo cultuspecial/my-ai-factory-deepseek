@@ -1,13 +1,13 @@
-# AI 简报 (2026-05-31)
+# AI 简报 (2026-06-01)
 
-### Physics Is All You Need? A Case Study in Physicist-Supervised AI Development of Scientific Software
-📄 这篇论文通过一个量化的案例研究（由物理学家监督AI编码代理开发科学软件），揭示了当前AI代理的关键局限：它倾向于“治标不治本地”优化表面症状，而无法对底层物理架构进行根本性反思，导致在无法表征目标物理的代码框架中徒劳调整系数，且其错误能绕过自动化测试的检测。
-🔗 http://arxiv.org/abs/2605.30353v1
+### Lumos-Nexus: Efficient Frequency Bridging with Homogeneous Latent Space for Video Unified Models
+📄 Lumos-Nexus提出了一种高效的两阶段视频统一模型框架，通过仅在训练阶段对齐轻量级生成器以降低计算成本，并在推理阶段利用渐进式频率桥接技术将生成任务转移至高端生成器，从而在保持强推理驱动生成能力的同时显著提升视频视觉保真度。
+🔗 http://arxiv.org/abs/2605.31603v1
 
-### VideoMLA: Low-Rank Latent KV Cache for Minute-Scale Autoregressive Video Diffusion
-📄 该论文提出VideoMLA，首次将多头潜在注意力（MLA）引入视频扩散模型，通过共享低秩内容潜变量和分离的3D旋转位置编码键，将每层缓存的键值（KV）内存降低92.7%，实现了分钟级自回归视频生成。
-🔗 http://arxiv.org/abs/2605.30351v1
+### Stateful Online Monitoring Catches Distributed Agent Attacks
+📄 本文提出了一种新型分布式智能体攻击方法，能通过分裂恶意任务到多个账户和有限上下文中规避现有单上下文安全监控，并开发了首个有状态在线监控系统，可在跨账户聚合行为中有效检测此类隐蔽攻击。
+🔗 http://arxiv.org/abs/2605.31593v1
 
-### LLMSurgeon: Diagnosing Data Mixture of Large Language Models
-📄 LLMSurgeon提出了一种名为“数据混合手术”（DMS）的方法，仅通过目标大语言模型生成的文本，就能在标签偏移假设下逆向估计其预训练语料中的领域分布，解决了模型预训练数据组成不透明的问题。
-🔗 http://arxiv.org/abs/2605.30348v1
+### TunerDiT: Training-free Progressive Steering of Diffusion Transformer for Multi-Event Video Generation
+📄 TunerDiT提出了一种无需额外训练、基于扩散变压器内在去噪转折点的渐进式引导方法，通过事件分区掩码与跨事件提示融合实现多事件视频生成中的平滑过渡与细节优化。
+🔗 http://arxiv.org/abs/2605.31590v1

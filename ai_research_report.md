@@ -1,13 +1,14 @@
-# AI 简报 (2026-06-07)
+# AI 简报 (2026-06-08)
 
-### HANDOFF: Humanoid Agentic Task-Space Whole-Body Control via Distilled Complementary Teachers
-📄 HANDOFF提出了一种紧凑、直观且通用的任务空间控制接口，并通过多教师知识蒸馏与上下文门控机制融合全身运动跟踪、行走与跌倒恢复三种技能，使单一的人形机器人全身控制器能够高效执行多样的灵巧操作任务。
-🔗 http://arxiv.org/abs/2606.06493v1
+### How reliable are LLMs when it comes to playing dice?
+📄 这篇论文通过对比标准与反直觉概率问题，揭示了大型语言模型在离散概率推理中存在严重局限：尽管在标准问题上准确率高达0.96，但在反直觉问题上骤降至0.59，且易受**标记偏差**和**提示误导**的显著影响（性能分别下降超20%和34%），表明模型缺乏真正的概率理解能力。
+🔗 http://arxiv.org/abs/2606.07515v1
 
-### Code2LoRA: Hypernetwork-Generated Adapters for Code Language Models under Software Evolution
-📄 Code2LoRA提出超网络框架，能零推理开销地为代码语言模型生成仓库级LoRA适配器，并支持代码演化的增量更新。
-🔗 http://arxiv.org/abs/2606.06492v1
+### MemDreamer: Decoupling Perception and Reasoning for Long Video Understanding via Hierarchical Graph Memory and Agentic Retrieval Mechanism
+📄 **论文贡献总结：**
+MemDreamer提出了一种解耦感知与推理的分层图记忆与智能体检索机制，通过将长视频理解转化为智能体式探索过程，构建自上而下的三阶语义抽象图以抑制令牌爆炸与注意力稀释，并引入基于观察-推理-行动循环的工具增强检索，显著提升了长视频理解任务中的性能，达到当前最佳水平。
+🔗 http://arxiv.org/abs/2606.07512v1
 
-### TempoVLA: Learning Speed-Controllable Vision-Language-Action Policies
-📄 TempoVLA提出了一种通过显式速度条件控制单一视觉-语言-动作模型执行速度的新方法，解决了现有VLA模型仅能按固定速度运行、无法在高速传输阶段与低速精确接触阶段之间灵活切换的问题。
-🔗 http://arxiv.org/abs/2606.06491v1
+### Sparse Subspace-to-Expert Sharing for Task-Agnostic Continual Learning
+📄 SETA框架通过将LLM参数分解为任务专属专家与共享专家的自适应稀疏子空间，在任务不可知持续学习中有效解决了可塑性-稳定性冲突。
+🔗 http://arxiv.org/abs/2606.07500v1

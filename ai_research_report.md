@@ -1,14 +1,13 @@
-# AI 简报 (2026-06-08)
+# AI 简报 (2026-06-09)
 
-### How reliable are LLMs when it comes to playing dice?
-📄 这篇论文通过对比标准与反直觉概率问题，揭示了大型语言模型在离散概率推理中存在严重局限：尽管在标准问题上准确率高达0.96，但在反直觉问题上骤降至0.59，且易受**标记偏差**和**提示误导**的显著影响（性能分别下降超20%和34%），表明模型缺乏真正的概率理解能力。
-🔗 http://arxiv.org/abs/2606.07515v1
+### OmniGameArena: A Unified UE5 Benchmark for VLM Game Agents with Improvement Dynamics
+📄 OmniGameArena提出了一个统一的UE5游戏基准测试平台，并引入“改进动态曲线”（IDC）机制，能够公平评估多种VLM代理（商业、开源及专用游戏策略）在单机、对战和合作三类游戏中的冷启动表现及多轮自主反思提升能力。
+🔗 http://arxiv.org/abs/2606.09826v1
 
-### MemDreamer: Decoupling Perception and Reasoning for Long Video Understanding via Hierarchical Graph Memory and Agentic Retrieval Mechanism
-📄 **论文贡献总结：**
-MemDreamer提出了一种解耦感知与推理的分层图记忆与智能体检索机制，通过将长视频理解转化为智能体式探索过程，构建自上而下的三阶语义抽象图以抑制令牌爆炸与注意力稀释，并引入基于观察-推理-行动循环的工具增强检索，显著提升了长视频理解任务中的性能，达到当前最佳水平。
-🔗 http://arxiv.org/abs/2606.07512v1
+### An Agency-Transferring Model-Free Policy Enhancement Technique
+📄 这篇论文提出一种无模型的策略增强技术，通过逐步将控制权从基线策略转移至学习策略，在不依赖环境模型的情况下高效提升强化学习训练效率，最终得到一个性能优于基线的独立学习策略。
+🔗 http://arxiv.org/abs/2606.09825v1
 
-### Sparse Subspace-to-Expert Sharing for Task-Agnostic Continual Learning
-📄 SETA框架通过将LLM参数分解为任务专属专家与共享专家的自适应稀疏子空间，在任务不可知持续学习中有效解决了可塑性-稳定性冲突。
-🔗 http://arxiv.org/abs/2606.07500v1
+### PTL-Diffusion: Manifold-Aware Diffusion with Periodic Terminal Laws
+📄 PTL-Diffusion提出了一种周期性终端律的流形感知扩散框架，通过前向加噪过程收敛至非恒定的周期性高斯终端分布族，而非单一不变分布，从而更显式地编码数据低维流形的局部几何与语义结构，降低反向模型对流形重构的依赖。
+🔗 http://arxiv.org/abs/2606.09816v1

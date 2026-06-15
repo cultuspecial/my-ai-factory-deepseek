@@ -1,13 +1,13 @@
-# AI 简报 (2026-06-14)
+# AI 简报 (2026-06-15)
 
-### Learning to Reason by Analogy via Retrieval-Augmented Reinforcement Fine-Tuning
-📄 该论文提出了一种名为“检索增强的强化微调”（RA-RFT）的后训练框架，通过基于预期推理收益而非语义相似性的检索器训练，并结合强化微调方法使语言模型学会类比推理，从而克服了传统RAG在复杂推理任务中检索不匹配的问题。
-🔗 http://arxiv.org/abs/2606.13680v1
+### ClinHallu: A Benchmark for Diagnosing Stage-Wise Hallucinations in Medical MLLM Reasoning
+📄 ClinHallu构建了首个支持分阶段诊断医学多模态大模型推理中幻觉来源的基准数据集，包含7031个标注了视觉识别、知识召回与推理整合三阶段错误来源的实例。
+🔗 http://arxiv.org/abs/2606.14697v1
 
-### Mana: Dexterous Manipulation of Articulated Tools
-📄 Mana通过将灵巧操作视为动画问题，利用粗到细的流水线自动生成抓取关键帧并规划操控轨迹，首次在仿真到现实的框架中实现了对多关节工具的高效物理操作。
-🔗 http://arxiv.org/abs/2606.13677v1
+### Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+📄 PCMA 提出了一种在合作式多目标多智能体强化学习中学习协调的智能体特异性偏好以引导互补性折衷的方法，并通过理论证明了偏好多样性可诱导团队改进。
+🔗 http://arxiv.org/abs/2606.14693v1
 
-### SpatialClaw: Rethinking Action Interface for Agentic Spatial Reasoning
-📄 SpatialClaw提出了一种名为“钳式交互”的新动作接口，通过支持非编程的灵活组合与即时反馈，克服了现有空间推理代理在单次代码执行或结构化工具调用中的局限性，显著提升了视觉语言模型在开放三维空间推理任务中的表现。
-🔗 http://arxiv.org/abs/2606.13673v1
+### Flood and Harvest: The Provable Necessity of Trivia for Generating Valuable Mathematics via the Lens of Language Generation in the Limit
+📄 本文通过将数学价值生成建模为“极限中的语言生成”问题，严格证明了在仅依赖形式验证器（如证明检查器）的情况下，必须允许输出大量“琐碎”内容（即 \(F \setminus H\)）才能保证最终生成有价值数学内容，揭示了“琐碎”在自动数学发现中的不可或缺性。
+🔗 http://arxiv.org/abs/2606.14688v1

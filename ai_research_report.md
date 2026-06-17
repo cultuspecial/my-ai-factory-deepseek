@@ -1,13 +1,13 @@
-# AI 简报 (2026-06-16)
+# AI 简报 (2026-06-17)
 
-### The Importance of Phase in Neural Representations: An Internal Oppenheim-Lim Test of Image Classifiers
-📄 该论文通过因果干预实验（在PRISM2D、GFNet和ViT-B/16等模型中移植隐藏层的相位与幅值），验证了训练后的图像分类器内部表示中，**相位（或符号）承载了图像身份的关键信息，而幅值对识别结果贡献微弱**，并揭示了ResNet-50中ReLU激活会破坏相位信息导致其表面上的例外表现。
-🔗 http://arxiv.org/abs/2606.17037v1
+### Visual Verification Enables Inference-time Steering and Autonomous Policy Improvement
+📄 该论文提出了VERITAS框架，通过为通用机器人策略配备无梯度视觉验证器，实现了推理时策略引导和自主改进，无需额外训练即可持续提升策略性能。
+🔗 http://arxiv.org/abs/2606.18247v1
 
-### HAMON: Passive Optical Sequence Mixing for Long-Horizon Forecasting
-📄 **一句话总结：** HAMON 提出了一种被动衍射光学预测架构，利用可训练相位掩模和自由空间衍射直接在光场中完成长时域序列的混合与预测，实现了全光学推理，无需数字神经网络。
-🔗 http://arxiv.org/abs/2606.17028v1
+### ReproRepo: Scaling Reproducibility Audits with GitHub Repository Issues
+📄 ReproRepo提出了一个可扩展的复现审计框架，通过利用GitHub Issues作为自然监督信号，在1149篇机器学习论文上大规模评估了LLM代理识别真实复现问题的能力。
+🔗 http://arxiv.org/abs/2606.18237v1
 
-### FusionRS: A Large-Scale RGB-Infrared Remote Sensing Dataset for Dual-Modal Vision-Language Foundation Models
-📄 论文贡献：提出了首个大规模RGB-红外双模态遥感视觉-语言数据集FusionRS，填补了该领域缺乏红外-文本对齐数据的空白，为构建融合红外热辐射、边界与光照不变特征的双模态视觉语言基础模型提供了关键数据支撑。
-🔗 http://arxiv.org/abs/2606.17020v1
+### EvolveNav: Proactive Preflection and Self-Evolving Memory for Zero-Shot Object Goal Navigation
+📄 EvolveNav通过引入基于历史轨迹的智能规则记忆和上限置信度检索策略，结合行动前预判模块，实现了零样本目标导航中测试时的持续自适应改进，显著减少了重复错误和无效探索。
+🔗 http://arxiv.org/abs/2606.18235v1

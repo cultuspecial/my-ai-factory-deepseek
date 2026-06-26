@@ -1,13 +1,13 @@
-# AI 简报 (2026-06-25)
+# AI 简报 (2026-06-26)
 
-### Learning Action Priors for Cross-embodiment Robot Manipulation
-📄 本文提出一种两阶段训练框架，通过先预训练动作模块获取跨本体时间运动先验，再对齐视觉-语言-动作（VLA）模型，有效解决了现有VLA模型缺乏运动先验导致跨本体操控学习困难的问题。
-🔗 http://arxiv.org/abs/2606.26095v1
+### Autoregressive Boltzmann Generators
+📄 ArBG通过自回归建模替代标准化流，克服了计算瓶颈与表达性限制，实现了高效、无相关性的分子平衡态采样。
+🔗 http://arxiv.org/abs/2606.27361v1
 
-### On-Policy Self-Distillation with Sampled Demonstrations Reduces Output Diversity
-📄 该论文揭示了同策略自蒸馏方法（通过正确演示提供密集token级反馈）虽能提升pass@1准确率，但会导致模型生成多样性下降及pass@k曲线趋于平缓（即增加采样次数无法持续提升准确率），并从理论上证明该偏差源于教师模型在自身偏误下根据条件互信息评分扭曲学生输出的基础分布。
-🔗 http://arxiv.org/abs/2606.26091v1
+### Error-Conditioned Neural Solvers
+📄 论文提出误差条件神经求解器（Error-Conditioned Neural Solvers），通过将求解过程显式条件化于误差估计，克服了传统神经代理模型无法修正自身违背物理约束的缺陷，并在病态系统中实现了比基于残差最小化的混合方法更准确、更稳定的预测。
+🔗 http://arxiv.org/abs/2606.27354v1
 
-### Neglected Free Lunch from Post-training: Progress Advantage for LLM Agents
-📄 这篇论文发现，强化学习后训练中策略模型与参考模型的对数概率比可以直接作为最优优势函数，从而免去了为智能体任务单独训练过程奖励模型的需求。
-🔗 http://arxiv.org/abs/2606.26080v1
+### Understanding Domain-Aware Distribution Alignment in Budgeted Entity Matching
+📄 该论文深入分析了预算限制下的实体匹配中，域感知分布对齐方法（以BEACON为例）在不同数据约束与监督水平下的性能表现及算法选择影响。
+🔗 http://arxiv.org/abs/2606.27342v1

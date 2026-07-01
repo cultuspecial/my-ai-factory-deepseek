@@ -1,13 +1,13 @@
-# AI 简报 (2026-06-30)
+# AI 简报 (2026-07-01)
 
-### VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes
-📄 该论文提出一种通过合成数据生成方法，在重建场景中利用3D高斯泼溅技术自动产生48,000条包含视觉-语言-运动学轨迹的配对数据，从而首次实现无需人工干预的感知型人形机器人全身操控学习。
-🔗 http://arxiv.org/abs/2606.30645v1
+### Introspective Coupling: Self-Explanation Training Tracks Behavioral Change Despite Fixed Supervision
+📄 这篇论文发现，语言模型即使使用来自早期检查点或不同模型家族的固定解释进行训练，其生成的解释仍会自发地与自身当前行为而非训练目标行为保持一致，从而揭示了“内省耦合”现象。
+🔗 http://arxiv.org/abs/2606.32038v1
 
-### LeVo 2: Stable and Melodious Song Generation via Hierarchical Representation Modeling and Progressive Post-Training
-📄 LeVo 2 提出了一种混合 LLM-扩散框架，通过分层表示建模（先混合预测语义再并行细化音轨）和渐进式后训练，解决了全曲生成中混合建模与双轨预测之间的结构性权衡，实现了稳定、悦耳且可控的长歌曲生成。
-🔗 http://arxiv.org/abs/2606.30642v1
+### QVal: Cheaply Evaluating Dense Supervision Signals for Long-Horizon LLM Agents
+📄 这篇论文提出QVal，一种低成本、无需训练即可评估长周期LLM智能体密集监督信号质量的方法，解决了现有方法因依赖下游训练性能而导致评估昂贵、混淆因素多且难以横向比较的问题。
+🔗 http://arxiv.org/abs/2606.32034v1
 
-### Self-Evolving World Models for LLM Agent Planning
-📄 该论文提出**WorldEvolver**框架，通过引入情景记忆、语义记忆和选择性预见三个模块，在不改动下游智能体及模型参数的情况下，使世界模型在部署过程中自我演化，从而显著提升LLM智能体在长程规划任务中的前瞻可靠性与决策效果。
-🔗 http://arxiv.org/abs/2606.30639v1
+### Reinforcement Learning with Metacognitive Feedback Elicits Faithful Uncertainty Expression in LLMs
+📄 该论文提出了一种基于元认知反馈的强化学习框架（RLMF），通过利用模型自身对输出质量的评估分数优化偏好排序，从而显著提升大语言模型在表达其不确定性时的准确性与可信度。
+🔗 http://arxiv.org/abs/2606.32032v1

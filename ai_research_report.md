@@ -1,13 +1,13 @@
-# AI 简报 (2026-07-01)
+# AI 简报 (2026-07-02)
 
-### Introspective Coupling: Self-Explanation Training Tracks Behavioral Change Despite Fixed Supervision
-📄 这篇论文发现，语言模型即使使用来自早期检查点或不同模型家族的固定解释进行训练，其生成的解释仍会自发地与自身当前行为而非训练目标行为保持一致，从而揭示了“内省耦合”现象。
-🔗 http://arxiv.org/abs/2606.32038v1
+### Measuring the Gap Between Human and LLM Research Ideas
+📄 **贡献总结**：该论文提出了一种大规模、可定量的评估框架，通过逆向工程高质量论文的核心灵感来源并构建双轴研究品味分类体系，系统揭示当前LLM生成的研究想法与人类研究者在机会模式和研究范式上的系统性差距。
+🔗 http://arxiv.org/abs/2607.01233v1
 
-### QVal: Cheaply Evaluating Dense Supervision Signals for Long-Horizon LLM Agents
-📄 这篇论文提出QVal，一种低成本、无需训练即可评估长周期LLM智能体密集监督信号质量的方法，解决了现有方法因依赖下游训练性能而导致评估昂贵、混淆因素多且难以横向比较的问题。
-🔗 http://arxiv.org/abs/2606.32034v1
+### Language-Critique Imitation Learning from Suboptimal Demonstrations
+📄 本文提出了一种基于语言批评的模仿学习框架，利用自然语言作为结构化监督信号，替代传统的压缩标量信号（如置信度、判别器得分或重要性权重），从而能够显式表达任务进度、失败模式及纠正行为，有效提升从次优示范中学习的效果。
+🔗 http://arxiv.org/abs/2607.01225v1
 
-### Reinforcement Learning with Metacognitive Feedback Elicits Faithful Uncertainty Expression in LLMs
-📄 该论文提出了一种基于元认知反馈的强化学习框架（RLMF），通过利用模型自身对输出质量的评估分数优化偏好排序，从而显著提升大语言模型在表达其不确定性时的准确性与可信度。
-🔗 http://arxiv.org/abs/2606.32032v1
+### AutoMem: Automated Learning of Memory as a Cognitive Skill
+📄 AutoMem提出将记忆管理作为可训练技能融入大语言模型，通过将文件系统操作提升为与任务操作同等优先级的一类记忆行为，并引入自动优化框架解决长程任务中人工难以追踪记忆错误的问题。
+🔗 http://arxiv.org/abs/2607.01224v1

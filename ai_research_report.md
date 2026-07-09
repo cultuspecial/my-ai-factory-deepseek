@@ -1,13 +1,13 @@
-# AI 简报 (2026-07-08)
+# AI 简报 (2026-07-09)
 
-### ELSA3D: Elastic Semantic Anchoring for Unified 3D Understanding and Generation
-📄 ELSA3D通过弹性语义锚定机制，在统一骨干网络中实现语言与三维几何的多尺度对齐，解决了现有方法因扁平化序列导致的结构细节丢失问题。
-🔗 http://arxiv.org/abs/2607.06565v1
+### Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning
+📄 该论文提出多模态科学基础模型SciReasoner，通过深度原生结构推理实现对蛋白质等体系的结构-性质关系的准确、跨学科与透明解析。
+🔗 http://arxiv.org/abs/2607.07708v1
 
-### Graph Convolutional Attention: A Spectral Perspective on Graph Denoising and Diffusion
-📄 论文贡献：从谱视角揭示了图注意力机制在去噪与扩散任务中的局限性，并提出了能直接利用输入图谱的谱注意力方法，在理论上证明了其优于线性注意力。
-🔗 http://arxiv.org/abs/2607.06546v1
+### Co-LMLM: Continuous-Query Limited Memory Language Models
+📄 该论文提出连续查询有限记忆语言模型（CO-LMLM），通过将知识库中的连续向量键与文本知识值配对，突破传统关系型知识库查询的限制，以极低成本生成灵活向量查询，同时保留可归因的、人类可读的检索知识用于生成，并配套设计了自由格式事实跨度标注流程。
+🔗 http://arxiv.org/abs/2607.07707v1
 
-### Rethinking Indic AI from a Lens of Cultural Heritage Preservation
-📄 该论文提出从文化遗产保护视角重新审视印度AI发展，系统揭示了印度语言与文化实践的深层关联，并通过纵向调查梳理了NLP技术在该领域的历史演变与双重影响。
-🔗 http://arxiv.org/abs/2607.06544v1
+### Breaking Database Lock-in: Agentic Regeneration of High Performance Storage Readers for Database Bypass
+📄 Jailbreak提出通过大语言模型直接解析数据库存储文件格式并自动生成高性能列式读取器，绕过JDBC/ODBC驱动层，从而消除分析工作负载中数据库锁定的性能瓶颈。
+🔗 http://arxiv.org/abs/2607.07696v1

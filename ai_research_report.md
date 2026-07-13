@@ -1,13 +1,13 @@
-# AI 简报 (2026-07-12)
+# AI 简报 (2026-07-13)
 
-### OpenCoF: Learning to Reason Through Video Generation
-📄 OpenCoF提出了通过视频生成（Chain-of-Frame推理）实现逻辑推理的新框架，并构建了OpenCoF-17K数据集和微调模型Wan-CoF，显著提升了多样时间监督下的视频推理能力。
-🔗 http://arxiv.org/abs/2607.08763v1
+### PHINN-EEG: Topological Time-Series Analysis of Dream-State EEG -- Dynamic Betti Curves for Dream Content Classification and Topology-Conditioned Neural Signal Synthesis
+📄 PHINN-EEG首次将拓扑时间序列分析引入梦境EEG研究，通过动态Betti曲线表征神经活动几何结构并融合拓扑条件生成模型，在梦境内容分类与信号合成任务中超越了传统功率谱方法。
+🔗 http://arxiv.org/abs/2607.09662v1
 
-### Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation
-📄 该论文构建了首个面向科学思想传承与演化推理的基准数据集IdeaGene-Bench，将学术论文抽象为带类型的“思想基因组”对象，并通过基因组差异分析建模继承、突变、重组等六种演化机制，从而系统评估AI在科学思想溯源与生成任务上的能力。
-🔗 http://arxiv.org/abs/2607.08758v1
+### Scalable Visual Pretraining for Language Intelligence
+📄 该论文提出了一种可扩展的视觉预训练方法，证明通过图像而非纯文本进行无监督学习也能有效提升语言模型的智能表现，挑战了当前基础模型依赖纯文本预训练的主流范式。
+🔗 http://arxiv.org/abs/2607.09657v1
 
-### SLORR: Simple and Efficient In-Training Low-Rank Regularization
-📄 SLORR提出了一种简洁、无状态且不改变模型架构的在线低秩正则化方法，通过基于Hoyer稀疏度量和核范数的GPU友好型近似，在不引入额外参数或SVD计算的前提下有效提升神经网络的可压缩性。
-🔗 http://arxiv.org/abs/2607.08754v1
+### Evolution of Accuracy and Visual-Cognitive Errors in a Decade of Vision-Language AI Models
+📄 本文通过构建复杂社交行为（CSB）数据集，系统评估了过去十年（2017-2025）视觉语言模型在准确性与视觉-认知错误类型上的演变，揭示了从简单场景（MS-COCO）到复杂人类互动场景中模型性能的进步与局限。
+🔗 http://arxiv.org/abs/2607.09654v1

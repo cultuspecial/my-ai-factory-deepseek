@@ -1,13 +1,13 @@
-# AI 简报 (2026-07-13)
+# AI 简报 (2026-07-14)
 
-### PHINN-EEG: Topological Time-Series Analysis of Dream-State EEG -- Dynamic Betti Curves for Dream Content Classification and Topology-Conditioned Neural Signal Synthesis
-📄 PHINN-EEG首次将拓扑时间序列分析引入梦境EEG研究，通过动态Betti曲线表征神经活动几何结构并融合拓扑条件生成模型，在梦境内容分类与信号合成任务中超越了传统功率谱方法。
-🔗 http://arxiv.org/abs/2607.09662v1
+### Metacognition in LLMs: Foundations, Progress, and Opportunities
+📄 该论文首次系统综述了大语言模型（LLMs）的元认知研究，通过分类学框架梳理了现有进展、能力边界及未来方向，旨在提升AI系统的可靠性、透明性与通用智能。
+🔗 http://arxiv.org/abs/2607.11881v1
 
-### Scalable Visual Pretraining for Language Intelligence
-📄 该论文提出了一种可扩展的视觉预训练方法，证明通过图像而非纯文本进行无监督学习也能有效提升语言模型的智能表现，挑战了当前基础模型依赖纯文本预训练的主流范式。
-🔗 http://arxiv.org/abs/2607.09657v1
+### Invariant Learning Dynamics of Transformers in Inductive Reasoning Tasks
+📄 该论文通过提出一个统一的理论框架，首次证明 Transformer 在归纳推理任务中的训练动态可被约束在低维不变流形上，从而用少量可解释坐标解释其推理能力的涌现机制。
+🔗 http://arxiv.org/abs/2607.11875v1
 
-### Evolution of Accuracy and Visual-Cognitive Errors in a Decade of Vision-Language AI Models
-📄 本文通过构建复杂社交行为（CSB）数据集，系统评估了过去十年（2017-2025）视觉语言模型在准确性与视觉-认知错误类型上的演变，揭示了从简单场景（MS-COCO）到复杂人类互动场景中模型性能的进步与局限。
-🔗 http://arxiv.org/abs/2607.09654v1
+### A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation
+📄 该论文提出了一种极简化的重定向引导强化学习框架（REGRIND），仅需单次人类演示即可学习灵巧操作策略，通过保留手-物空间与接触关系的重定向方法及物体中心关键点跟踪的残差强化学习，有效解决了复杂接触动力学下的策略迁移问题。
+🔗 http://arxiv.org/abs/2607.11874v1

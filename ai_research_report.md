@@ -1,14 +1,13 @@
-# AI 简报 (2026-07-19)
+# AI 简报 (2026-07-20)
 
-### RoboTTT: Context Scaling for Robot Policies
-📄 **一句话总结论文贡献：**  
-RoboTTT通过将测试时训练与视觉-语言-动作策略结合，首次实现了将机器人策略的视觉运动上下文扩展到8000个时间步（超出现有最优方法三个数量级），在不增加推理延迟的情况下解锁了单次人类视频模仿、在线策略改进、抗扰动及长时程任务能力，并证明了闭环性能随预训练上下文长度稳定提升的规律。
-🔗 http://arxiv.org/abs/2607.15275v1
+### Evaluating Open-Weight LLMs for Generating Structured Threat Information for Autonomous Vehicle Vulnerabilities
+📄 该论文评估了开源大语言模型将自动驾驶汽车相关漏洞的CVE非结构化文本自动转换为STIX结构化威胁信息的能力，发现现有模型在生成准确、完整的结构化信息（如受影响资产、弱点类型和攻击行为）方面仍存在显著不足。
+🔗 http://arxiv.org/abs/2607.16175v1
 
-### SciDiagramEdit: Learning to Edit Scientific Diagrams from Paper Revisions
-📄 该论文提出了SciDiagramEdit，一个通过分析论文修订过程来学习科学图表自动编辑的基准与技能演化框架，能够根据自然语言指令对图表中的矢量元素进行智能修改并支持人机协同编辑。
-🔗 http://arxiv.org/abs/2607.15272v1
+### When Does Muon Help Agentic Reinforcement Learning?
+📄 该论文发现，在基于稀疏奖励的智能体强化学习后训练中，将Muon优化器仅应用于隐藏权重矩阵（而非AdamW），可在ALFWorld任务上使最终验证成功率从0.290提升至0.546（+88%），且在高学习率下AdamW对照组无任何后更新成功记录，揭示了Muon在特定优势估计器和学习率设置下的显著优势。
+🔗 http://arxiv.org/abs/2607.16169v1
 
-### Pretraining Data Can Be Poisoned through Computational Propaganda
-📄 该论文揭示了通过公共讨论界面注入恶意内容可实际污染大规模预训练数据，并提出了HalfLife分析方法评估对抗性内容在被爬取和筛选后的留存风险。
-🔗 http://arxiv.org/abs/2607.15267v1
+### An Exam for Active Observers
+📄 该论文首次系统提出并量化了多模态大模型在主动视觉观察任务中的能力缺陷，通过构建含17项子任务的ActiveVision基准，揭示当前最先进模型在需要连续视觉反馈的闭环任务中表现严重不足（最高仅10.6%的正确率）。
+🔗 http://arxiv.org/abs/2607.16165v1

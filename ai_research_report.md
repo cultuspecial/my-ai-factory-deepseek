@@ -1,13 +1,13 @@
-# AI 简报 (2026-07-20)
+# AI 简报 (2026-07-21)
 
-### Evaluating Open-Weight LLMs for Generating Structured Threat Information for Autonomous Vehicle Vulnerabilities
-📄 该论文评估了开源大语言模型将自动驾驶汽车相关漏洞的CVE非结构化文本自动转换为STIX结构化威胁信息的能力，发现现有模型在生成准确、完整的结构化信息（如受影响资产、弱点类型和攻击行为）方面仍存在显著不足。
-🔗 http://arxiv.org/abs/2607.16175v1
+### Automated Discovery Has No Universally Superior Harness
+📄 这篇论文的核心贡献在于：**通过大规模、多维度、带重复试验的统计评估，首次系统性地证明了不存在一个在所有发现任务上都普遍最优的自动化发现框架（harness），并揭示了现有框架之间的性能差异常被随机波动所掩盖。**
+🔗 http://arxiv.org/abs/2607.18235v1
 
-### When Does Muon Help Agentic Reinforcement Learning?
-📄 该论文发现，在基于稀疏奖励的智能体强化学习后训练中，将Muon优化器仅应用于隐藏权重矩阵（而非AdamW），可在ALFWorld任务上使最终验证成功率从0.290提升至0.546（+88%），且在高学习率下AdamW对照组无任何后更新成功记录，揭示了Muon在特定优势估计器和学习率设置下的显著优势。
-🔗 http://arxiv.org/abs/2607.16169v1
+### Simple Domain Generalization for Strong Pixel-Level Image Tampering Detection in Modern VLMs
+📄 这篇论文提出了一种简单而有效的领域泛化训练框架，通过平衡小批量采样策略，显著提升了现代视觉语言模型（如ChatGPT、Gemini等）生成图像中像素级篡改检测的跨模型鲁棒性。
+🔗 http://arxiv.org/abs/2607.18230v1
 
-### An Exam for Active Observers
-📄 该论文首次系统提出并量化了多模态大模型在主动视觉观察任务中的能力缺陷，通过构建含17项子任务的ActiveVision基准，揭示当前最先进模型在需要连续视觉反馈的闭环任务中表现严重不足（最高仅10.6%的正确率）。
-🔗 http://arxiv.org/abs/2607.16165v1
+### Logical Judgments Under Pressure: Diagnosing Syllogistic Stability with Learned Soft Prefixes
+📄 这篇论文通过引入可学习的软前缀（soft prefix），在固定模型参数的前提下，系统性地揭示了上下文扰动如何覆盖大语言模型原本正确的逻辑判断，并评估了模型在不同逻辑形式和界面变化下的逻辑稳定性。
+🔗 http://arxiv.org/abs/2607.18228v1

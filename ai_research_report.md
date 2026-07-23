@@ -1,13 +1,13 @@
-# AI 简报 (2026-07-22)
+# AI 简报 (2026-07-23)
 
-### Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learning
-📄 该论文揭示了大模型在长上下文推理中普遍存在的“重复复制”问题（即从输入中大量复制文本而非有效推理），并提出了一种基于证据感知的强化学习方法（Copy Less, Ground More），通过区分关键证据与干扰信息并引导模型聚焦于证据，显著提升了长上下文推理的正确性与效率。
-🔗 http://arxiv.org/abs/2607.19345v1
+### SoftReason: A Fully Differentiable Neuro-Soft-Symbolic Deductive Reasoning Architecture over High-Dimensional Perceptual Data
+📄 SoftReason 提出了一种全可微分的神经-软-符号演绎推理架构，通过将推理状态表示为连续软解释张量，弥合了感知与符号推理之间的梯度断裂，实现了对高维感知数据的端到端可微推理。
+🔗 http://arxiv.org/abs/2607.20402v1
 
-### Appearance Pointers -- Multimodal Region Control of Diffusion Transformers
-📄 该论文提出了一种名为“外观指针”（Appearance Pointers）的轻量级区域对应与空间聚合机制，使扩散变换器（DiTs）能够根据用户指定的掩码实现多模态（文本/图像）精确的区域级可控图像生成。
-🔗 http://arxiv.org/abs/2607.19344v1
+### Persian Pixel: A large-scale synthetic OCR dataset for Persian language
+📄 该论文通过构建首个大规模合成波斯语OCR数据集（Persian Pixel），系统解决了波斯-阿拉伯文字系统因连笔、字形上下文关联变化、连字与变音符号等复杂性导致的数据稀缺瓶颈，为波斯语文本识别研究提供了高质量训练资源。
+🔗 http://arxiv.org/abs/2607.20385v1
 
-### CodeRescue: Budget-Calibrated Recovery Routing for Coding Agents
-📄 该论文提出了一种名为CodeRescue的预算校准恢复路由方法，通过在异构动作间进行后失败决策路由并引入共形风险控制层，使编码代理能在执行反馈下动态平衡低成本重试与高成本升级，从而在可变预算约束下实现有效性。
-🔗 http://arxiv.org/abs/2607.19338v1
+### FMRP-LEAN: A HIPAA-Compliant AI-Augmented LIMS Architecture for End-to-End Clinical Assay Workflow Optimization
+📄 该论文提出了FMRP-LEAN，一种符合HIPAA规范的、集成AI增强的LIMS架构，通过有限状态工作流模型实现了从样本到报告的全流程临床检测优化。
+🔗 http://arxiv.org/abs/2607.20382v1

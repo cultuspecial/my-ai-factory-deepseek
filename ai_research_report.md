@@ -1,13 +1,13 @@
-# AI 简报 (2026-07-23)
+# AI 简报 (2026-07-24)
 
-### SoftReason: A Fully Differentiable Neuro-Soft-Symbolic Deductive Reasoning Architecture over High-Dimensional Perceptual Data
-📄 SoftReason 提出了一种全可微分的神经-软-符号演绎推理架构，通过将推理状态表示为连续软解释张量，弥合了感知与符号推理之间的梯度断裂，实现了对高维感知数据的端到端可微推理。
-🔗 http://arxiv.org/abs/2607.20402v1
+### 3D-Aware VLMs with Implicit and Explicit Geometries
+📄 **贡献：** 提出 VLM-IE3D 统一框架，通过从 RGB 视频中学习隐式几何令牌（IGT）和显式几何令牌（EGT），并借助 3D 感知适配器与 2D 视觉特征融合，显著提升了现有视觉语言模型在需要细粒度空间理解与推理的 3D 任务中的表现。
+🔗 http://arxiv.org/abs/2607.21595v1
 
-### Persian Pixel: A large-scale synthetic OCR dataset for Persian language
-📄 该论文通过构建首个大规模合成波斯语OCR数据集（Persian Pixel），系统解决了波斯-阿拉伯文字系统因连笔、字形上下文关联变化、连字与变音符号等复杂性导致的数据稀缺瓶颈，为波斯语文本识别研究提供了高质量训练资源。
-🔗 http://arxiv.org/abs/2607.20385v1
+### GraphVid: Interactive Graph-Controllable Video Generation
+📄 GraphVid提出了一种基于结构化交互图进行视频生成的方法，并配套构建了大规模交互中心视频数据集GraphVid-Bench，实现了对多目标复杂交互关系的灵活且精确的可视化控制。
+🔗 http://arxiv.org/abs/2607.21580v1
 
-### FMRP-LEAN: A HIPAA-Compliant AI-Augmented LIMS Architecture for End-to-End Clinical Assay Workflow Optimization
-📄 该论文提出了FMRP-LEAN，一种符合HIPAA规范的、集成AI增强的LIMS架构，通过有限状态工作流模型实现了从样本到报告的全流程临床检测优化。
-🔗 http://arxiv.org/abs/2607.20382v1
+### Barzilai-Borwein Fails Superlinear Convergence on an Open Set of Quadratics for Every Dimension $n\geq 4$
+📄 该论文的关键贡献在于：针对维度 $n \geq 4$ 的所有严格凸二次优化问题，构造了一个具有正Lebesgue测度的开集，证明Barzilai-Borwein方法在该开集上虽收敛但无法达到根超线性收敛速度。
+🔗 http://arxiv.org/abs/2607.21579v1

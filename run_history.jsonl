@@ -184,3 +184,4 @@
 {"timestamp": "2026-07-22T05:26:30.429206", "topic": "ArXiv AI", "fallback_used": false, "total_tokens": 681, "status": "HEALTHY"}
 {"timestamp": "2026-07-23T05:31:58.428314", "topic": "ArXiv AI", "fallback_used": false, "total_tokens": 669, "status": "HEALTHY"}
 {"timestamp": "2026-07-24T05:27:20.962540", "topic": "ArXiv AI", "fallback_used": false, "total_tokens": 744, "status": "HEALTHY"}
+{"timestamp": "2026-07-25T05:20:31.988934", "topic": "ArXiv AI", "fallback_used": true, "total_tokens": 0, "status": "DEGRADED"}

@@ -1,4 +1,4 @@
-# AI 简报 (2026-07-25)
+# AI 简报 (2026-07-26)
 
 ### 3D-Aware VLMs with Implicit and Explicit Geometries
 📄 生成失败: 400 Client Error: Bad Request for url: https://api.deepseek.com/chat/completions

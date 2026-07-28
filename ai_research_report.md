@@ -1,13 +1,13 @@
-# AI 简报 (2026-07-27)
+# AI 简报 (2026-07-28)
 
-### SM4RT: Learning Structured Motion Geometry for 4D Reconstruction
-📄 SM4RT提出了一种端到端的4D重建方法，通过将运动建模为受刚体运动学约束的SE(3)结构化几何变换，而非独立的逐点位移，从而显著提升了单目动态场景的三维重建与运动理解能力。
-🔗 http://arxiv.org/abs/2607.22534v1
+### ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding
+📄 ClinFusion 提出了一种以视觉为中心的级联空间感知局部融合多模态大模型架构，首次统一了2D与原生3D医学图像的理解，并建立了更贴合临床实践的细粒度、事实驱动的评估体系。
+🔗 http://arxiv.org/abs/2607.24743v1
 
-### Explainable Reinforcement Learning for assisting Air Traffic Controllers
-📄 该论文提出了一种可解释强化学习框架，帮助空中交通管制员理解AI决策逻辑，从而在安全关键的空管领域中增强人机互信，并为实现更高自动化水平奠定基础。
-🔗 http://arxiv.org/abs/2607.22525v1
+### Rethinking Classifier-Free Guidance in On-Policy Diffusion Distillation
+📄 该论文揭示了在线策略扩散蒸馏中，现有无分类器引导（CFG）速度匹配方法存在正负分支误差耦合抵消的欠辨识问题，并指出在共享负条件设定下该问题可被缓解。
+🔗 http://arxiv.org/abs/2607.24731v1
 
-### The Regression Tax: Decomposing Why Skills Help and Hurt LLM Agents
-📄 该论文的贡献在于首次系统量化了LLM智能体技能带来的“回退”现象（技能加入后反而导致任务失败），并揭示了技能提升的核心机制并非提升成功率，而是减少回退次数，同时识别了三种回退成因（包括技能描述渗透效应）。
-🔗 http://arxiv.org/abs/2607.22520v1
+### KANEx: Translating Kolmogorov-Arnold Networks' Interpretability to Medical Explainability
+📄 论文提出KANEx框架，首次利用Kolmogorov-Arnold网络（KAN）的符号可解释性来增强视觉-语言模型（VLM）的医学解释可信度，从而突破传统黑箱模型在临床信任上的瓶颈。
+🔗 http://arxiv.org/abs/2607.24730v1

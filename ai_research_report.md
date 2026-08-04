@@ -1,13 +1,13 @@
-# AI 简报 (2026-08-03)
+# AI 简报 (2026-08-04)
 
-### ExtractBench: A Benchmark for Schema-Guided Enterprise Document Extraction
-📄 ExtractBench 提出了首个同时评估模式引导文档抽取中数值准确性、记录完整性、溯源可靠性与实测成本的基准，并依托覆盖 370 份企业文档、4,869 页、8 个业务领域的可扩展标注流程构建了多场景评测体系。
-🔗 http://arxiv.org/abs/2607.29677v1
+### Bridging Artificial Intelligence and Power Systems Education Using a Hands-On Executable Framework
+📄 这篇论文提出了一个结合工程领域规则与人工智能的开源可执行教学框架（EGAI），旨在通过实操课程降低跨学科学习者在电力系统中应用AI的门槛，并回应了社区调研中92%学习者面临入门障碍、94%期望动手实践的需求。
+🔗 http://arxiv.org/abs/2608.02599v1
 
-### Development of FDD-ON: an Ontology for VAV HVAC System Fault Detection and Diagnostics
-📄 该论文提出并开发了FDD-ON，一个模块化、可扩展的VAV暖通空调系统故障检测与诊断本体，以解决FDD领域数据互操作性和可解释性不足的问题，从而支撑数字孪生与AI驱动的维护决策应用。
-🔗 http://arxiv.org/abs/2607.29657v1
+### UEmbed: Unified Sparse and Dense Multimodal Embeddings
+📄 UEmbed提出了一种仅解码器的多模态统一嵌入模型，通过因果单次前向传播同时生成稀疏词级和稠密向量表示，无需依赖辅助跨模态模块，从而将学习式稀疏检索扩展至多模态场景并提升检索效率。
+🔗 http://arxiv.org/abs/2608.02583v1
 
-### AgentHPOBench: A Benchmark For Evaluating LLM Agents as Sequential Hyperparameter Optimizers
-📄 AgentHPOBench提出了一个包含30个可执行机器学习任务的新型顺序基准，专门评估LLM智能体能否通过观察历史实验证据逐步优化超参数，填补了现有基准仅测静态代码或最终答案、无法考察智能体迭代决策能力的空白。
-🔗 http://arxiv.org/abs/2607.29626v1
+### CoWAM: Coordination Contracts for Selective Policy Intervention with WAMs
+📄 CoWAM提出了一种选择性干预层，通过将协调约束形式化为类型化许可检查、事件条件验证与校准干预门，仅在候选动作满足所有义务且带来低风险改进时介入双机械臂策略，否则保持原动作或执行预设弃权回退，从而在不依赖提案质量的情况下提升策略安全性。
+🔗 http://arxiv.org/abs/2608.02578v1

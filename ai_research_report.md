@@ -1,13 +1,13 @@
-# AI 简报 (2026-08-04)
+# AI 简报 (2026-08-05)
 
-### Bridging Artificial Intelligence and Power Systems Education Using a Hands-On Executable Framework
-📄 这篇论文提出了一个结合工程领域规则与人工智能的开源可执行教学框架（EGAI），旨在通过实操课程降低跨学科学习者在电力系统中应用AI的门槛，并回应了社区调研中92%学习者面临入门障碍、94%期望动手实践的需求。
-🔗 http://arxiv.org/abs/2608.02599v1
+### TurnSight: Turn-Level Hindsight Self-Distillation for Tool-Integrated Reasoning
+📄 TurnSight提出了一种基于执行结果事后反馈的回合级（turn-level）事后自我蒸馏框架，通过利用状态实际访问情况生成密集监督信号，解决了工具集成推理中轨迹级信用分配粗粒度的问题，并提升了长时程推理任务中模型的细粒度学习效率与性能。
+🔗 http://arxiv.org/abs/2608.04007v1
 
-### UEmbed: Unified Sparse and Dense Multimodal Embeddings
-📄 UEmbed提出了一种仅解码器的多模态统一嵌入模型，通过因果单次前向传播同时生成稀疏词级和稠密向量表示，无需依赖辅助跨模态模块，从而将学习式稀疏检索扩展至多模态场景并提升检索效率。
-🔗 http://arxiv.org/abs/2608.02583v1
+### Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility
+📄 该论文系统化梳理了推理大模型中的测试时扩展（test-time scaling）方法，提出按推理机制（单轨迹扩展、采样-聚合、搜索）划分的统一形式化框架，并强调在评估与复现中必须明确推理协议、计算预算与统计结构，以避免不同研究间因方法混用或报告不完整而导致的不可比性。
+🔗 http://arxiv.org/abs/2608.04001v1
 
-### CoWAM: Coordination Contracts for Selective Policy Intervention with WAMs
-📄 CoWAM提出了一种选择性干预层，通过将协调约束形式化为类型化许可检查、事件条件验证与校准干预门，仅在候选动作满足所有义务且带来低风险改进时介入双机械臂策略，否则保持原动作或执行预设弃权回退，从而在不依赖提案质量的情况下提升策略安全性。
-🔗 http://arxiv.org/abs/2608.02578v1
+### Can Large Language Models Recover Semantic Optimization Opportunities That Compilers Miss?
+📄 这篇论文首次提出了 **SeGaBench** 基准，系统性地评估大语言模型能否从异构C/C++代码上下文中“挖掘”出编译器因缺失语义信息而错过的优化机会，并将其转化为经过验证的正确且保持语义的优化产物——实验表明最强模型在94.8%的响应中生成正确结果，并实现至少1.05倍的加速。
+🔗 http://arxiv.org/abs/2608.03983v1

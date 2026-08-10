@@ -1,13 +1,14 @@
-# AI 简报 (2026-08-09)
+# AI 简报 (2026-08-10)
 
-### Learning When to Trust via Selective Context Preference Optimization
-📄 该论文提出选择性上下文偏好优化（SCOPE）方法，并引入人类标注基准MIST和配对指标SC2W，系统揭示了语言模型对误导性上下文信号的普遍脆弱性，并通过偏好学习在“可信时信任、不可信时忽略”之间实现自适应权衡。
-🔗 http://arxiv.org/abs/2608.06377v1
+### CreativeInstruct: Scalably Teaching LLMs to Balance Quality, Creativity, and Diversity
+📄 **论文贡献一句话总结：**  
+提出可扩展的指令微调方法CreativeInstruct，通过引入特殊[StartCreativity]标记让LLM在保持后训练质量的同時恢复并平衡生成创造力与多样性，并首次提出基于图编辑距离的结构多样性指标以更全面评估叙事层面的差异。
+🔗 http://arxiv.org/abs/2608.07460v1
 
-### Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering
-📄 该论文提出了一种基于多智能体系统和循证评分标准的自动化心力衰竭特征工程流水线（nMAS），在500条模拟电子病历上生成了132个结构化特征及70个可追溯评分特征，显著减少了临床数据科学家的手动工作量，提升了特征的可维护性和证据可溯源性。
-🔗 http://arxiv.org/abs/2608.06366v1
+### CoinRAG: Contextualized Information Nugget KV Cache Reuse for Long-Context RAG
+📄 CoinRAG提出了一种新的RAG KV缓存复用方法，通过将粗粒度块级缓存细化为离线预计算的、语义相关的“信息碎片”缓存并组合复用，在满足低预填充延迟约束的同时显著提升长上下文RAG的准确性，改善了效率与精度间的帕累托边界。
+🔗 http://arxiv.org/abs/2608.07458v1
 
-### Investigating Artificial Intelligence Digital Sovereignty in Mobile Shopping Apps: A Case Study of Nigeria
-📄 这篇论文通过结合安卓应用取证分析与尼日利亚社会经济背景，揭示了该国电商移动应用中AI的广泛应用与透明度不足之间的矛盾，首次系统探讨了AI在尼日利亚情境下对数字主权的实际影响。
-🔗 http://arxiv.org/abs/2608.06364v1
+### Interaction Creates Dynamical AI Behavior Absent in Isolation
+📄 该论文揭示：在AI互动中，即使两系统共享相同解码温度，单方面持续的指令流也能将接收方驱入其孤立状态下从未表现出的“异化”动态行为态，且不复制也不回归，此现象由非平衡物理中的动力学相变机制解释，为AI交互研究开辟了新物理视角。
+🔗 http://arxiv.org/abs/2608.07457v1

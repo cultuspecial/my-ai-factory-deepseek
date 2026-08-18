@@ -1,13 +1,13 @@
-# AI 简报 (2026-08-17)
+# AI 简报 (2026-08-18)
 
-### Decoding the Past: An Uncertainty-Aware Deep Learning Framework for Sex Attribution in Prehistoric Hand Stencils
-📄 该论文提出了一种显式建模、传播和聚合不确定性的深度学习框架，首次实现了对旧石器时代手印模板生物性别的可靠判定，有效解决了缺乏真实标签、跨群体差异和图像退化带来的挑战。
-🔗 http://arxiv.org/abs/2608.14539v1
+### Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory
+📄 该论文提出一种基于智能体子任务探索与过渡感知记忆（BATON）的框架，通过将长时程机器人操作分解为可独立探索的子任务并利用记忆感知状态转换，将整任务探索成本从指数级降为线性级，从而显著提升VLA模型在复杂多阶段操作中的鲁棒性与适应性。
+🔗 http://arxiv.org/abs/2608.16889v1
 
-### Marionette: Predicting World States, Rendering Geometry, Painting Appearance
-📄 Marionette通过显式预测可解释的3D世界状态（骨架姿态），并将其交由零参数渲染器精确计算几何，仅由神经模型合成外观，从而解决了长时程交互式游戏世界模型中隐式状态累积误差导致的连贯性与可控性脆弱问题。
-🔗 http://arxiv.org/abs/2608.14530v1
+### Improving the matrix multiplication exponent with modern optimization and AlphaEvolve
+📄 该论文通过重新表述优化问题、引入现代机器学习算法并利用AlphaEvolve进行精炼，将矩阵乘法指数ω的上界改进至2.371177，超越了此前2.371339的最佳纪录。
+🔗 http://arxiv.org/abs/2608.16884v1
 
-### Handover of In-Context Learning State Across Session Boundaries
-📄 该论文提出并形式化了跨会话边界的大语言模型“会话交接”问题，将交接视为任务相关上下文学习状态的迁移，并在外生性条件下用预测等价性刻画了最简确定性充分交接及其固定长度比特需求，从而将记忆约束的影响与上下文学习中的分布保持效应分离开来。
-🔗 http://arxiv.org/abs/2608.14528v1
+### AutoSR: Automatic Symbolic Regression by Searching Research States
+📄 AutoSR提出了一种全自动符号回归系统，通过搜索持久化的“研究状态”（而非孤立方程）来保留动机与验证过程，从而提升科学可信度，弥补了传统方法仅关注公式拟合而忽略科学记录的关键缺陷。
+🔗 http://arxiv.org/abs/2608.16876v1

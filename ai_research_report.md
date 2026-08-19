@@ -1,13 +1,13 @@
-# AI 简报 (2026-08-18)
+# AI 简报 (2026-08-19)
 
-### Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory
-📄 该论文提出一种基于智能体子任务探索与过渡感知记忆（BATON）的框架，通过将长时程机器人操作分解为可独立探索的子任务并利用记忆感知状态转换，将整任务探索成本从指数级降为线性级，从而显著提升VLA模型在复杂多阶段操作中的鲁棒性与适应性。
-🔗 http://arxiv.org/abs/2608.16889v1
+### From Corpora to Co-Evolving Capabilities: Capability-Centric Data Design for Generalist Image Generation
+📄 该论文提出了一种以能力为中心的数据基础设施，通过构建互补的关系监督和跨任务对齐的课程调度，实现通用图像生成模型在文本-图像、图像间转换和图像-知识关联等异构能力上的协同演化。
+🔗 http://arxiv.org/abs/2608.18076v1
 
-### Improving the matrix multiplication exponent with modern optimization and AlphaEvolve
-📄 该论文通过重新表述优化问题、引入现代机器学习算法并利用AlphaEvolve进行精炼，将矩阵乘法指数ω的上界改进至2.371177，超越了此前2.371339的最佳纪录。
-🔗 http://arxiv.org/abs/2608.16884v1
+### On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification
+📄 该论文揭示了基于记忆的自我改进智能体在复杂环境中性能高度不稳定，受随机种子和任务顺序显著影响，且其成功高度依赖任务设计中的细微规范，暴露了现有方法在可靠性和泛化性上的脆弱性。
+🔗 http://arxiv.org/abs/2608.18066v1
 
-### AutoSR: Automatic Symbolic Regression by Searching Research States
-📄 AutoSR提出了一种全自动符号回归系统，通过搜索持久化的“研究状态”（而非孤立方程）来保留动机与验证过程，从而提升科学可信度，弥补了传统方法仅关注公式拟合而忽略科学记录的关键缺陷。
-🔗 http://arxiv.org/abs/2608.16876v1
+### Delegation Asymmetry in Agentic Recommender Systems: Measuring Two-Sided Receptivity in Online Dating
+📄 这篇论文的贡献在于，通过大规模跨国调查和潜变量测量模型，首次系统性地揭示了推荐系统中用户对AI代理的“委托不对称性”——即用户“派代理替自己聊天”与“接收代理替他人聊天”的意愿虽高度相关，但在心理上是两个可分离的构念，且前者显著高于后者。
+🔗 http://arxiv.org/abs/2608.18058v1

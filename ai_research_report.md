@@ -1,13 +1,13 @@
-# AI 简报 (2026-08-23)
+# AI 简报 (2026-08-24)
 
-### G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation
-📄 该论文提出了一种名为G-CARL的基于检查表对齐的奖励学习方法，用于面向患者的医学报告解读任务（PMRI），通过将客观医学事实与主观沟通质量解耦并分别建模优化，从而在生成准确、可验证的医学解释的同时兼顾个性化、易懂的表达。
-🔗 http://arxiv.org/abs/2608.20331v1
+### Primal Acceleration of Newton's Method
+📄 该论文提出一种仅使用原始变量、每次迭代只需一次线性求解的直接加速牛顿法，首次在仅依赖单次线性系统求解（无需辅助非线性正则化子问题、非线性参数搜索或对偶外梯度校正）的条件下，实现对具有Lipschitz连续Hessian的凸函数达到$O(1/k^3)$全局收敛率，并支持Hessian-free的近似求解实现。
+🔗 http://arxiv.org/abs/2608.21359v1
 
-### An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction
-📄 这篇论文提出了一种基于多智能体协作（Agentic）的主动数据采集工作流，将对话式问卷、结构化数据处理与天气敏感的出行行为预测无缝集成，并通过本地部署多种规模的大型语言模型（LLMs）在零样本提示下验证了小模型也能高效完成行为预测的可行性。
-🔗 http://arxiv.org/abs/2608.20320v1
+### VIALS: A Benchmark for Visual Interpretation of Artifacts in the Life Sciences
+📄 VIALS benchmark揭示了前沿视觉语言模型在生命科学领域专业视觉符号（如凝胶电泳图、显微图像等）解释任务上的严重不足，并提供了首个涵盖161项真实实验工作流任务的评测基准。
+🔗 http://arxiv.org/abs/2608.21357v1
 
-### Inducing Task Models from Computer-Use Traces
-📄 该论文提出任务模型归纳方法（TMI），能从无约束的自然计算机操作痕迹中发现潜在任务、解析并发线程，并生成可审计、可复用的结构化符号任务模型，突破了现有方法依赖预设任务或单一流程、仅生成步骤摘要的局限。
-🔗 http://arxiv.org/abs/2608.20319v1
+### AI with Authority, from Application to Silicon
+📄 这篇论文的核心贡献在于，通过“Salt 方法”证明了生成式 AI 能够以自主、可验证的方式（从应用层到芯片流片）全面驱动机器工作，并首次实现由 AI 编写全部代码、且无需人类审查证明的完整 RISC-V 芯片设计流程，从而将机器验证从昂贵负担转变为支撑单人在大规模自主工作中可信赖的“裁判”，开启了“AI 主导硬件与软件可信生产”的新范式。
+🔗 http://arxiv.org/abs/2608.21356v1

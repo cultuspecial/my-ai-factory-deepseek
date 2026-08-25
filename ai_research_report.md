@@ -1,13 +1,13 @@
-# AI 简报 (2026-08-24)
+# AI 简报 (2026-08-25)
 
-### Primal Acceleration of Newton's Method
-📄 该论文提出一种仅使用原始变量、每次迭代只需一次线性求解的直接加速牛顿法，首次在仅依赖单次线性系统求解（无需辅助非线性正则化子问题、非线性参数搜索或对偶外梯度校正）的条件下，实现对具有Lipschitz连续Hessian的凸函数达到$O(1/k^3)$全局收敛率，并支持Hessian-free的近似求解实现。
-🔗 http://arxiv.org/abs/2608.21359v1
+### How to Train a Critic Stably and Efficiently
+📄 BPCO提出了一种结合DPPO、奖励范围限定的值预测、蒙特卡洛价值目标、未归一化策略优势及长度自适应GAE的稳定高效评论家训练方案，使基于评论家（critic）的方法在单响应下也能达到与群体采样方法（如GRPO）相当的性能，并允许在训练时利用隐藏于策略的奖励定义信息（如参考答案或评分标准）进一步提升优势估计的准确性。
+🔗 http://arxiv.org/abs/2608.23566v1
 
-### VIALS: A Benchmark for Visual Interpretation of Artifacts in the Life Sciences
-📄 VIALS benchmark揭示了前沿视觉语言模型在生命科学领域专业视觉符号（如凝胶电泳图、显微图像等）解释任务上的严重不足，并提供了首个涵盖161项真实实验工作流任务的评测基准。
-🔗 http://arxiv.org/abs/2608.21357v1
+### ReWorld: An Interactive World Model with Long-Horizon Memory
+📄 ReWorld 通过混合注意力窗口与随机头路由解耦“控制”和“记忆”的冲突，并借助位姿索引地标库与有界KV缓存实现长时记忆下的实时交互世界建模，突破了结构上短时控制与无限记忆之间的固有矛盾。
+🔗 http://arxiv.org/abs/2608.23565v1
 
-### AI with Authority, from Application to Silicon
-📄 这篇论文的核心贡献在于，通过“Salt 方法”证明了生成式 AI 能够以自主、可验证的方式（从应用层到芯片流片）全面驱动机器工作，并首次实现由 AI 编写全部代码、且无需人类审查证明的完整 RISC-V 芯片设计流程，从而将机器验证从昂贵负担转变为支撑单人在大规模自主工作中可信赖的“裁判”，开启了“AI 主导硬件与软件可信生产”的新范式。
-🔗 http://arxiv.org/abs/2608.21356v1
+### SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?
+📄 该论文提出了SWE Refactor Bench基准，通过三阶段评估协议（迁移审计、行为正确性和防“盲目复制”机制）首次系统评测编码智能体在整仓库长周期技术栈迁移任务中的真实完成度，解决了现有基准仅验证行为正确性而无法检测“复制原实现骗过测试”的根本缺陷。
+🔗 http://arxiv.org/abs/2608.23564v1

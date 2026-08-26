@@ -1,13 +1,13 @@
-# AI 简报 (2026-08-25)
+# AI 简报 (2026-08-26)
 
-### How to Train a Critic Stably and Efficiently
-📄 BPCO提出了一种结合DPPO、奖励范围限定的值预测、蒙特卡洛价值目标、未归一化策略优势及长度自适应GAE的稳定高效评论家训练方案，使基于评论家（critic）的方法在单响应下也能达到与群体采样方法（如GRPO）相当的性能，并允许在训练时利用隐藏于策略的奖励定义信息（如参考答案或评分标准）进一步提升优势估计的准确性。
-🔗 http://arxiv.org/abs/2608.23566v1
+### Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses
+📄 Recuris 提出了一种递归的经验-工作记忆架构，通过解耦任务状态追踪与技能调用并使执行证据驱动局部化、验证门控的递归记忆更新，显著提升了长时程智能体任务的性能与可诊断性。
+🔗 http://arxiv.org/abs/2608.24876v1
 
-### ReWorld: An Interactive World Model with Long-Horizon Memory
-📄 ReWorld 通过混合注意力窗口与随机头路由解耦“控制”和“记忆”的冲突，并借助位姿索引地标库与有界KV缓存实现长时记忆下的实时交互世界建模，突破了结构上短时控制与无限记忆之间的固有矛盾。
-🔗 http://arxiv.org/abs/2608.23565v1
+### SPO++: Stream-Aligned Policy Optimization for Asynchronous Agentic RL
+📄 SPO++提出了一种基于流对齐的策略优化方法，通过修正轨迹中心化与词元加权优势之间的不匹配，并按照策略事件而非接收顺序组织提示证据，从而在异步智能体强化学习中显著提升在线学习效率。
+🔗 http://arxiv.org/abs/2608.24870v1
 
-### SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration?
-📄 该论文提出了SWE Refactor Bench基准，通过三阶段评估协议（迁移审计、行为正确性和防“盲目复制”机制）首次系统评测编码智能体在整仓库长周期技术栈迁移任务中的真实完成度，解决了现有基准仅验证行为正确性而无法检测“复制原实现骗过测试”的根本缺陷。
-🔗 http://arxiv.org/abs/2608.23564v1
+### FedV-KGQA: Multi-Hop Question Answering over Vertically Partitioned Knowledge Graphs
+📄 FedV-KGQA提出了一种在垂直分区知识图谱上进行多跳问答的联邦学习框架，通过局部图增强和知识图谱嵌入实现跨组织的多跳推理，同时确保原始三元组和关系参数不出域，并引入主题实体锚定机制确保问题在正确的图上落地。
+🔗 http://arxiv.org/abs/2608.24846v1

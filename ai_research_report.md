@@ -1,13 +1,13 @@
-# AI 简报 (2026-08-26)
+# AI 简报 (2026-08-27)
 
-### Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses
-📄 Recuris 提出了一种递归的经验-工作记忆架构，通过解耦任务状态追踪与技能调用并使执行证据驱动局部化、验证门控的递归记忆更新，显著提升了长时程智能体任务的性能与可诊断性。
-🔗 http://arxiv.org/abs/2608.24876v1
+### VBVR-Pro: A Scalable and Verifiable Suite for Native Visual Reasoning
+📄 VBVR-Pro构建了一个可扩展、可验证的闭环测试平台，将原生视觉推理转化为300个程序化生成的可控任务，支持训练、验证、优化与实验控制，并在七项外部视觉任务上验证了强大的跨任务迁移能力。
+🔗 http://arxiv.org/abs/2608.26105v1
 
-### SPO++: Stream-Aligned Policy Optimization for Asynchronous Agentic RL
-📄 SPO++提出了一种基于流对齐的策略优化方法，通过修正轨迹中心化与词元加权优势之间的不匹配，并按照策略事件而非接收顺序组织提示证据，从而在异步智能体强化学习中显著提升在线学习效率。
-🔗 http://arxiv.org/abs/2608.24870v1
+### A Visual Dependence-Aware Framework for Multimodal Unsupervised Continual Post-Training
+📄 该论文提出了一种视觉依赖感知框架（VDA），通过利用多模态无监督持续后训练中词元级视觉依赖的结构失真和异质性，分别检测跨模态灾难性遗忘并引导新任务学习，从而提升部署的多模态大模型在流式无标注数据上的持续进化能力。
+🔗 http://arxiv.org/abs/2608.26095v1
 
-### FedV-KGQA: Multi-Hop Question Answering over Vertically Partitioned Knowledge Graphs
-📄 FedV-KGQA提出了一种在垂直分区知识图谱上进行多跳问答的联邦学习框架，通过局部图增强和知识图谱嵌入实现跨组织的多跳推理，同时确保原始三元组和关系参数不出域，并引入主题实体锚定机制确保问题在正确的图上落地。
-🔗 http://arxiv.org/abs/2608.24846v1
+### MyoMechanix: Biomechanically-Grounded Compositional Skilled Activity Understanding and Coaching
+📄 MyoMechanix构建了首个融合肌电信号与运动数据的多模态动作质量评估基准（含FKG知识图谱），实现生物力学可解释的细粒度技能理解与健身指导。
+🔗 http://arxiv.org/abs/2608.26094v1

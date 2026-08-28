@@ -1,13 +1,13 @@
-# AI 简报 (2026-08-27)
+# AI 简报 (2026-08-28)
 
-### VBVR-Pro: A Scalable and Verifiable Suite for Native Visual Reasoning
-📄 VBVR-Pro构建了一个可扩展、可验证的闭环测试平台，将原生视觉推理转化为300个程序化生成的可控任务，支持训练、验证、优化与实验控制，并在七项外部视觉任务上验证了强大的跨任务迁移能力。
-🔗 http://arxiv.org/abs/2608.26105v1
+### WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution
+📄 WikiSkill 提出一个将智能体执行经验持续沉淀为持久化知识库（wiki）的框架，实现经验、知识与可执行技能的分离与协同演化，从而显著提升技能迭代效率和跨任务性能。
+🔗 http://arxiv.org/abs/2608.27454v1
 
-### A Visual Dependence-Aware Framework for Multimodal Unsupervised Continual Post-Training
-📄 该论文提出了一种视觉依赖感知框架（VDA），通过利用多模态无监督持续后训练中词元级视觉依赖的结构失真和异质性，分别检测跨模态灾难性遗忘并引导新任务学习，从而提升部署的多模态大模型在流式无标注数据上的持续进化能力。
-🔗 http://arxiv.org/abs/2608.26095v1
+### SWE-Prime: Fewer Trajectories, Better Performance
+📄 SWE-Prime提出了一种多粒度、两阶段的SFT数据筛选方法，通过先按过程质量和结果质量进行轨迹级筛选、再在片段级精筛，用更少的训练轨迹实现更好的软件问题解决性能，避免成功但不优轨迹带来的噪声监督。
+🔗 http://arxiv.org/abs/2608.27449v1
 
-### MyoMechanix: Biomechanically-Grounded Compositional Skilled Activity Understanding and Coaching
-📄 MyoMechanix构建了首个融合肌电信号与运动数据的多模态动作质量评估基准（含FKG知识图谱），实现生物力学可解释的细粒度技能理解与健身指导。
-🔗 http://arxiv.org/abs/2608.26094v1
+### From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench
+📄 MCR-Bench是首个面向现实多轮代码审查场景的缺陷状态感知基准，通过2,269个多语言真实任务及细粒度标注，弥补了现有静态单轮评测与真实交互式审查流程之间的鸿沟。
+🔗 http://arxiv.org/abs/2608.27442v1

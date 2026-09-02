@@ -1,13 +1,13 @@
-# AI 简报 (2026-09-01)
+# AI 简报 (2026-09-02)
 
-### SUN: Persistent Programs For Language-Grounded Control-to-Learning-to-Real Policies
-📄 这篇论文提出SUN Programs，用类型化可执行程序统一表达几何与接触关系，并自动编译为MPC成本、奖励、守卫与诊断，实现从语言到控制到学习再到真实部署的语义一致策略生成。
-🔗 http://arxiv.org/abs/2608.31167v1
+### Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation
+📄 该论文提出了一种轨迹感知的评估框架（PTA-IRT），通过将智能体解决问题的过程信号（如探索上下文、尝试编辑和求解路径）与结果信号（通过/失败）融合，在极少校准数据下实现更高效的软件工程智能体基准测试，优于仅依赖结果的传统方法。
+🔗 http://arxiv.org/abs/2609.01603v1
 
-### Auditing Anonymous AI Models: A Four-Stage Protocol for Black-Box Identity Verification
-📄 该论文提出了一种面向API匿名模型的四阶段黑盒取证审计协议，通过存档快照重建、配置指纹比对、分词器身份验证及交叉验证，实现对匿名AI模型的身份核验，填补了该领域缺乏实证验证方法的空白。
-🔗 http://arxiv.org/abs/2608.31142v1
+### Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation
+📄 该论文提出了一种自适应关键Token感知检索方法，通过动态识别生成过程中影响语义走向的关键位置并精准检索细粒度仓库上下文，来解决仓库级代码生成中任务级检索不够精细导致关键决策点易出错的问题。
+🔗 http://arxiv.org/abs/2609.01601v1
 
-### OntoAligner-Ensemble: Voting-Based Fusion across Heterogeneous Ontology Alignment Techniques
-📄 该论文提出了一种名为OntoAligner-Ensemble的模块化、对齐器无关的集成框架，通过可配置的两阶段投票融合与后融合选择策略，系统性地整合异构本体对齐技术的互补预测，弥补了现有OA框架在预测结果协调方面的空白。
-🔗 http://arxiv.org/abs/2608.31137v1
+### CordisBench: Can Language Models Reason About Component Lifecycles in Dynamic Agent Harnesses?
+📄 CordisBench首次系统评估了语言模型在动态代理框架中对组件生命周期（依赖传播与清理）的推理能力，并揭示了现有模型在此类任务中随交互规模增加而性能显著下降的局限。
+🔗 http://arxiv.org/abs/2609.01600v1

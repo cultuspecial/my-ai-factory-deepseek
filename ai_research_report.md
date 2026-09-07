@@ -1,13 +1,13 @@
-# AI 简报 (2026-09-06)
+# AI 简报 (2026-09-07)
 
-### Compile by Training: Turning Natural-Language Specifications into Local Neural Functions
-📄 该论文提出“编译即训练”方法，将自然语言规范自动转化为可复用的小型本地神经函数，无需调用远程模型，在FuzzyBench-Hard上达到83.6%的语义准确率，虽编译耗时约一分钟但显著提升了精度与可部署性。
-🔗 http://arxiv.org/abs/2609.04199v1
+### Diffusion TV: Experiencing Diffusion Models through Tangible, Embodied Interaction
+📄 Diffusion TV 通过改造的CRT电视和可触物理交互（旋转天线控制去噪过程、旋钮切换过去/现在/未来三个生态频道），将扩散模型的生成过程具身化为直观的视听体验，强调生成中间态而非最终结果，从而让公众在生态叙事中感知和理解AI生成机制。
+🔗 http://arxiv.org/abs/2609.05404v1
 
-### Clean Engineering, Unstable Measurement: A Preregistered Reliability Failure of Black-Box LLM Observers on Shared Endpoints
-📄 这篇论文的核心贡献在于：通过两项预注册的严格审计实验（共52,988次请求），实证揭示了“黑箱LLM裁判”在同一模型端点上的测量结果极不稳定——同日重复与隔日逐字节重放的相关性均远低于预注册阈值（0.400 vs 0.90；0.78 vs 0.99），并识别出标签映射偏差与候选间微小差异是导致失效的机制，从而质疑了依赖LLM作为可靠测量工具的基础假设。
-🔗 http://arxiv.org/abs/2609.04198v1
+### RegionFed: Federated Learning for Personalized Query Understanding in Heterogeneous Retail Environments
+📄 RegionFed 提出了一种仅操作在梯度层面的架构鲁棒联邦学习框架，通过利用区域梯度间的ℓ2冲突来解决异构零售环境中现代Transformer模型在个性化参数级联邦学习中的灾难性崩溃问题，从而在不牺牲隐私的前提下提升区域查询理解的个性化性能。
+🔗 http://arxiv.org/abs/2609.05403v1
 
-### ESPO: Error-Structured Prompt Optimization via Diagnose, Diversify, and Stabilize
-📄 ESPO提出了一种通过“诊断-生成-稳定选择”三阶段框架的错误结构化提示优化方法，有效缓解了进化式提示优化中的提示膨胀问题，在七个NLP基准上平均准确率较现有最优方法提升3.76个百分点。
-🔗 http://arxiv.org/abs/2609.04197v1
+### A Deep Generative Model for Synthesizing Labeled Wireless Signals
+📄 该论文提出了一种基于深度学习的新型生成模型（IIns-GAN），无需依赖环境建模，即可高效合成具有位置标签且逼真的无线信号，显著降低数据采集成本，并适应多种环境与模型训练任务。
+🔗 http://arxiv.org/abs/2609.05396v1

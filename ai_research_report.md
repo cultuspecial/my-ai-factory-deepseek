@@ -1,13 +1,13 @@
-# AI 简报 (2026-09-07)
+# AI 简报 (2026-09-08)
 
 ### Diffusion TV: Experiencing Diffusion Models through Tangible, Embodied Interaction
-📄 Diffusion TV 通过改造的CRT电视和可触物理交互（旋转天线控制去噪过程、旋钮切换过去/现在/未来三个生态频道），将扩散模型的生成过程具身化为直观的视听体验，强调生成中间态而非最终结果，从而让公众在生态叙事中感知和理解AI生成机制。
+📄 Diffusion TV通过改造的CRT电视和物理天线操控，让观众以具身化、可触达的方式体验扩散模型的去噪过程，并借由过去、现在、未来三个生态动物频道，将生成式AI的中间态与生态叙事相融合。
 🔗 http://arxiv.org/abs/2609.05404v1
 
 ### RegionFed: Federated Learning for Personalized Query Understanding in Heterogeneous Retail Environments
-📄 RegionFed 提出了一种仅操作在梯度层面的架构鲁棒联邦学习框架，通过利用区域梯度间的ℓ2冲突来解决异构零售环境中现代Transformer模型在个性化参数级联邦学习中的灾难性崩溃问题，从而在不牺牲隐私的前提下提升区域查询理解的个性化性能。
+📄 RegionFed提出了一种架构稳健的联邦学习框架，通过完全在梯度层面利用区域梯度间的ℓ2冲突来优化个性化查询理解，规避了现代Transformer模型中参数级个性化方法导致的性能崩溃问题。
 🔗 http://arxiv.org/abs/2609.05403v1
 
 ### A Deep Generative Model for Synthesizing Labeled Wireless Signals
-📄 该论文提出了一种基于深度学习的新型生成模型（IIns-GAN），无需依赖环境建模，即可高效合成具有位置标签且逼真的无线信号，显著降低数据采集成本，并适应多种环境与模型训练任务。
+📄 该论文提出了一种基于深度学习的新型生成模型IIns-GAN，能够在无需显式环境建模的情况下合成带标签的真实无线信号，有效降低测量与标注成本，并显著提升生成信号在多种场景下的适应性和实际训练任务中的可用性。
 🔗 http://arxiv.org/abs/2609.05396v1

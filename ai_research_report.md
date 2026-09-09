@@ -1,13 +1,13 @@
-# AI 简报 (2026-09-08)
+# AI 简报 (2026-09-09)
 
-### Diffusion TV: Experiencing Diffusion Models through Tangible, Embodied Interaction
-📄 Diffusion TV通过改造的CRT电视和物理天线操控，让观众以具身化、可触达的方式体验扩散模型的去噪过程，并借由过去、现在、未来三个生态动物频道，将生成式AI的中间态与生态叙事相融合。
-🔗 http://arxiv.org/abs/2609.05404v1
+### TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model
+📄 TANGO提出了首个基于视觉-语言-动作模型的全人形机器人导航框架，直接由自然语言指令和第一视角RGB观测预测29自由度关节动作，实现对杂乱3D环境的全身感知与穿越。
+🔗 http://arxiv.org/abs/2609.09158v1
 
-### RegionFed: Federated Learning for Personalized Query Understanding in Heterogeneous Retail Environments
-📄 RegionFed提出了一种架构稳健的联邦学习框架，通过完全在梯度层面利用区域梯度间的ℓ2冲突来优化个性化查询理解，规避了现代Transformer模型中参数级个性化方法导致的性能崩溃问题。
-🔗 http://arxiv.org/abs/2609.05403v1
+### Procedural Graphs: Self-Evolving Execution Structures for LLM Agents
+📄 这篇论文提出了一种名为“Procedural Graph”的框架，通过将智能体的程序性知识（即“做什么、按什么顺序做、在什么条件下做”）结构化为（procedure, relation, procedure）三元组，并在每个决策步骤定位活跃节点来引导生成，从而解决了长轨迹下LLM智能体目标丢失、工具调用失序和重复无效动作的问题，实现了执行结构的自我演化与动态规划。
+🔗 http://arxiv.org/abs/2609.09153v1
 
-### A Deep Generative Model for Synthesizing Labeled Wireless Signals
-📄 该论文提出了一种基于深度学习的新型生成模型IIns-GAN，能够在无需显式环境建模的情况下合成带标签的真实无线信号，有效降低测量与标注成本，并显著提升生成信号在多种场景下的适应性和实际训练任务中的可用性。
-🔗 http://arxiv.org/abs/2609.05396v1
+### NOAH: Learning the Full Patient Journey. A Longitudinal Multimodal Time-Aware Model for Representation and Forecasting
+📄 NOAH提出了一种时间感知、任务无关的生成式Transformer模型，能够整合多模态纵向患者数据并建模其不规则时间动态，实现对完整患者轨迹的表征与未来状态预测。
+🔗 http://arxiv.org/abs/2609.09140v1

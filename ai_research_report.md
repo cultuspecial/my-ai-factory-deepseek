@@ -1,13 +1,13 @@
-# AI 简报 (2026-09-10)
+# AI 简报 (2026-09-11)
 
-### Show-Harness: Just a VLM Agent Can Play Robots
-📄 Show-Harness 提出一种紧凑的语义接口，让 VLM 直接以离散语义动作单元“操控”机器人，从而实现闭源前沿模型的零样本控制和小规模开源模型的低成本适配。
-🔗 http://arxiv.org/abs/2609.10522v1
+### GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay
+📄 GPU-CFR通过将游戏一次性编译为静态数据流并用CUDA Graph回放执行，消除了GPU上CFR每轮迭代中内核启动和框架调度的开销，从而比优化CPU实现快80倍。
+🔗 http://arxiv.org/abs/2609.11923v1
 
-### IBIB: A Protocol for Measuring Enterprise AI Systems by Serving Route, Not Model Identifier
-📄 论文提出 IB2 协议，主张企业AI系统评测应以实际“服务路由”而非“模型标识符”为对象，通过能力绑定预检、包含可靠性的首轮评分和结构化盲评裁决，将服务配置差异纳入可报告的测量。
-🔗 http://arxiv.org/abs/2609.10494v1
+### General Quantification of Covariate and Concept Shifts
+📄 提出基于熵最优传输的 \(\gamma^*\)-概念偏移统一框架，给出涵盖协变量与概念偏移的通用误差界及其可估计算法与集中保证。
+🔗 http://arxiv.org/abs/2609.11918v1
 
-### Semigroup-JEPA: Latent Dynamics Consistency for Zero-Shot Physics Generalization
-📄 SG-JEPA通过动作条件化将物理参数注入时序模型并联合训练编码器与预测器，实现了零样本泛化到不同引力场下的物理动力学。
-🔗 http://arxiv.org/abs/2609.10464v1
+### Can Edge-Deployable Vision-Language Models Identify Species?
+📄 本文在边缘可部署的2–8B参数视觉语言模型上评估物种识别能力，发现在96物种任务中所有模型虽显著优于随机水平，但在真实红外相机影像上性能大幅下降。
+🔗 http://arxiv.org/abs/2609.11916v1

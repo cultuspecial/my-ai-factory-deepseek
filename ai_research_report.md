@@ -1,13 +1,13 @@
-# AI 简报 (2026-09-16)
+# AI 简报 (2026-09-17)
 
-### Agentic Societies Need a Social Harness
-📄 论文指出，现有仅关注单个智能体的“个人治理”不足以保障多智能体社会的可靠协作，因此主张为智能体间交互引入分层设计的“社会治理”机制，以应对失信、恶意与通信漏洞带来的风险。
-🔗 http://arxiv.org/abs/2609.17527v1
+### Objective vs. Search: Decomposing What Makes a Good Tokeniser
+📄 该论文通过构建两种新分词算法补齐“优化目标（压缩 vs. 似然）×搜索方式（自底向上 vs. 自顶向下）”的2×2设计空间，解耦并厘清了分词器的优化目标与搜索过程各自对语言模型性能的影响。
+🔗 http://arxiv.org/abs/2609.19145v1
 
-### ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents
-📄 ScienceBuddy 提出并实现了一种“递归中的递归”自我改进范式，将科研智能体的工具框架演化与模型强化学习耦合起来，在交互式科研工作流中持续提升智能体能力。
-🔗 http://arxiv.org/abs/2609.17523v1
+### A Zeroth-Order Paradigm for LLM Preference Alignment
+📄 提出并分析了基于比较oracle的零阶偏好对齐方法ComPO，通过从偏好对中提取方向信息而非直接优化可微偏好损失来避免似然位移，并给出了其离线方案的收敛保证及在线扩展。
+🔗 http://arxiv.org/abs/2609.19144v1
 
-### PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control
-📄 PhysStream 提出了一种自回归的图像到视频生成模型，通过结构化场景记忆和稀疏速度增量信号实现细粒度、物理合理的动态场景交互控制。
-🔗 http://arxiv.org/abs/2609.17521v1
+### Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation
+📄 该论文提出利用生成视频与生成音频（以接触声音的响度构建有界时变目标力曲线）来从自然语言任务提示中同时推导运动轨迹和力感知轨迹，并在Franka Panda机器人上通过闭环力调节器执行，从而实现零样本的力感知操作与数据生成。
+🔗 http://arxiv.org/abs/2609.19137v1

@@ -1,13 +1,13 @@
-# AI 简报 (2026-09-23)
+# AI 简报 (2026-09-24)
 
-### SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue
-📄 SpeakerMem-R1 通过以说话人为中心的双轨记忆机制，解决多方对话中消息归属、关系理解与状态重建的难题，从而提升长期对话记忆能力。
-🔗 http://arxiv.org/abs/2609.26780v1
+### StudentBench: AI and human tutoring yield equivalent GRE learning gains
+📄 论文提出 StudentBench 评估平台，通过 2383 名参与者的实验证明 AI 辅导在 GRE 学习增益上与人辅导同等有效。
+🔗 http://arxiv.org/abs/2609.28470v1
 
-### CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents
-📄 CliffCompaction 提出了一种面向长时程编程智能体的自动上下文压缩技术，在有限上下文下将成本降低最多50%，同时保持或提升性能，并显著提高测试时扩展的效率。
-🔗 http://arxiv.org/abs/2609.26779v1
+### Where Should I Join? Robot Group Joining via Language-Guided Goal Prediction
+📄 提出“语言引导的机器人加入群体”任务，并设计了一种结合谱聚类候选子集生成与语言条件图像-几何模型排序、以及目标位姿预测的方法，使机器人能根据自然语言描述识别目标群体成员并预测符合社会规范的加入位置。
+🔗 http://arxiv.org/abs/2609.28467v1
 
-### SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving
-📄 SWE-Serve 提出了一个包含 53 个源自 SGLang 真实生产变更的仓库级任务的基准，用于评估智能体在生产推理服务工程中跨模型支持、运行时执行和公共 API 等多组件协同实现推理特性的能力，填补了现有基准在仓库级生产推理特性实现评测上的空白。
-🔗 http://arxiv.org/abs/2609.26777v1
+### Can LLMs Reason About Runtime Behavior? A Repository-Level Dynamic Benchmark
+📄 该论文提出了SWE-Flux——一个基于真实Python仓库、通过插桩测试自动获取标准答案的仓库级动态执行推理基准，用以评估大模型对代码运行时行为的推理能力。
+🔗 http://arxiv.org/abs/2609.28449v1

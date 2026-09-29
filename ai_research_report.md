@@ -1,13 +1,13 @@
-# AI 简报 (2026-09-28)
+# AI 简报 (2026-09-29)
 
-### Learning to Stop without Learning to Stop: Self-Supervised Confidence Training Improves Reasoning Efficiency
-📄 论文提出一种仅用600道题的自监督置信度训练方法，让推理模型在中间步骤预测答案置信度，从而在不显式优化长度或停止机制的情况下显著提升推理效率。
-🔗 http://arxiv.org/abs/2609.31619v1
+### FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets
+📄 FurE 提出了一种高效且可编辑的动物毛发重建方法，通过优化根部条件潜在场并结合基于 PCA 的解析器，在无需动物毛发数据集的情况下，利用人类头发数据实现了单根级别的动物毛发重建。
+🔗 http://arxiv.org/abs/2609.35770v1
 
-### Statistical attribute alignment for black-box generative AI via output post-processing
-📄 提出一种仅通过黑盒输出后处理、在多次查询生成模型的情况下使生成结果属性分布对齐用户指定目标的方法。
-🔗 http://arxiv.org/abs/2609.31607v1
+### Telescopic Language Models
+📄 TLM通过随机前缀监督与全容量锚点，一次训练即可得到一个在所有深度上都是有效语言模型的嵌套容量Transformer，从而无需针对不同计算预算分别训练或压缩。
+🔗 http://arxiv.org/abs/2609.35769v1
 
-### Compact Documentation for Coding Agents: A Benchmark, an Optimizer, and Why It Does Not Transfer
-📄 论文发现自然语言文档虽能通过往返基准优化到高保真度，但在两个模型系列和十个仓库的真实问题修复中，更好的文档并不能帮助编码智能体解决软件问题。
-🔗 http://arxiv.org/abs/2609.31587v1
+### Learning Native Reflection in Unified Models with Interleaved Reinforcement Learning
+📄 提出UMM-Reflection，通过交错强化学习在统一多模态模型内端到端优化完整“反思—生成”轨迹，从而让模型学会自我诊断并修复生成图像。
+🔗 http://arxiv.org/abs/2609.35767v1

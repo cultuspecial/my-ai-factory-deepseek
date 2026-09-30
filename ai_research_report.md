@@ -1,13 +1,13 @@
-# AI 简报 (2026-09-29)
+# AI 简报 (2026-09-30)
 
-### FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets
-📄 FurE 提出了一种高效且可编辑的动物毛发重建方法，通过优化根部条件潜在场并结合基于 PCA 的解析器，在无需动物毛发数据集的情况下，利用人类头发数据实现了单根级别的动物毛发重建。
-🔗 http://arxiv.org/abs/2609.35770v1
+### Skill-Space Shooting for Autonomous Robot Policy Improvement
+📄 该论文提出“技能空间射击”（Skill-Space Shooting），利用基础模型将跨任务复现的短时技能组合为可学习的纠正行为，从而让自主机器人在无需人类演示的情况下从失败中持续改进其任务策略。
+🔗 http://arxiv.org/abs/2609.38178v1
 
-### Telescopic Language Models
-📄 TLM通过随机前缀监督与全容量锚点，一次训练即可得到一个在所有深度上都是有效语言模型的嵌套容量Transformer，从而无需针对不同计算预算分别训练或压缩。
-🔗 http://arxiv.org/abs/2609.35769v1
+### STEPQuant: When and Where Errors Matter in Delta-Rule Recurrent State Quantization
+📄 STEPQuant 提出一种面向 Delta-rule 递归状态的空间-时间后训练量化框架，通过识别量化误差在时间上（长期记忆持续传播）和空间上（不同 key 行影响不一）的差异化效应，实现对递归状态的高效低精度量化并缓解精度退化。
+🔗 http://arxiv.org/abs/2609.38169v1
 
-### Learning Native Reflection in Unified Models with Interleaved Reinforcement Learning
-📄 提出UMM-Reflection，通过交错强化学习在统一多模态模型内端到端优化完整“反思—生成”轨迹，从而让模型学会自我诊断并修复生成图像。
-🔗 http://arxiv.org/abs/2609.35767v1
+### LeapQuant: Efficient Linear Attention with Accurate Recurrent State Quantization
+📄 LeapQuant提出了一种无需训练的方法，通过逐窗口量化和异常值处理，在8比特循环状态量化下实现近乎无损的性能，从而高效加速线性注意力模型的推理。
+🔗 http://arxiv.org/abs/2609.38166v1

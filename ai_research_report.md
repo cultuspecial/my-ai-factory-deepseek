@@ -1,13 +1,13 @@
-# AI 简报 (2026-10-01)
+# AI 简报 (2026-10-02)
 
-### Semifactual Credit-Augmented Policy Optimization
-📄 提出半事实信用增强策略优化，通过在解码时抑制高漂移token并对不同token分配差异化信用，缓解GRPO对任务无关提示特征的虚假依赖，从而提升大模型推理准确率。
-🔗 http://arxiv.org/abs/2609.40360v1
+### One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars
+📄 提出GALA方法，通过将预训练3D高斯化身模型的实时动画近似为身份无关的blendshape线性组合，以浅层系数预测器加线性混合替代逐帧重型神经解码，从而在保证保真度的同时大幅降低内存和计算开销。
+🔗 http://arxiv.org/abs/2610.02207v1
 
-### ViTeX-Bench: Benchmarking High-Fidelity Video Scene Text Editing
-📄 ViTeX-Bench提出了一个用于高保真视频场景文本编辑的基准套件，包含配对真实视频数据集和专门评估指标，以填补该领域在数据与评测方面的空白。
-🔗 http://arxiv.org/abs/2609.40356v1
+### KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards
+📄 KaliBench 提出了一个面向 Kali Linux 网络安全工具使用的细粒度基准，通过 8504 条自然语言到 CLI 命令的查询-命令对，直接评估 LLM 生成可执行安全命令的能力，并引入无需运行时的可验证奖励机制。
+🔗 http://arxiv.org/abs/2610.02206v1
 
-### Turbo Harness: Instance-Adaptive Harness Optimization
-📄 Turbo Harness 通过复用全局 harness 优化过程中产生的信息，训练 harness 编辑器为每个任务实例生成定制化补丁，从而实现实例自适应的 harness 优化。
-🔗 http://arxiv.org/abs/2609.40330v1
+### Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents
+📄 提出RPG框架，让具身智能体无需更新模型权重，即可通过离线数据重建任务、在仿真中练习并利用反馈诊断来自主改进技能与提示词，从而提升真实机器人任务执行能力。
+🔗 http://arxiv.org/abs/2610.02204v1

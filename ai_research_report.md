@@ -1,13 +1,13 @@
-# AI 简报 (2026-10-04)
+# AI 简报 (2026-10-05)
 
-### One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars
-📄 提出GALA方法，通过将预训练的3D高斯化身模型的动画近似为身份无关的blendshape线性组合，用浅层系数预测器和线性混合替代逐帧神经解码，并基于渲染感知度量与内存预算下的分块PCA构建基，从而实现高效实时的化身动画。
-🔗 http://arxiv.org/abs/2610.02207v1
+### Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis
+📄 本文提出SNAP，通过采用姿态条件化的局部解码器和潜空间重建目标，解决了现有基于编码器的NVS方法因空间表达力强的解码器和低级像素目标导致几何表征学习效果差的问题，实现了更强的多视角几何表征学习。
+🔗 http://arxiv.org/abs/2610.03717v1
 
-### KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards
-📄 KaliBench 提出了一个面向 Kali Linux 网络安全工具使用的细粒度基准与数据集（含 8,504 条自然语言到 CLI 命令的查询-命令对，覆盖 1,642 个工具），并引入无需运行时的可验证奖励机制，以直接评估大模型生成可执行安全命令的能力。
-🔗 http://arxiv.org/abs/2610.02206v1
+### 4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes
+📄 4DCodeBench 提出了一个通过代码生成进行动态场景逆图形学的基准，用于评估智能体从视频重建可执行图形程序的能力，涵盖形变、流体、断裂等物理现象，并发现当前模型的静态重建能力尚无法可靠迁移到复杂动态场景。
+🔗 http://arxiv.org/abs/2610.03715v1
 
-### Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents
-📄 提出RPG框架，让具身智能体无需更新模型权重，即可通过离线数据重建能力、在仿真中自主练习并利用执行反馈诊断改进符号技能与系统提示，从而实现可靠的机器人操作能力自我提升。
-🔗 http://arxiv.org/abs/2610.02204v1
+### What Should World Models Forget? Stratified Retention for Continual Adaptation
+📄 该论文提出持续世界模型不应将遗忘旧知识一概视为失败，而应按知识的“不变性时间尺度”进行分层保留，区分必须永久保留与应当随环境变化而更新的知识。
+🔗 http://arxiv.org/abs/2610.03713v1

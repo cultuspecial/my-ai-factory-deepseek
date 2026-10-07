@@ -1,13 +1,13 @@
-# AI 简报 (2026-10-06)
+# AI 简报 (2026-10-07)
 
-### One Figure, Every Canvas: Editable Flowchart Relayout via Agentic Pipeline
-📄 提出一种将流程图重排版分解为解析、样式与布局三阶段的智能体流水线，实现跨画布比例下结构忠实、无幻觉且可编辑的流程图重排版。
-🔗 http://arxiv.org/abs/2610.06852v1
+### 4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction
+📄 4D-HOF提出了一种前馈式条件流匹配框架，利用视觉基础模型生成的粗略手-物状态作为先验，将其传输至交互流形上，从而高效、稳定地重建4D手-物交互。
+🔗 http://arxiv.org/abs/2610.08782v1
 
-### Base Models Can Reason By Taking a Cue From Training Data
-📄 这篇论文发现，基础模型的推理能力可由训练数据中习得的起始 token 线索触发，固定这些线索即可大幅提升数学与代码任务表现，甚至接近经强化学习训练后的水平。
-🔗 http://arxiv.org/abs/2610.06851v1
+### IdeaAnchor: Teaching LLMs to Turn Literature into Research Ideas
+📄 IdeaAnchor通过从已发表论文中挖掘结构化规范作为特权信号来训练LLM，使其能够基于文献综合作出有根据的研究创意生成。
+🔗 http://arxiv.org/abs/2610.08781v1
 
-### BiasFlow: Geometric Monitoring and Backbone Regularization for Spurious Feature Reliance
-📄 提出BiasFlow工具包用于监测模型对虚假特征的依赖（通过类-属性质心对齐IBMI、类内质心分离W-IBMI和特征投影敏感性），并配套BiasFlow正则化（BFR）——一种可组合的类条件质心对齐惩罚项，在所报告的小规模基准上提升或保持了最差组准确率（UrbanC上最高提升26.0个百分点）。
-🔗 http://arxiv.org/abs/2610.06846v1
+### DepthWorld: 3D World Model for Robot Manipulation
+📄 提出DepthWorld，通过标定流水线从多机器人数据中获取共享运动学参数并结合大规模3D监督，构建了首个能生成一致3D几何的机器人操作世界模型。
+🔗 http://arxiv.org/abs/2610.08780v1

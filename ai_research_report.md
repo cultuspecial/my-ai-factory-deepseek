@@ -1,13 +1,13 @@
-# AI 简报 (2026-10-08)
+# AI 简报 (2026-10-09)
 
-### Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos
-📄 提出Ledger——一种从第一视角视频构建的持久3D物体记忆系统，能跨观察关联物体、在物体离开视野后仍保留其位置、历史与上下文描述，并通过按静止位置聚类和基于重复证据才记录移动来降低定位噪声影响。
-🔗 http://arxiv.org/abs/2610.10538v1
+### On the estimation and validity of AI time horizons---a statistical look at the METR plot
+📄 该论文用样条和项目反应理论重新估计了 METR 的 AI 时间视野，发现人类任务时间与 AI 难度之间的关系并非简单的对数线性，而是存在一段近乎平坦的区间，因此相同倍数的时间视野提升在不同区间所代表的难度增长并不相同。
+🔗 http://arxiv.org/abs/2610.12466v1
 
-### Decoupling Exploration from Optimization in RLVR
-📄 论文提出 Exploration-Distillation（ExpDis）框架，将探索与优化解耦：先用新颖性奖励训练探索策略生成轨迹，再筛选出正确且高质量的轨迹用于蒸馏，从而在避免模型质量退化的同时实现 RLVR 中的新推理策略发现。
-🔗 http://arxiv.org/abs/2610.10536v1
+### From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents
+📄 论文指出，OpenAI、Anthropic与Google的智能体安全事件表明，仅靠预设边界已不足以防风险，必须转向在智能体运行过程中实时验证边界，实现从被动遏制到主动保障的转变。
+🔗 http://arxiv.org/abs/2610.12463v1
 
-### Long-WAM: Scaling the Context of World-Action Models
-📄 Long-WAM通过自回归视频预训练与系统级优化，在实时控制约束下有效扩展了世界-动作模型的上下文长度，证明历史信息的价值在于自回归式的利用方式而非单纯获取——将RoboCasa GR-1上的成功率达从63.3%提升至78.7%。
-🔗 http://arxiv.org/abs/2610.10528v1
+### BrickBench: Evaluating Agentic Brick Design
+📄 我们提出了BrickBench，一个面向智能体文本条件乐高套装设计的基准，并配套提供BrickAgent环境，用于评估智能体在物理可搭建性、语义对齐和设计质量上的表现，发现当前领先智能体虽能满足可验证的物理与语义要求，但设计水平仍不及人类。
+🔗 http://arxiv.org/abs/2610.12452v1

@@ -1,13 +1,13 @@
-# AI 简报 (2026-10-11)
+# AI 简报 (2026-10-12)
 
-### On the estimation and validity of AI time horizons---a statistical look at the METR plot
-📄 该论文放宽了AI任务难度与人类完成时间对数呈线性关系的假设，用样条和项目反应理论重新估计METR的AI时间视野，发现人类时间与AI难度之间的转换函数在2–30分钟区间近乎平坦、其他区间接近线性，从而表明时间视野从3分钟提升到30分钟远比从30分钟提升到5小时容易，并给出了交叉验证表现更优的时间视野点估计。
-🔗 http://arxiv.org/abs/2610.12466v1
+### Can Language Models Play the Wikipedia Game?
+📄 论文构建了基于OpenAlex的维基百科与学术文献大规模局部图及导航代码，以“维基百科游戏”（仅通过文章链接到达目标文章）作为信息检索任务，在五种语言和五个学术数据集上比较了句子嵌入模型与LLM的导航能力，并与人类和TF-IDF基准进行对比。
+🔗 http://arxiv.org/abs/2610.13948v1
 
-### From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents
-📄 论文通过比较OpenAI、Anthropic和Google的智能体安全事件，指出评测不能依赖预设边界，而必须在智能体运行时实时验证边界，从而实现从被动遏制到主动保障的转变。
-🔗 http://arxiv.org/abs/2610.12463v1
+### Hide and Seek: HIDE Concepts to SEEK explanations for black box models
+📄 提出一种无需模型权重或概念标注数据的“Hide and Seek”方法，通过视觉语言模型检索并遮蔽图像中的概念区域来测量其影响，从而为各类黑盒视觉模型提供概念级、图像级的归因解释。
+🔗 http://arxiv.org/abs/2610.13935v1
 
-### BrickBench: Evaluating Agentic Brick Design
-📄 提出 BrickBench——一个面向智能体文本条件乐高套装设计的基准，配套可构建、检查与验证设计的 BrickAgent 环境，并评估发现当前领先智能体虽能满足可验证的物理与语义要求，但在设计上仍不及人类。
-🔗 http://arxiv.org/abs/2610.12452v1
+### Revisiting Tabular Deep Regression: Objectives and the Limits of Global Early Stopping
+📄 该论文系统重估了表格数据深度回归中的目标函数，发现多数替代损失相较调优后的MSE基线收益有限或不稳定，而分位数损失则能带来一致的总体提升，并揭示了全局早停策略的局限性。
+🔗 http://arxiv.org/abs/2610.13909v1

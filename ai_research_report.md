@@ -1,13 +1,13 @@
-# AI 简报 (2026-10-14)
+# AI 简报 (2026-10-15)
 
-### ChunkAct: Action Chunking for Agentic Robotics
-📄 ChunkAct通过将链式动作打包成块、仅在失败时交还控制权，大幅减少了智能体机器人中冗余的LLM推理，从而在保持泛化能力的同时显著提升效率。
-🔗 http://arxiv.org/abs/2610.18874v1
+### Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion
+📄 该论文提出将线性自编码器与扩散Transformer结合的潜在扩散框架，直接对人类oid控制策略的网络权重分布进行生成式建模，以在权重空间中生成高性能控制网络。
+🔗 http://arxiv.org/abs/2610.20606v1
 
-### What Matters in Quality-Aware VLA Pretraining: A Benchmark and Empirical Study
-📄 论文通过大规模基准实验发现，在VLA预训练中利用示范质量信息时，基于“接近方式”的情节级条件化（approach-aware episode conditioning）平均优于普通行为克隆，且条件化与过滤分别偏好情节级和片段级标签，同时恒定标签微调可在条件化后进一步提升平均成功率。
-🔗 http://arxiv.org/abs/2610.18869v1
+### Hierarchical Residual Policy Learning for Real-World Mobile Manipulation with Sparse Human Guidance
+📄 HiRe-MoMa 提出了一种分层残差框架，通过策略无关的残差修正和移动底座-机械臂的分层解耦，实现了在稀疏人类指导下稳定且样本高效的真实世界移动操作微调。
+🔗 http://arxiv.org/abs/2610.20607v1
 
-### Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards
-📄 Tev通过构建首个具备可验证、稠密、渐进式奖励的长时程智能体训练数据集Tev-Gym（涵盖7个领域、1170个任务环境），解决了长时程任务中数据稀缺与奖励稀疏的难题。
-🔗 http://arxiv.org/abs/2610.18868v1
+### Co-Evolving Acting and Forecasting for Language Agents
+📄 论文提出 Co-Evolving Acting and Forecasting 框架，通过在多步动作目标上联合训练语言智能体的行动与预测能力，从而更充分地利用长程轨迹中的中间监督信号。
+🔗 http://arxiv.org/abs/2610.20597v1

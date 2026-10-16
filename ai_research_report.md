@@ -1,13 +1,13 @@
-# AI 简报 (2026-10-15)
+# AI 简报 (2026-10-16)
 
-### Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion
-📄 该论文提出将线性自编码器与扩散Transformer结合的潜在扩散框架，直接对人类oid控制策略的网络权重分布进行生成式建模，以在权重空间中生成高性能控制网络。
-🔗 http://arxiv.org/abs/2610.20606v1
+### LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation
+📄 论文提出 LIBERO-PeRM，一个用于具身智能体偏好多任务学习的受控基准，通过五个维度系统评估个性化机器人操作中任务完成与偏好满足的分离与学习能力。
+🔗 http://arxiv.org/abs/2610.22372v1
 
-### Hierarchical Residual Policy Learning for Real-World Mobile Manipulation with Sparse Human Guidance
-📄 HiRe-MoMa 提出了一种分层残差框架，通过策略无关的残差修正和移动底座-机械臂的分层解耦，实现了在稀疏人类指导下稳定且样本高效的真实世界移动操作微调。
-🔗 http://arxiv.org/abs/2610.20607v1
+### Discovering state-of-the-art quantum circuits with large language models
+📄 该论文提出了一种利用大语言模型生成、独立评估器验证打分的进化框架，在数值计算、化学、优化、量子模拟和数论等多类任务中自动发现了达到最先进水平的量子电路。
+🔗 http://arxiv.org/abs/2610.22367v1
 
-### Co-Evolving Acting and Forecasting for Language Agents
-📄 论文提出 Co-Evolving Acting and Forecasting 框架，通过在多步动作目标上联合训练语言智能体的行动与预测能力，从而更充分地利用长程轨迹中的中间监督信号。
-🔗 http://arxiv.org/abs/2610.20597v1
+### T2-z: Test-Time Optimization of Environment Latents for Robotic World Models
+📄 T2-Z 通过在测试时优化一个可学习的紧凑环境隐变量，使机器人世界模型无需监督即可自适应地捕捉不可观测的环境差异，从而提升动作条件预测的准确性。
+🔗 http://arxiv.org/abs/2610.22364v1

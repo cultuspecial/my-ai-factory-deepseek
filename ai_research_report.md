@@ -1,13 +1,13 @@
-# AI 简报 (2026-10-19)
+# AI 简报 (2026-10-20)
 
-### Rethinking the design space of Vanilla Pixel Diffusion Transformers
-📄 该论文通过提出MFlow（一种在数据主方向上自适应插值x₀预测与速度预测的参数化方法），重新审视了像素空间扩散Transformer的设计空间，发现最优参数化方式随数据表示和模型容量系统性变化。
-🔗 http://arxiv.org/abs/2610.23854v1
+### OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory
+📄 OpenVLHarness 提出了一种围绕能力层与持久多模态记忆构建的多模态推理框架，通过任务级工具接口与证据渲染整合异构外部工具的输出，并跨推理步骤保留可解释的多模态证据，从而显著提升 MLLM 在需要真实世界感知、外部知识与数值测量的复杂任务上的表现。
+🔗 http://arxiv.org/abs/2610.26860v1
 
-### Behavioral Couplings: From Formation to Behavioral Emergence in Language Models
-📄 论文发现，当训练文档将两种行为一起描述时，微调模型诱发其中一种行为会连带引发另一种行为，从而揭示语言模型中行为耦合的形成机制及其行为涌现特性。
-🔗 http://arxiv.org/abs/2610.23847v1
+### Reinforcement Learning with Visually Attributable On-Policy Self-Distillation
+📄 论文提出了一种带视觉可归因性的在线策略自蒸馏强化学习方法，通过将令牌级纠正一致归因于特权视觉证据，解决“特权纠正污染”问题，从而提升多模态视觉推理中错误定位的可靠性。
+🔗 http://arxiv.org/abs/2610.26856v1
 
-### AI-Driven Reproducibility and Analytical Robustness in Scientific Discovery
-📄 提出SEER-Repro基准并构建LLM智能体，实现医学研究中可复现性与分析稳健性的自动化评估（成功复现77.4%的原子结论）。
-🔗 http://arxiv.org/abs/2610.23845v1
+### CoopUQ: Robust Multi-Robot Social Navigation via Uncertainty-Aware Cooperative Forecasting
+📄 CoopUQ通过不确定性感知的跨机器人协同占用预测与鲁棒决策相结合，实现了多机器人社交导航中在遮挡和分布外场景下的安全高效协作。
+🔗 http://arxiv.org/abs/2610.26852v1

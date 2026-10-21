@@ -1,13 +1,13 @@
-# AI 简报 (2026-10-20)
+# AI 简报 (2026-10-21)
 
-### OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory
-📄 OpenVLHarness 提出了一种围绕能力层与持久多模态记忆构建的多模态推理框架，通过任务级工具接口与证据渲染整合异构外部工具的输出，并跨推理步骤保留可解释的多模态证据，从而显著提升 MLLM 在需要真实世界感知、外部知识与数值测量的复杂任务上的表现。
-🔗 http://arxiv.org/abs/2610.26860v1
+### Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs
+📄 该论文提出一种模型，可直接为任意骨架联合生成视频与可重放的3D运动及对应相机参数，从而将视频中的运动转化为可在3D场景中复用的动画。
+🔗 http://arxiv.org/abs/2610.28632v1
 
-### Reinforcement Learning with Visually Attributable On-Policy Self-Distillation
-📄 论文提出了一种带视觉可归因性的在线策略自蒸馏强化学习方法，通过将令牌级纠正一致归因于特权视觉证据，解决“特权纠正污染”问题，从而提升多模态视觉推理中错误定位的可靠性。
-🔗 http://arxiv.org/abs/2610.26856v1
+### GBClaw: An agentic AI framework for atomistic grain boundary research and mechanistic discovery
+📄 GBClaw提出了一个集成大语言模型、模块化智能体架构与领域工具及分层记忆的智能体AI框架，用于自动化研究一般晶界的结构与变形行为，并实现机制性发现。
+🔗 http://arxiv.org/abs/2610.28629v1
 
-### CoopUQ: Robust Multi-Robot Social Navigation via Uncertainty-Aware Cooperative Forecasting
-📄 CoopUQ通过不确定性感知的跨机器人协同占用预测与鲁棒决策相结合，实现了多机器人社交导航中在遮挡和分布外场景下的安全高效协作。
-🔗 http://arxiv.org/abs/2610.26852v1
+### UniWALM: Unified World Action Language Model for Embodied Robot Control
+📄 UniWALM 提出统一的世界-动作-语言模型，在单一混合Transformer主干中将视频、动作与语言学习为共享表示（各模态同时作为条件信号与监督目标），通过各模态扩散头同步去噪，在同一次生成中联合输出子任务、文本记忆与动作，从而提升机器人操作与依赖记忆的行为。
+🔗 http://arxiv.org/abs/2610.28626v1

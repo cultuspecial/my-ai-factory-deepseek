@@ -1,13 +1,13 @@
-# AI 简报 (2026-10-21)
+# AI 简报 (2026-10-22)
 
-### Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs
-📄 该论文提出一种模型，可直接为任意骨架联合生成视频与可重放的3D运动及对应相机参数，从而将视频中的运动转化为可在3D场景中复用的动画。
-🔗 http://arxiv.org/abs/2610.28632v1
+### Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation
+📄 论文提出按物品粒度自适应分配递归计算深度，让序列推荐模型在关键物品上“多想几步”，从而避免固定计算预算的浪费并提升推荐质量。
+🔗 http://arxiv.org/abs/2610.30128v1
 
-### GBClaw: An agentic AI framework for atomistic grain boundary research and mechanistic discovery
-📄 GBClaw提出了一个集成大语言模型、模块化智能体架构与领域工具及分层记忆的智能体AI框架，用于自动化研究一般晶界的结构与变形行为，并实现机制性发现。
-🔗 http://arxiv.org/abs/2610.28629v1
+### PhysiCalWorld: In-Context Physics Calibration for World Models
+📄 PhysiCalWorld通过上下文提示将测试场景中的探索交互编码为物理描述符令牌，无需微调或解析物理建模即可将动作条件世界模型校准到实例特定动力学，从而减少预测漂移。
+🔗 http://arxiv.org/abs/2610.30125v1
 
-### UniWALM: Unified World Action Language Model for Embodied Robot Control
-📄 UniWALM 提出统一的世界-动作-语言模型，在单一混合Transformer主干中将视频、动作与语言学习为共享表示（各模态同时作为条件信号与监督目标），通过各模态扩散头同步去噪，在同一次生成中联合输出子任务、文本记忆与动作，从而提升机器人操作与依赖记忆的行为。
-🔗 http://arxiv.org/abs/2610.28626v1
+### Environment Duels: A Microcosm of LLM Co-Evolution
+📄 提出Environment Duels动态智能体基准，通过让模型既创作又求解交互环境，揭示LLM的求解与创作是两种不同能力，且小型模型反而能从他人玩法中学习并写出最难环境和最有用的提示。
+🔗 http://arxiv.org/abs/2610.30116v1

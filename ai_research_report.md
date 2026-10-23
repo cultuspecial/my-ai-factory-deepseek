@@ -1,13 +1,13 @@
-# AI 简报 (2026-10-22)
+# AI 简报 (2026-10-23)
 
-### Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation
-📄 论文提出按物品粒度自适应分配递归计算深度，让序列推荐模型在关键物品上“多想几步”，从而避免固定计算预算的浪费并提升推荐质量。
-🔗 http://arxiv.org/abs/2610.30128v1
+### Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning
+📄 论文提出直接Pass@$k$优化方法用于思维剪枝，在测试时推理中同时兼顾候选解的质量与多样性。
+🔗 http://arxiv.org/abs/2610.31667v1
 
-### PhysiCalWorld: In-Context Physics Calibration for World Models
-📄 PhysiCalWorld通过上下文提示将测试场景中的探索交互编码为物理描述符令牌，无需微调或解析物理建模即可将动作条件世界模型校准到实例特定动力学，从而减少预测漂移。
-🔗 http://arxiv.org/abs/2610.30125v1
+### Cost-Aware Abstention for LLM-Based IT Ticket Classification
+📄 论文提出并验证了一种成本感知弃权框架：在校准数据上按显式成本选择路由策略并冻结，再在测试集上一次性评估，从而在IT工单分类中以更低成本显著减少错误路由。
+🔗 http://arxiv.org/abs/2610.31657v1
 
-### Environment Duels: A Microcosm of LLM Co-Evolution
-📄 提出Environment Duels动态智能体基准，通过让模型既创作又求解交互环境，揭示LLM的求解与创作是两种不同能力，且小型模型反而能从他人玩法中学习并写出最难环境和最有用的提示。
-🔗 http://arxiv.org/abs/2610.30116v1
+### METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning
+📄 METTA通过将快速适应分解为因果神经记忆的回合内细粒度适应和回合级摘要的跨回合长程任务推断两个时间尺度，在保持线性复杂度的同时实现了元强化学习的高效测试时适应。
+🔗 http://arxiv.org/abs/2610.31656v1

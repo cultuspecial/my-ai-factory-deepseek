@@ -1,13 +1,13 @@
-# AI 简报 (2026-10-25)
+# AI 简报 (2026-10-26)
 
-### Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning
-📄 论文提出Direct Pass@$k$优化方法，通过在生成短前缀后对候选推理路径进行剪枝，在质量（预测正确性）与多样性（覆盖不同推理轨迹）之间取得平衡，从而在测试时推理中以更低计算成本提升找到正确答案的概率。
-🔗 http://arxiv.org/abs/2610.31667v1
+### SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning
+📄 SceneBloom提出了一种结合视觉布局采样与契约引导3D编译的智能体框架，用于生成逼真、多样且可直接用于具身学习的室内环境。
+🔗 http://arxiv.org/abs/2610.32978v1
 
-### Cost-Aware Abstention for LLM-Based IT Ticket Classification
-📄 论文提出并验证了一种基于成本感知弃权的LLM工单分类评估框架：在校准集上按显式成本选择路由策略并在测试集上冻结评估，实验表明TF-IDF+逻辑回归配合0.60阈值可将测试成本相对降低38.1%，同时将错误路由率从15.3%降至3.5%。
-🔗 http://arxiv.org/abs/2610.31657v1
+### RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms
+📄 RobustRLlib 是一个统一的鲁棒强化学习算法库与基准，集成了17种代表性在线、离线与安全鲁棒RL算法并提供统一接口，同时构建了覆盖多样真实扰动与先进人形及视觉-语言-动作任务的评估平台，通过273种扰动配置的系统评测揭示了现有算法的能力边界。
+🔗 http://arxiv.org/abs/2610.32971v1
 
-### METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning
-📄 METTA通过将快速适应分解为线性复杂度的因果神经记忆（负责幕内细粒度适应）和紧凑的幕级摘要（支持跨幕长程任务推断），在避免二次方计算与内存开销的同时实现了元强化学习的高效测试时适应。
-🔗 http://arxiv.org/abs/2610.31656v1
+### DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection
+📄 DexPort 提出了一种便携式高自由度灵巧手数据采集接口，通过采集与部署使用同一手部硬件消除具身差距，并记录关节目标与实测状态，从而以小技能集支持广泛灵巧操作任务。
+🔗 http://arxiv.org/abs/2610.32969v1

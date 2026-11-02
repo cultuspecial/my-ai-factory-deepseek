@@ -1,13 +1,13 @@
-# AI 简报 (2026-11-01)
+# AI 简报 (2026-11-02)
 
-### Rethinking Neural Thickets Without Weight Perturbations
-📄 论文表明，权重空间中的“神经丛林”增益并不需要几何解释，仅靠输出扰动、验证集筛选与投票（PSV）即可复现甚至超越，从而提出了一种基于输出多样性的替代性解释。
-🔗 http://arxiv.org/abs/2610.40649v1
+### Latent Sparse Attention: Towards Subquadratic Ultra-Long Context Attention
+📄 提出Latent Sparse Attention（LSA），通过在学习的潜在空间中对键进行层次聚类、让查询对聚类层次而非每个键打分，从而在超长上下文（超100万token）下实现亚二次复杂度且保持精度的稀疏注意力方法。
+🔗 http://arxiv.org/abs/2610.42147v1
 
-### Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers
-📄 提出SpecSlot——一种像素空间整流流Transformer，通过将每个空间锚点扩展为多个各负责不重叠DCT频带的槽位（仅最低频槽位参与全局注意力、其余局部建模），实现输出细节与全局注意力序列长度的解耦。
-🔗 http://arxiv.org/abs/2610.40647v1
+### Hierarchical World Models with Implicit Dynamics
+📄 ID-WM提出一种分层世界模型，将状态空间可达性与局部控制解耦，高层模型采样可行状态转移、低层世界模型作为逆动力学求解器将其落地为精确动作，从而在长程任务中实现更灵活、精细的规划与控制。
+🔗 http://arxiv.org/abs/2610.42146v1
 
-### Luggage re-identification: A study of strategies towards a real-world application
-📄 该论文针对真实世界中行李再识别面临遮挡、背景杂乱和拥挤等挑战，提出并研究了利用多视频流中多镜头与多视角互补性的策略，以推动行李再识别技术在实际监控场景中的应用。
-🔗 http://arxiv.org/abs/2610.40643v1
+### RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory
+📄 RoboArchitect 提出用编码模型自动迭代设计冻结机器人策略外围的智能体框架（harness），无需微调模型权重即可将未见场景和任务上的平均成功率分别提升至43.3%和40.2%（提升约4.5倍和3.2倍）。
+🔗 http://arxiv.org/abs/2610.42141v1

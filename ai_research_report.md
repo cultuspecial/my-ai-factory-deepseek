@@ -1,13 +1,13 @@
-# AI 简报 (2026-11-02)
+# AI 简报 (2026-11-03)
 
-### Latent Sparse Attention: Towards Subquadratic Ultra-Long Context Attention
-📄 提出Latent Sparse Attention（LSA），通过在学习的潜在空间中对键进行层次聚类、让查询对聚类层次而非每个键打分，从而在超长上下文（超100万token）下实现亚二次复杂度且保持精度的稀疏注意力方法。
-🔗 http://arxiv.org/abs/2610.42147v1
+### Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations
+📄 Pixel-UMI 提出了一套从传感器化人类演示中学习环境感知全身操作策略的流程，通过环境感知重定向（EAR）结合场景几何与演示轨迹生成无碰撞的机器人的关节与底座目标，并用重定向误差感知掩码（REAM）缓解人机运动学差异导致的视角错配问题。
+🔗 http://arxiv.org/abs/2611.03647v1
 
-### Hierarchical World Models with Implicit Dynamics
-📄 ID-WM提出一种分层世界模型，将状态空间可达性与局部控制解耦，高层模型采样可行状态转移、低层世界模型作为逆动力学求解器将其落地为精确动作，从而在长程任务中实现更灵活、精细的规划与控制。
-🔗 http://arxiv.org/abs/2610.42146v1
+### Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation
+📄 Pixel通过软硬件协同设计，将低成本轮式人形机器人、多模态数据采集接口、统一全身控制器与共享策略学习流程整合为一套全栈系统，实现通用移动操作的高效学习。
+🔗 http://arxiv.org/abs/2611.03648v1
 
-### RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory
-📄 RoboArchitect 提出用编码模型自动迭代设计冻结机器人策略外围的智能体框架（harness），无需微调模型权重即可将未见场景和任务上的平均成功率分别提升至43.3%和40.2%（提升约4.5倍和3.2倍）。
-🔗 http://arxiv.org/abs/2610.42141v1
+### From Natural Language to Exact Cover: A Neuro-Symbolic Approach to Zebra Puzzles
+📄 提出一种神经符号框架，将自然语言经神经语义解析转换为精确覆盖（exact cover）形式，从而兼顾LLM的自然语言理解能力与符号求解器的确定性、可靠性和完备性。
+🔗 http://arxiv.org/abs/2611.03641v1

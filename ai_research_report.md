@@ -1,13 +1,13 @@
-# AI 简报 (2026-11-03)
+# AI 简报 (2026-11-04)
 
-### Pixel-UMI: Learning Environment-Aware Whole-Body Manipulation from Sensorized Human Demonstrations
-📄 Pixel-UMI 提出了一套从传感器化人类演示中学习环境感知全身操作策略的流程，通过环境感知重定向（EAR）结合场景几何与演示轨迹生成无碰撞的机器人的关节与底座目标，并用重定向误差感知掩码（REAM）缓解人机运动学差异导致的视角错配问题。
-🔗 http://arxiv.org/abs/2611.03647v1
+### DreamX: Video Diffusion Model is a Universal Latent Action Learner
+📄 DreamX通过复用预训练视频扩散模型提取紧凑且解耦的潜在动作表示，实现了跨具身与外观变化的通用动作学习。
+🔗 http://arxiv.org/abs/2611.05377v1
 
-### Pixel: A Co-Designed Full-Stack Robot System for Learning General-Purpose Mobile Manipulation
-📄 Pixel通过软硬件协同设计，将低成本轮式人形机器人、多模态数据采集接口、统一全身控制器与共享策略学习流程整合为一套全栈系统，实现通用移动操作的高效学习。
-🔗 http://arxiv.org/abs/2611.03648v1
+### From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence
+📄 论文主张AI研究应从追求自主智能体转向构建“认知共生体”，即让AI融入人的处境来增强而非替代人类智能，并呼吁在物理AI时代同等重视“被AI增强的人”这一智能个体。
+🔗 http://arxiv.org/abs/2611.05376v1
 
-### From Natural Language to Exact Cover: A Neuro-Symbolic Approach to Zebra Puzzles
-📄 提出一种神经符号框架，将自然语言经神经语义解析转换为精确覆盖（exact cover）形式，从而兼顾LLM的自然语言理解能力与符号求解器的确定性、可靠性和完备性。
-🔗 http://arxiv.org/abs/2611.03641v1
+### Aligning Language Models with General Preferences: An Empirical Study of Direct Nash Optimization
+📄 论文独立复现并实证评估了DNO-Prct方法，证明其能通过迭代式在线采样与偏好优化显著提升开源指令模型（Llama 3.1 8B、Mistral 7B）在通用偏好对齐上的表现（如AlpacaEval 2.0上对GPT-4o的LC胜率大幅提升）。
+🔗 http://arxiv.org/abs/2611.05373v1

@@ -1,13 +1,13 @@
-# AI 简报 (2026-11-04)
+# AI 简报 (2026-11-05)
 
-### DreamX: Video Diffusion Model is a Universal Latent Action Learner
-📄 DreamX通过复用预训练视频扩散模型提取紧凑且解耦的潜在动作表示，实现了跨具身与外观变化的通用动作学习。
-🔗 http://arxiv.org/abs/2611.05377v1
+### BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories
+📄 BEAKER提出了首个由专家精心构建的基准，用于系统评估多模态大语言模型作为自主化学实验室"具身大脑"在执行导向任务中的具身可操作性、知识、实验与推理能力，填补了现有实验室基准在具身执行能力评估上的空白。
+🔗 http://arxiv.org/abs/2611.06911v1
 
-### From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence
-📄 论文主张AI研究应从追求自主智能体转向构建“认知共生体”，即让AI融入人的处境来增强而非替代人类智能，并呼吁在物理AI时代同等重视“被AI增强的人”这一智能个体。
-🔗 http://arxiv.org/abs/2611.05376v1
+### FrontierPhysics: Evaluating Agents for End-to-End Physics Research
+📄 FrontierPhysics 提出首个端到端物理学研究基准，由42位物理学家基于自身研究设计56个涵盖理论、计算与实验九大领域的任务，要求智能体完成文献调研、研究规划、实验执行到论文撰写的完整流程，并结合确定性验证器与专家评分标准同时评估研究的正确性与可发表性。
+🔗 http://arxiv.org/abs/2611.06910v1
 
-### Aligning Language Models with General Preferences: An Empirical Study of Direct Nash Optimization
-📄 论文独立复现并实证评估了DNO-Prct方法，证明其能通过迭代式在线采样与偏好优化显著提升开源指令模型（Llama 3.1 8B、Mistral 7B）在通用偏好对齐上的表现（如AlpacaEval 2.0上对GPT-4o的LC胜率大幅提升）。
-🔗 http://arxiv.org/abs/2611.05373v1
+### Perceptive Humanoid Motion from Simulation
+📄 提出HALO系统，通过程序化生成千种家庭场景合成视觉-语言-运动数据，以计算而非人力扩展数据规模，使仿人机器人习得坐椅、寻物导航等物理技能。
+🔗 http://arxiv.org/abs/2611.06908v1

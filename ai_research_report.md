@@ -1,13 +1,13 @@
-# AI 简报 (2026-11-05)
+# AI 简报 (2026-11-06)
 
-### BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories
-📄 BEAKER提出了首个由专家精心构建的基准，用于系统评估多模态大语言模型作为自主化学实验室"具身大脑"在执行导向任务中的具身可操作性、知识、实验与推理能力，填补了现有实验室基准在具身执行能力评估上的空白。
-🔗 http://arxiv.org/abs/2611.06911v1
+### SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization
+📄 SwarmEvolve提出了一种低成本的潜在空间智能体集群进化搜索框架，通过数百个不生成文本、以KV缓存共享信息并从不同角度探索的智能体协同工作，配合基于隐状态距离的新颖性过滤和潜在空间交叉，显著加速数学与计算问题的程序进化优化。
+🔗 http://arxiv.org/abs/2611.08483v1
 
-### FrontierPhysics: Evaluating Agents for End-to-End Physics Research
-📄 FrontierPhysics 提出首个端到端物理学研究基准，由42位物理学家基于自身研究设计56个涵盖理论、计算与实验九大领域的任务，要求智能体完成文献调研、研究规划、实验执行到论文撰写的完整流程，并结合确定性验证器与专家评分标准同时评估研究的正确性与可发表性。
-🔗 http://arxiv.org/abs/2611.06910v1
+### Scientist World: Grow a Research World for AI-Scientists
+📄 Scientist World 将每篇论文转化为可执行的研究环境，让 AI-Scientists 能在此成长并被评估，且发现前沿 AI-Scientists 已有 74% 的概率超越人类研究者。
+🔗 http://arxiv.org/abs/2611.08478v1
 
-### Perceptive Humanoid Motion from Simulation
-📄 提出HALO系统，通过程序化生成千种家庭场景合成视觉-语言-运动数据，以计算而非人力扩展数据规模，使仿人机器人习得坐椅、寻物导航等物理技能。
-🔗 http://arxiv.org/abs/2611.06908v1
+### XStack: A Benchmark for ML Repo Migration
+📄 XStack提出了一个评估智能体在PyTorch/NVIDIA GPU与JAX/Google TPU两大生态间迁移完整机器学习代码库能力的基准测试。
+🔗 http://arxiv.org/abs/2611.08472v1

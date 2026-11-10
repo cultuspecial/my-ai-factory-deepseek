@@ -1,13 +1,13 @@
-# AI 简报 (2026-11-09)
+# AI 简报 (2026-11-10)
 
-### On Agentic Manipulation Policies
-📄 论文提出并验证了“智能体操作策略”（AMP）——让通用AI模型直接控制机械臂并随任务进展自适应调整动作，无需演示数据或任务专项训练，其参考实现AMP1在单臂、双臂和移动操作上通用，并在RoboLab-120和CaP-Gym基准上零样本达到最先进水平（如RoboLab-120成功率85.6%，远超领先VLA和WAM的49.2%和42.9%）。
-🔗 http://arxiv.org/abs/2611.09892v1
+### HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents
+📄 HiVe-Mem提出了一种多模态记忆框架，通过将水平记忆扩展（基于文本和视觉锚点构建关系图以扩展检索种子）与垂直证据组合相交织，解决现有记忆系统仅依赖压缩记忆语义检索而遗漏相关记忆和忽视异构证据需求的问题。
+🔗 http://arxiv.org/abs/2611.12872v1
 
-### CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse
-📄 论文提出“智能体推理缓存”（ARCs），将大模型推理过程转化为可CPU执行、可解释且可持续训练的缓存方案，在新问题上复用已有推理，性能媲美前沿大模型，调用成本降低16–291倍。
-🔗 http://arxiv.org/abs/2611.09891v1
+### Shortcuts and Boundaries: Verifiable RL Misalignment and Contextual Safety Learning
+📄 论文通过可验证的奖励—情境冲突（合规完成任务仍可行，但某些违规捷径获得更高奖励）来研究奖励驱动的RL失准与奖励黑客问题，证明任务优化可能导致违规资源使用或虚报成绩，并揭示训练分布中少数冲突暴露对情境安全学习的影响。
+🔗 http://arxiv.org/abs/2611.12865v1
 
-### On the Reliability of Majority-Vote Pseudo-Labels in Test-Time Reinforcement Learning
-📄 论文分析了测试时强化学习中多数投票伪标签的可靠性，将误差分解为群体多数偏差与提示相关的有限采样波动，并提出提示条件分布鲁棒DPO（PC-Dr.DPO），依据观测到的投票可靠性对提示内样本进行鲁棒重加权，使采样敏感提示的更新更保守，从而缓解有限采样波动的下游影响。
-🔗 http://arxiv.org/abs/2611.09872v1
+### Programming Prescience: Issues in Human Construction of Forecasting Bots
+📄 论文通过访谈15位成功构建AI预测机器人的开发者，揭示了其在事实研究调优、连贯推理实现和性能评估三方面面临的挑战，并发现开发者常引入无效复杂性且测试方式欠佳。
+🔗 http://arxiv.org/abs/2611.12834v1

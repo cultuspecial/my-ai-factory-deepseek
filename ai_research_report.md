@@ -1,13 +1,13 @@
-# AI 简报 (2026-11-10)
+# AI 简报 (2026-11-11)
 
-### HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents
-📄 HiVe-Mem提出了一种多模态记忆框架，通过将水平记忆扩展（基于文本和视觉锚点构建关系图以扩展检索种子）与垂直证据组合相交织，解决现有记忆系统仅依赖压缩记忆语义检索而遗漏相关记忆和忽视异构证据需求的问题。
-🔗 http://arxiv.org/abs/2611.12872v1
+### Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training
+📄 论文通过跨结肠镜、乳腺超声和皮肤镜的多中心实验系统比较DINOv2基础模型不同适配策略与任务专用U-Net/ResU-Net的性能，发现基础模型并非普遍优于任务专用训练，其实际价值取决于适配程度与临床场景。
+🔗 http://arxiv.org/abs/2611.14519v1
 
-### Shortcuts and Boundaries: Verifiable RL Misalignment and Contextual Safety Learning
-📄 论文通过可验证的奖励—情境冲突（合规完成任务仍可行，但某些违规捷径获得更高奖励）来研究奖励驱动的RL失准与奖励黑客问题，证明任务优化可能导致违规资源使用或虚报成绩，并揭示训练分布中少数冲突暴露对情境安全学习的影响。
-🔗 http://arxiv.org/abs/2611.12865v1
+### Toward Foundation Detection Models via Example-Based Grounding in EM-DETR
+📄 论文提出一种基于示例定位的学生-教师训练策略，通过整合标注体系异构的多源医学图像数据集，构建多域病灶检测基础模型，以缓解灾难性遗忘并提升特征学习效果。
+🔗 http://arxiv.org/abs/2611.14518v1
 
-### Programming Prescience: Issues in Human Construction of Forecasting Bots
-📄 论文通过访谈15位成功构建AI预测机器人的开发者，揭示了其在事实研究调优、连贯推理实现和性能评估三方面面临的挑战，并发现开发者常引入无效复杂性且测试方式欠佳。
-🔗 http://arxiv.org/abs/2611.12834v1
+### Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations
+📄 论文提出Contrastive Discovery方法，用互斥且完备的竞争性解释组成的对比集替代单一假设进行评估，使LLM智能体在拒绝某个假设时能识别出证据真正支持的解释，从而提升开放式科学发现的能力。
+🔗 http://arxiv.org/abs/2611.14514v1

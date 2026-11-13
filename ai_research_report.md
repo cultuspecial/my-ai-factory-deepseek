@@ -1,13 +1,13 @@
-# AI 简报 (2026-11-12)
+# AI 简报 (2026-11-13)
 
-### Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training
-📄 该论文通过在结肠镜、乳腺超声和皮肤镜三个任务上系统比较DINOv2基础模型的不同适配策略（从仅调偏置到全微调）与从头训练的U-Net/ResU-Net，并在留出临床站点数据上测试，揭示了基础模型适配与任务专用训练各自的性能边界及适配程度的影响因素。
-🔗 http://arxiv.org/abs/2611.14519v1
+### AgentSSL: Can MLE Agents Leverage Unlabeled Data?
+📄 论文提出AgentSSL，将半监督学习形式化为程序搜索问题，发现MLE智能体在弱反馈和同等算力下能合成结合并适配已有SSL技术的代码，在12个设置中的8个超越最强人工基线（最高提升21.8%）。
+🔗 http://arxiv.org/abs/2611.17323v1
 
-### Toward Foundation Detection Models via Example-Based Grounding in EM-DETR
-📄 该论文提出通过基于示例的定位（example-based grounding）与师生训练策略，整合标注空间异构的多源医学图像数据集，以构建面向病灶检测的多域基础模型，缓解灾难性遗忘并提升特征学习。
-🔗 http://arxiv.org/abs/2611.14518v1
+### CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation
+📄 CoReMem提出了一种将写入/读取成本内化的记忆框架，通过前瞻性片段估值（对比有无某段记忆时下一任务的表现）来指导围绕仓库锚点（位置与可执行检查）构建紧凑记忆，并让智能体自适应地决定何时依赖记忆以节省任务执行开销。
+🔗 http://arxiv.org/abs/2611.17316v1
 
-### Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations
-📄 论文提出Contrastive Discovery方法，将开放式科学发现中的单一假设检验改为对互斥且完备的竞争性解释集合进行对比评估，通过实验证据在集合上的信念重分配来识别证据真正支持的解释，从而克服传统逐点检验只能排除假设却无法指明替代解释的局限。
-🔗 http://arxiv.org/abs/2611.14514v1
+### Sketching Language Models for Context Attribution
+📄 该论文提出用草图（sketching）算法在稳定性假设下以 \(O(\sqrt{\log(1/\varepsilon)}/\varepsilon)\) 次模型评估高效估计所有留一法上下文归因值，并证明了匹配的下界。
+🔗 http://arxiv.org/abs/2611.17313v1

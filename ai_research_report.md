@@ -1,13 +1,13 @@
-# AI 简报 (2026-11-16)
+# AI 简报 (2026-11-17)
 
-### WeightBench: Evaluating Language Models as Weight-Space Programmers
-📄 WeightBench 提出了首个系统评估大语言模型“权重空间编程”能力的基准，涵盖读取、修复、编写权重、识别不可行编辑和无数据压缩五大类共42项任务，填补了该新范式缺乏标准化评测的空白。
-🔗 http://arxiv.org/abs/2611.18553v1
+### Latent Lattice Language Models
+📄 论文提出“潜格”（Lattice of Latents），通过在每层沿时间递归运行多条横向潜状态流、与纵向残差流并行，来增加模型维持的活跃计算状态数，从而在不加深或循环层的情况下提升每token计算能力。
+🔗 http://arxiv.org/abs/2611.21608v1
 
-### Imitation Bootstrapped Multi-Agent Reinforcement Learning
-📄 IBMARL 将模仿自举强化学习扩展到合作多智能体场景，利用轮流行为克隆（R2BC）训练模仿策略，使单演示者依次操控各智能体即可加速多智能体强化学习。
-🔗 http://arxiv.org/abs/2611.18543v1
+### ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization
+📄 论文提出CrossRPO强化学习方法，通过在不同版本图像仅局部证据区域不同的对比集上训练视觉智能体，迫使其真正读取高分辨率图像证据而非依赖常识作答，从而推动超高清视觉智能体发展。
+🔗 http://arxiv.org/abs/2611.21605v1
 
-### Elliptic Sampling: Optimal Interpolant Schedules for Gaussians and Beyond
-📄 论文提出基于复化ODE轨迹解析性质的插值与离散化联合设计框架，通过共形映射精确求解得到椭圆调度族，并结合定制离散化提出Zoloflow采样算法。
-🔗 http://arxiv.org/abs/2611.18542v1
+### Mitigating Catastrophic Forgetting with Physics-Indexed Specialist Memory: the Evolutionary Neuroplastic Agent
+📄 论文提出进化神经可塑性智能体（ENA），通过进化搜索生成小型专家网络并按物理动态环境索引存档，结合贝叶斯策略复用实现环境检测与失败驱动检索，从而在连续强化学习中有效缓解灾难性遗忘。
+🔗 http://arxiv.org/abs/2611.21598v1

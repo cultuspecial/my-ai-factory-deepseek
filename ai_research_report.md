@@ -1,13 +1,13 @@
-# AI 简报 (2026-11-18)
+# AI 简报 (2026-11-19)
 
-### Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matching
-📄 提出Ambient SFT框架，利用预训练模型作为"冻结"的噪声教师，通过温度匹配要求微调模型在粗粒度上匹配其高温条件分布，从而以数据高效的方式缓解SFT中的过拟合和灾难性遗忘。
-🔗 http://arxiv.org/abs/2611.23229v1
+### Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems
+📄 论文提出“审稿人价值特质理论”，主张在人机协同决策中，人类审稿人的价值取决于其元认知校准（信心与正确性的一致），而非活跃度、速度、一致性或资历。
+🔗 http://arxiv.org/abs/2611.24932v1
 
-### StringQFT: A Multiuse Textbook Resource for AI-Assisted Theoretical Physics
-📄 StringQFT是一个包含18卷、190章、3795页的大型教材资源库，系统覆盖弦论构造量子场论的多类方法，并提供开放教材基准题库、检索增强生成基础设施、训练数据示例及可供AI智能体调用的计算工具，旨在支撑AI辅助理论物理研究。
-🔗 http://arxiv.org/abs/2611.23225v1
+### Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem
+📄 该论文的主要贡献是构建了一个多层、大规模的数据集，用于映射AI供应链中的组织参与者及其跨层关系，从而揭示AI生态系统的依赖结构、脆弱性、市场集中度及风险。
+🔗 http://arxiv.org/abs/2611.24927v1
 
-### Do LLM Agents Still Need to Be Told How to Self-Improve?
-📄 论文探讨了能力不断增强的LLM智能体是否仍需人类规定自我改进方式，发现给定基本资源和总体目标后，智能体能够自主构建自己的自学习算法来进行基于上下文的优化。
-🔗 http://arxiv.org/abs/2611.23219v1
+### Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses
+📄 AHE-Beta 提出以用户需求为中心的三步闭环（用户驱动评估、团队协作修改、需求导向选择），让智能体框架的演化更贴近真实工程实践，避免现有方法忽视隐性需求、依赖单一智能体打补丁和基准分数选择所导致的局部最优问题。
+🔗 http://arxiv.org/abs/2611.24924v1
